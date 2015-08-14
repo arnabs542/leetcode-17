@@ -57,6 +57,7 @@ public class Solution {
 			if (isPalindrome(sTemp)) {
 				p.add(sTemp);
 				getPartition(s, i, r, p);
+                //!!!Very important, tail recursion!!!
 				p.remove(p.size() - 1);
 			}
 		}
