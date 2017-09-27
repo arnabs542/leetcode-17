@@ -1,4 +1,5 @@
 // reference: http://bookshadow.com/weblog/2016/12/11/leetcode-ones-and-zeroes/
+// reference: http://www.cnblogs.com/grandyang/p/6188893.html
 
 // thoughts: DP!
 class Solution {
