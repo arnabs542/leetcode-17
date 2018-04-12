@@ -9,20 +9,6 @@
 // optimized solution as recursion formula, that is the most
 // important key point to the solution!!!
 
-public class Solution {
-    public boolean PredictTheWinner(int[] nums) {
-        return helper(nums, 0, nums.length-1) >= 0;
-    }
-
-    private int helper(int[] nums, int start, int end) {
-        if(start == end) {
-            return nums[start];
-        } else {
-            return Math.max(nums[start] - helper(nums, start + 1,end), nums[end] - helper(nums, start,end - 1));
-        }
-    }
-}
-
 class Solution_DoesNotWork {
     public boolean PredictTheWinner(int[] nums) {
         List<Integer> numsList = new ArrayList<>();
@@ -63,6 +49,21 @@ class Solution_DoesNotWork {
                     return numsList.get(end) + getMaxNum(numsList, start, end - 2);
                 }
             }
+        }
+    }
+}
+
+// reference: http://www.cnblogs.com/liujinhong/p/6477367.html
+public class Solution {
+    public boolean PredictTheWinner(int[] nums) {
+        return helper(nums, 0, nums.length-1) >= 0;
+    }
+
+    private int helper(int[] nums, int start, int end) {
+        if(start == end) {
+            return nums[start];
+        } else {
+            return Math.max(nums[start] - helper(nums, start + 1,end), nums[end] - helper(nums, start,end - 1));
         }
     }
 }
