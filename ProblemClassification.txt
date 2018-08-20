@@ -1,0 +1,47 @@
+================================================================================
+Reference:
+
+- https://www.programcreek.com/2013/08/leetcode-problem-classification/
+- https://blog.csdn.net/zhuiyizhuiyi/article/details/41112487
+- http://teisei.github.io/algorithm/leetcode/2016/05/31/Leetcode-Classification/
+- http://westpavilion.blogspot.com/2014/01/leetcode-classification.html
+- http://fisherlei.blogspot.com/2013/01/leetcode-subsets-ii.html (See labels)
+- https://blog.csdn.net/qq508618087/article/details/49528235 (See category on right hand side)
+
+================================================================================
+Problem Classification:
+
+- Search
+-- DFS
+-- BFS
+-- Binary Search
+-- Two Pointers
+-- Back Tracking
+-- Greedy Algorithm
+-- Brute-force
+
+- Recursion
+-- DP
+-- Recursion
+
+- Data Structure
+-- Stack
+-- HashMap
+-- HashSet
+-- Heap
+-- Graph
+-- Queue
+-- LinkedList
+-- Tree
+
+- Sort
+-- Bucket Sort
+-- Quick Sort
+-- Merge Sort (Divide & Conquer)
+
+- Divide & Conquer
+-- Merge Sort
+
+- Bit Manipulation
+
+- Math
