@@ -1,0 +1,66 @@
+============================================================================================
+Thoughts:
+
+This is the problem to find minimum distance problem. It can be treated as graph problem.
+Each word can be a node in the graph. If two nodes are transformable, which means they can
+be connected to each other. We can create an edge between two nodes. Thus, given the word list,
+we can build a connected graph. The problem is to find the minimum path from the start node
+to the end node. As all the edges are known, to find the minimum path, we could use BFS, from
+start node to end node level by level.
+
+Note:
+
+There is a mistake I made in the code that made me not pass the problem that I spent more than
+half an hour to find. I use "==" to compare strings to check if I find the result, but as String
+is a Class not a primitive value in Java, and Java uses inference comparison for instance and
+value comparison for primitive value. It will never reach the point that "==" is true. Thus,
+we should use "equals" function to compare two strings.
+
+============================================================================================
+Algorithm complexity:
+
+O(m*n)
+
+m: maximum length of a word
+n: number of words in the word list
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+1h25min
+
+============================================================================================
+Question:
+
+Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
+
+Only one letter can be changed at a time.
+Each transformed word must exist in the word list. Note that beginWord is not a transformed word.
+Note:
+
+Return 0 if there is no such transformation sequence.
+All words have the same length.
+All words contain only lowercase alphabetic characters.
+You may assume no duplicates in the word list.
+You may assume beginWord and endWord are non-empty and are not the same.
+Example 1:
+
+Input:
+beginWord = "hit",
+endWord = "cog",
+wordList = ["hot","dot","dog","lot","log","cog"]
+
+Output: 5
+
+Explanation: As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog",
+return its length 5.
+Example 2:
+
+Input:
+beginWord = "hit"
+endWord = "cog"
+wordList = ["hot","dot","dog","lot","log"]
+
+Output: 0
+
+Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
