@@ -1,0 +1,137 @@
+============================================================================================
+Thoughts:
+
+This problem is to find the minimum distance and its path between two words.
+
+We could treat the problem as a graph problem. We can treat each word as a node, build an edge
+between two nodes if two words are transformable. Thus, we can build an undirected graph with
+the word list given. The problem is to find the minimum path between the start node and end node.
+
+We could use DFS (or BFS) directly to find the answer, but the time performance would be very
+bad as the search space is huge.
+
+To optimize it and reduce the search space, we can use BFS first to find the minimum path and
+distance for each node to reduce the search space of DFS. We can also start searching from
+the end node to start end to avoid unnecessary paths to reduce the space again. We can also
+create some caches during the program if needed to reduce the time consumption. Anyway, we need
+to cut some paths and reduce the space to help improve the performance of the algorithm.
+
+PS: This problem is hard as we need to optimize it using BFS first and then DFS. It is not easy
+to think of these ways to optimize it. I listed some references I used during the programming.
+
+============================================================================================
+Algorithm complexity:
+bfs: O(l * 26 * n)
+dfs: O(l * 26 * n)
+overall: O(l * n)
+
+l: length of a word
+n: number of words in the word list
+
+============================================================================================
+Time: (Thoughts + Coding)
+3h30min
+
+============================================================================================
+References:
+- https://blog.csdn.net/MebiuW/article/details/53165141
+- https://blog.csdn.net/qq508618087/article/details/51345245
+- https://segmentfault.com/a/1190000015859013
+
+The last one is really good, I would like to copy to this note in case the page is gone.
+
+============================================================================================
+Leetcode - Word Ladder I，II
+
+首先需要说明的是，这两道题代表了一种思想或者说一种思维定式
+对比说明了dfs vs bfs 有关效率，通用场景和局限性的优劣分析，详细见具体讲解
+
+Attention：
+本文介绍的思路参考了YouTube上一位讲解leetcode题目的热心刷友
+Leetcode - 127 Word Ladder YouTube链接
+Leetcode - 126 Word Ladder II YouTube链接
+讲解风格图文并茂，非常生动，在刷leetcode的过程中给予了我很多帮助。有兴趣的可以关注一下
+
+Leetcode - 127 Word Ladder
+本题是比较常规的bfs类型题目，不做过多讲解。
+需要注意的地方有:
+1.不同于Binary Tree的bfs，因为二叉树可以视为有向图，只能从由root 拓展到child，所以不需要已访问信息，而本题是无向图，任意的s1可以拓展到s2，那么必有s2也可以拓展到s1，需要额外的信息记录bfs的visited状态
+2.str_start 不在wordlist里面，加入到queue之后不需要标注已访问状态
+3.我们不是每次取出一个str，然后在整个list中逐个取出s，计算两个str 的 dis == 1，这样的时间复杂度是O(N^2)，随着list的增长会变得越来越难以承受直至TLE
+Leetcode - Word Search中提到"All words contain only lowercase alphabetic characters."，与本题的一样。这就说明了我们可以用一种更smart的方法求得str可以跳转的集合，具体的操作过程见getNextstrs函数
+
+Leetcode - 126. Word Ladder II
+
+首先说明这道题非常有意思，我们可以采用dfs + backtracing的方式快速确定思路并code。
+如果有掌握dfs + backtracing思想或看过前几篇拙作的话，大家在code之后顺利pass测试用例之后高高兴兴去submit一发，结果是让人蛋疼的TLE。
+
+那么为什么会TLE？
+这就回到了本文最开始的地方，BFS与DFS的区别究竟在哪儿？什么时候该用BFS，什么时候该用DFS，这确实是个好问题。我根据自己的认知给出个人看法：
+
+BFS：
+1.用来判断可行解的存在性问题(存在一个解，任务完成)
+2.可行解的解空间的最小性问题(我们会像Binary Tree 的BFS的过程，也是得到了一个path，BFS可以用来处理path的最小长度，Leetcode - 127 Word Ladder就是一个很好的例子)
+
+DFS：
+用来在全部的解空间中寻找所有的可行解(或许需要满足一定性质的可行解)
+
+即DFS侧重于解的完备性，BFS侧重解的存在性与长度最短(当然对于遍历数据结构这样不求解的过程其实没什么差异)
+
+本题给出一组TLE数据就是为了详细阐释我们优化朴素的dfs的出发点和方法
+1.在O(n)的时间对list中的每一个str，建立了一个hashmap，然后dfs的过程中就不用带着整个list而是带着可以映射到的list的一个子集，这样缩小了搜索空间，这是第一重优化
+2.注意到本题是需要我们找到最短路径长度的所有路径集，然而问题是对于DFS而言，我们不遍历完整个解空间是没法确定minstep的，没有minstep就不用谈剪枝的问题了，所以我们在DFS之前需要用BFS求一下最短路径的长度，然后在DFS的过程中就可以用path的大小来剪枝，这是第二重优化
+
+本来思路讲到这里就应该结束了，如上例所示，对于这组测试数据仍然是TLE
+
+这是因为我们做了很多无用功，剪枝还得继续优化的意思，朴素的理解就是当前路径长度大于minstep就剪枝这是一个弱条件，我们还需要更强力的约束方案，约束我们的解一定朝着endword的方向前进！
+
+在YouTube上的解说里得到的启发是，在BFS的过程中，记录每个访问过的点距离起始点的dis
+显然dis[beginword] = 0,dis[endword] = minstep - 1
+然后逆向DFS(从终止点开始dfs)，对于每个每个即将要拓展的点
+(注意这里有个陷阱：list是拓展不到beginword的，因为beginword并不在list之中)
+最短路径必然满足的条件是：distance + pathsize = minstep
+其能拓展的条件是：
+1.BFS在运行过程中访问到，并得到了相对最短distance(边的长度)
+2.distance是当前节点到起始点边的长度，path有个当前路径长度
+当且两者之和大于minstep即可立即剪枝
+3.根据注意，可行解的判定条件是pathsize = minstep - 1，转而判断distance是否为1，为1即为满足条件的可行解，否则剪枝
+4.当且仅当distance + pathsize <= minstep 继续DFS调用下去，在此过程中要设置当前路径的已访问状态
+
+关于Leetcode - 126. Word Ladder II，个人认为不必强求一定AC,这题主要是考察了DFS与BFS的选用条件，一般想到用BFS求得最短路径长度以一阶剪枝就不错了。逆向DFS配合BFS求得距离函数加快剪枝的思路这个思路要是没有处理过类似题目并有深入总结怕是硬想是想不出来。这题新手慎重，主要是开拓思路多见识一些辅助配合的做法。
+
+============================================================================================
+Question:
+
+Given two words (beginWord and endWord), and a dictionary's word list, find all shortest transformation sequence(s) from beginWord to endWord, such that:
+
+Only one letter can be changed at a time
+Each transformed word must exist in the word list. Note that beginWord is not a transformed word.
+Note:
+
+Return an empty list if there is no such transformation sequence.
+All words have the same length.
+All words contain only lowercase alphabetic characters.
+You may assume no duplicates in the word list.
+You may assume beginWord and endWord are non-empty and are not the same.
+Example 1:
+
+Input:
+beginWord = "hit",
+endWord = "cog",
+wordList = ["hot","dot","dog","lot","log","cog"]
+
+Output:
+[
+  ["hit","hot","dot","dog","cog"],
+  ["hit","hot","lot","log","cog"]
+]
+Example 2:
+
+Input:
+beginWord = "hit"
+endWord = "cog"
+wordList = ["hot","dot","dog","lot","log"]
+
+Output: []
+
+Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
