@@ -1,0 +1,56 @@
+============================================================================================
+Thoughts:
+
+The question is to find all the values of nodes that have a distance of K from the target node.
+
+Then we need to first find all nodes that are at distance of K to the target node. There are 2
+directions we can find, one is downstream and the other is upstream. Downstream means to
+find nodes that are under the target node's left and right children. Upstream means to find
+nodes that are the children of ancestor nodes that do not belong to the target's node's children.
+
+To find downstream nodes, we could use DFS to find all children under the target node that has
+the distance of K.
+
+To find upstream nodes, we could find all corresponding nodes of distance K of each upper-level
+nodes until the root node. We can re-use the function to find all children node of a certain
+distance to achieve that. We could first find the distance from each ancestor node to target and
+then find all children nodes under that ancestor with the rest distance.
+
+============================================================================================
+Algorithm complexity:
+
+O(n * log(n))
+
+n: number of node in the tree
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+1hr8min5s
+
+============================================================================================
+Question:
+
+We are given a binary tree (with root node root), a target node, and an integer value K.
+
+Return a list of the values of all nodes that have a distance K from the target node.  The answer can be returned in any order.
+
+Example 1:
+
+Input: root = [3,5,1,6,2,0,8,null,null,7,4], target = 5, K = 2
+
+Output: [7,4,1]
+
+Explanation:
+The nodes that are a distance 2 from the target node (with value 5)
+have values 7, 4, and 1.
+
+Note that the inputs "root" and "target" are actually TreeNodes.
+The descriptions of the inputs above are just serializations of these objects.
+
+Note:
+
+The given tree is non-empty.
+Each node in the tree has unique values 0 <= node.val <= 500.
+The target node is a node in the tree.
+0 <= K <= 1000.
