@@ -1,0 +1,68 @@
+============================================================================================
+Thoughts:
+
+The problem is to find the first missing positive number. It is not hard that we can have
+many approaches to achieve that. The tricky part is to implement this in O(n) time and use
+only constant extra space.
+
+We can sort the array first and find the missing positive from the smallest to the biggest.
+To implement sort we can use merge sort and quick sort, but the time can be O(n * log(n)).
+
+Or we can leverage HashSet/HashMap/HashTable, the insertion, search and access time are all
+O(1). We can first scan the whole array to build a HashSet. Then find smallest missing
+positive from 1 to the number of length of the array as the result must be range from 1 to
+the length of array + 1. As the array can only have n numbers, thus, the largest possible
+result is n + 1. Thus, the result must fall from 1 to n + 1. Thus, we can achieve the time
+complexity of O(n) and the extra space is O(n).
+
+But the above thought will use O(n) space, which does not satisfy the requirement of the
+problem to use constant extra space.
+
+The second thought coming from the reference I post later:
+
+As we only have constant extra space, it means that we cannot create a new array and set,
+which means we need to operate on the original array. To find the first missing positive
+number, we need to iterate from 1 to n + 1 to find the result. Do not forget the position
+of the array also ranging from 0 to n - 1. We can try to leverage on that information as well.
+
+We could store i at the position of i - 1. Thus, ideally, array[n] should be equal to n + 1, thus,
+n + 1 is not in the array. Thus, we can first iterate through the array to swap number to
+make that put array[n] to array[array[n - 1]]. Then loop through the array to find the
+result if array[n] != n - 1.
+
+Reference: http://www.cnblogs.com/grandyang/p/4395963.html
+(The second thought, the first
+one I thought on my own and interestingly, the author and I had the same idea on fist thinking.)
+
+============================================================================================
+Algorithm complexity:
+
+Time: O(n)
+
+Space: O(1)
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+59min10s
+
+============================================================================================
+Question:
+
+Given an unsorted integer array, find the smallest missing positive integer.
+
+Example 1:
+
+Input: [1,2,0]
+Output: 3
+Example 2:
+
+Input: [3,4,-1,1]
+Output: 2
+Example 3:
+
+Input: [7,8,9,11,12]
+Output: 1
+Note:
+
+Your algorithm should run in O(n) time and uses constant extra space.
