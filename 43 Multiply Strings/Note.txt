@@ -1,0 +1,47 @@
+============================================================================================
+Thoughts:
+
+As it has requirement that we cannot directly use integer to calculate result. We need to
+calculate based on string value instead of integers. The max length of string is 110. This
+is also exceeding the range of integers.
+
+We know multiply comes from plus. We can use plus to implement multiply. To multiply two
+string, we can first multiply first string with each single digit of the second number,
+then adds all the result.
+
+Thus, we need two operators now, multiply single digit and plus two string. To implement
+add operation, we can add digits up digit by digit. To implement multiply single digit, we
+can also multiply digit by digit but with carry over from previous digits.
+
+============================================================================================
+Algorithm complexity:
+
+Assume first string length: n
+Assume second string length: m
+
+O(n * m)
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+47min22sec
+
+============================================================================================
+Question:
+
+Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+
+Example 1:
+
+Input: num1 = "2", num2 = "3"
+Output: "6"
+Example 2:
+
+Input: num1 = "123", num2 = "456"
+Output: "56088"
+Note:
+
+The length of both num1 and num2 is < 110.
+Both num1 and num2 contain only digits 0-9.
+Both num1 and num2 do not contain any leading zero, except the number 0 itself.
+You must not use any built-in BigInteger library or convert the inputs to integer directly.
