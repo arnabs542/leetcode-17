@@ -26,6 +26,7 @@ class Solution {
     }
 
     public void swap(int[] nums, int pos1, int pos2) {
+        if(pos1 == pos2) return;
         int temp = nums[pos1];
         nums[pos1] = nums[pos2];
         nums[pos2] = temp;
