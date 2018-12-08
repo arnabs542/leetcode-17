@@ -1,0 +1,58 @@
+============================================================================================
+Thoughts:
+
+The problem is to find the kth permutation sequence for n elements in order.
+
+The most intuitive way is to list all the permutation in order and output the kth element.
+We could use recursion to list all the permutations. But this is time consuming.
+As we only need kth element, it is unnecessary to list other elements.
+We could think of a way to optimize it by skiping unnecessar computing.
+
+As the permutations are in order, we know the rule to generate the permutation.
+We can try to directly generate the kth element if we already know the rule just with some
+simple computing.
+
+As we know for the mth digit, we have (m - n)! permutations. For the same digit, it is in
+order by current digit value, e.g 1## is before 2##.
+
+We can use this rule to determine digit by digit.
+
+============================================================================================
+Algorithm complexity:
+
+Time: O(n)
+
+Space: O(n)
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+1h37m40s
+
+============================================================================================
+Question:
+
+The set [1,2,3,...,n] contains a total of n! unique permutations.
+
+By listing and labeling all of the permutations in order, we get the following sequence for n = 3:
+
+"123"
+"132"
+"213"
+"231"
+"312"
+"321"
+Given n and k, return the kth permutation sequence.
+
+Note:
+
+Given n will be between 1 and 9 inclusive.
+Given k will be between 1 and n! inclusive.
+Example 1:
+
+Input: n = 3, k = 3
+Output: "213"
+Example 2:
+
+Input: n = 4, k = 9
+Output: "2314"
