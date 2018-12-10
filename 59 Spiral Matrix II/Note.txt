@@ -1,0 +1,34 @@
+============================================================================================
+Thoughts:
+
+The question is to generate a spiral two dimension matrix for 1 to n * n. Thus, it requires
+a n * n two dimension array.
+
+To generate a spiral sequence, it follows a pattern of a sequence of four directions. It goes
+a circle, first right, then down, then left, then up. Until it does not work for the current
+direction.
+
+============================================================================================
+Algorithm complexity:
+
+Time: O(n * n)
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+52m38s
+
+============================================================================================
+Question:
+
+Given a positive integer n, generate a square matrix filled with elements from 1 to n2 in spiral order.
+
+Example:
+
+Input: 3
+Output:
+[
+ [ 1, 2, 3 ],
+ [ 8, 9, 4 ],
+ [ 7, 6, 5 ]
+]
