@@ -1,0 +1,43 @@
+============================================================================================
+Thoughts:
+
+1. The first solution, which is the most straight-forward solution is to go though each element,
+and loop though other elements to see if there another element that the sum is equal to target.
+Thus the complexity is O(n * n).
+
+2. We do not need to compare each element against each other, if we sort the array first,
+we can use two point scan to find the pair that adds up to target. We set two points at the
+smallest and biggest element. If the sum is larger than the target, move to a smaller element,
+which moves to the right, otherwise try a larger element, which is to move to the right.
+We can use HashMap to record the original order.
+
+3. As if sorting algorithm is involved, we at least use O(n * log(n)) complexity. To make it
+simpler. We need to optimize to O(n). Thus, we need a special data structure. Here, we can use
+the hash table. We loop through each element, put in the hash table. Find the element in the hash
+table that sum to target for each element.
+
+============================================================================================
+Algorithm complexity:
+
+1. O(n + (n - 1) + (n - 2) + ... + 1) = O(n * n) - Brute Force
+
+2. O(n * log(n)) - Sorting
+
+3. O(n) - Special Data Structure (Hash Table)
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+============================================================================================
+Question:
+
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+Example:
+
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
