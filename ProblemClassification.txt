@@ -49,3 +49,14 @@ Problem Classification:
 - Bit Manipulation
 
 - Math
+
+================================================================================
+Common Strategies:
+- Divide & Conquer: solve a big problem by solving small problems
+- Recursion: solve a problem by solving sub-problems
+- Sorting: solve some digit comparasion related problem would be easier if everythinkg
+is already sorted
+- Space & Time trade-off: sometimes we can use more space to fasten the solution
+- Data Structure: proper data structure would be very helpful when solve some specific
+problems (HashTable for quick lookup, Tree/Balanced Tree is good for indexing, Queue
+and Stack good for dealing with sequence)
