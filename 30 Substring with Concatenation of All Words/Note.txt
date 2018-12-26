@@ -1,0 +1,51 @@
+============================================================================================
+Thoughts:
+
+For this question, we could check each character of the string one by one. To see if the
+starting character can be an potential result.
+
+As we know each word in the input has to occur once and we know the length of each
+word, we know the total length of the substring to want to check, then we need to grab the substring
+with known total length starting at each position. We just need to check if the substring
+is the concatenation of each word.
+
+To check if the substring the concatenation of each word, we could use a hash table to store
+word and count information. If it does not match all the words, then we try the next substring.
+
+Actually, what makes this question not hard to solve is that it assumes that all words are
+with the same length. With this assumption, we could check the substring word by word with
+the same length, we do not need to worry about that the variant of words in different lengths.
+This makes the question much simpler.
+
+============================================================================================
+Algorithm complexity:
+
+n: length of input String
+m: count of words in the word list
+
+O(n * m)
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+43m52s
+
+============================================================================================
+Question:
+
+You are given a string, s, and a list of words, words, that are all of the same length. Find all starting indices of substring(s) in s that is a concatenation of each word in words exactly once and without any intervening characters.
+
+Example 1:
+
+Input:
+  s = "barfoothefoobarman",
+  words = ["foo","bar"]
+Output: [0,9]
+Explanation: Substrings starting at index 0 and 9 are "barfoor" and "foobar" respectively.
+The output order does not matter, returning [9,0] is fine too.
+Example 2:
+
+Input:
+  s = "wordgoodgoodgoodbestword",
+  words = ["word","good","best","word"]
+Output: []
