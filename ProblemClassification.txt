@@ -62,3 +62,106 @@ is already sorted
 - Data Structure: proper data structure would be very helpful when solve some specific
 problems (HashTable for quick lookup, Tree/Balanced Tree is good for indexing, Queue
 and Stack good for dealing with sequence)
+
+================================================================================
+Leetcode Tags:
+
+- Array
+- String
+- Hash Table
+- Linked List
+- Stack
+- Heap
+- Two Pointers
+- Binary Search
+- Math
+- Divide and Conquer
+- Dynamic Programming
+- Backtracking
+- Sort
+- Greedy
+- Bit Manipulation
+- Tree
+- Depth-first Search
+- Breadth-first Search
+- Union Find
+- Graph
+- Design
+- Topological Sort
+- Trie
+- Binary Indexed Tree
+- Segment Tree
+- Binary Search Tree
+- Recursion
+- Brainteaser
+- Memoization
+- Queue
+- Minimax
+- Reservoir Sampling
+- Map
+- Geometry
+- Random
+- Rejection Sampling
+
+================================================================================
+Leetcode Tags by Classification:
+
+Data Structure:
+- Array
+- String
+- Hash Table
+- Linked List
+- Stack
+- Heap
+- Tree
+- Graph
+- Binary Search Tree
+- Map
+- Queue
+
+Search:
+- Two Pointers
+- Binary Search
+- Hash Table
+- Depth-first Search (DFS)
+- Breadth-first Search (BFS)
+- Binary Search Tree
+
+Recursion: (Solve a problem by solving subsets)
+- Recursion
+- Divide and Conquer
+- Dynamic Programming
+- Backtracking
+- Depth-first Search (DFS)
+
+Digit Comparasion:
+- Sort
+- Binary Search
+- Math
+- Bit Manipulation
+- Binary Search Tree
+
+Math:
+- Math
+- Geometry
+- Bit Manipulation
+
+Bit Manipulation:
+- Bit Manipulation
+
+Greedy:
+- Greedy
+
+TODOs:
+- Union Find (Need to try)
+- Design (Need to try)
+- Topological Sort (Need to try)
+- Trie (Need to try)
+- Binary Indexed Tree (Need to try)
+- Segment Tree (Need to try)
+- Brainteaser (Need to try)
+- Memoization (Need to try)
+- Minimax (Need to try)
+- Reservoir Sampling (Need to try)
+- Random (Need to try)
+- Rejection Sampling (Need to try)
