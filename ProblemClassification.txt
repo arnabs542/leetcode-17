@@ -84,7 +84,7 @@ Leetcode Tags:
 - Tree
 - Depth-first Search
 - Breadth-first Search
-- Union Find
+- Union Find (Disjoint Set)
 - Graph
 - Design
 - Topological Sort
@@ -153,7 +153,7 @@ Greedy:
 - Greedy
 
 TODOs:
-- Union Find (Need to try)
+- Union Find (Disjoint Set) (Need to try)
 - Design (Need to try)
 - Topological Sort (Need to try)
 - Trie (Need to try)

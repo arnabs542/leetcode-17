@@ -1,0 +1,83 @@
+============================================================================================
+Thoughts:
+
+(DFS/BFS/Union-Find)
+
+To solve the problem, we need to find all the 'O' that surrounded by 'X'.
+
+'O' is surrounded by 'X' only if:
+- 'O' is not on the border
+- 'O' is not connected to any other 'O'
+- 'O' is connected to other 'O's but they are all surrounded by 'X'
+- Two cells are connected if they are adjacent cells connected horizontally or vertically.
+
+Thus, to sum up, it requires to find all 'O's that cannot connect to 'O's in the border.
+Any 'O' that cannot connect to 'O' in border will need to be flipped to 'X'.
+
+To find all 'O's connected to a specific 'O', we could use DFS(Easier to implement/ write code)
+or BFS (Need to leverage queue data structure).
+
+Thus, we could start with all 'O's in the board, for each one, find all connected 'O's using
+DFS/BFS, if any of them is on the border, we do not need to flip any of them, otherwise, we need
+to flip them all.
+
+During DFS/BFS, we could use a set to record all points that visited, so that we do not need to
+visit a cell twice.
+
+---------------------------------------------------------------------------------------------
+However, it turns out that the original solution has Stack Over Flow problem. To solve that
+we could: (The ideas come from the following references)
+1. Use BFS instead of DFS to avoid stack overflow
+2. Loop as less as cells as possible, we could only DFS/BFS all the cells on the border, to find
+all connected 'O' to mark as 'G', after the loop. Put all 'O' to 'X', 'G's to 'O'.
+
+References:
+http://fisherlei.blogspot.com/2013/03/leetcode-surrounded-regions-solution.html
+http://www.cnblogs.com/grandyang/p/4555831.html
+https://blog.csdn.net/feliciafay/article/details/42058279
+
+---------------------------------------------------------------------------------------------
+As this problem is to separate cells into two types: connects to borders, not connect to borders.
+This is similar to Disjoint-Set data structure, we could also use Union-Find data structure
+to solve the problem.
+
+See reference: https://leetcode.com/problems/surrounded-regions/discuss/167165/Java-Union-Find-with-Explanations
+
+============================================================================================
+Algorithm complexity:
+
+m: # of columns
+n: # of rows
+
+O(m * n)
+
+============================================================================================
+Time: (Thoughts + Coding)
+
+Around 2h
+
+============================================================================================
+Question:
+
+Given a 2D board containing 'X' and 'O' (the letter O), capture all regions surrounded by 'X'.
+
+A region is captured by flipping all 'O's into 'X's in that surrounded region.
+
+Example:
+
+X X X X
+X O O X
+X X O X
+X O X X
+After running your function, the board should be:
+
+X X X X
+X X X X
+X X X X
+X O X X
+Explanation:
+
+Surrounded regions shouldn’t be on the border, which means that any 'O' on the border of
+the board are not flipped to 'X'. Any 'O' that is not on the border and it is not connected to
+an 'O' on the border will be flipped to 'X'. Two cells are connected if they are adjacent cells
+connected horizontally or vertically.
