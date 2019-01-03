@@ -37,6 +37,7 @@ Problem Classification:
 -- Queue
 -- LinkedList
 -- Tree
+-- Union-Find (Disjoint Set) (Grouping Problem)
 
 - Sort
 -- Bucket Sort
@@ -118,6 +119,7 @@ Data Structure:
 - Binary Search Tree
 - Map
 - Queue
+- Union Find (Disjoint Set) (Grouping Problem)
 
 Search:
 - Two Pointers
@@ -153,7 +155,6 @@ Greedy:
 - Greedy
 
 TODOs:
-- Union Find (Disjoint Set) (Need to try)
 - Design (Need to try)
 - Topological Sort (Need to try)
 - Trie (Need to try)
