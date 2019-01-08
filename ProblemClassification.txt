@@ -37,7 +37,9 @@ Problem Classification:
 -- Queue
 -- LinkedList
 -- Tree
--- Union-Find (Disjoint Set) (Grouping Problem)
+-- Union-Find (Disjoint Set) (Grouping Problem) (https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+-- Binary Indexed Tree (Array Range Pre-sum) (https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+-- Segment Tree (Interval) (https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
 
 - Sort
 -- Bucket Sort
@@ -119,7 +121,9 @@ Data Structure:
 - Binary Search Tree
 - Map
 - Queue
-- Union Find (Disjoint Set) (Grouping Problem)
+- Union Find (Disjoint Set) (Grouping Problem) (https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+- Binary Indexed Tree (Array Range Pre-sum) (https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+- Segment Tree (Interval) (https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)
 
 Search:
 - Two Pointers
@@ -158,8 +162,6 @@ TODOs:
 - Design (Need to try)
 - Topological Sort (Need to try)
 - Trie (Need to try)
-- Binary Indexed Tree (Need to try)
-- Segment Tree (Need to try)
 - Brainteaser (Need to try)
 - Memoization (Need to try)
 - Minimax (Need to try)
