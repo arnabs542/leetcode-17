@@ -1,0 +1,32 @@
+================================================================================
+Common Problem-solving Strategies:
+
+- Brute Force: the simplest and easiest way, when you do no have any idea, start with
+Brute Force, then think how to optimize it
+- Recursion: solve a problem by solving sub-problems
+- Divide & Conquer: solve a big problem by solving small problems and combine the
+results of small problems
+- Data Structure: proper data structure would be very helpful when solve some specific
+problems
+
+================================================================================
+Common Optimization Strategies:
+
+- Space & Time trade-off: sometimes we can use more space to fasten the solution
+(HashTable to remember result to avoid computing same values twice, DP)
+- Pruning: skip unnecessary steps to improve the time performance
+- Sorting: solve some digit comparasion related problem would be easier if everythinkg
+is already sorted
+- Data Structure: proper data structure would be very helpful when solve some specific
+problems
+
+================================================================================
+Common Optimization Strategies using Data Structure:
+
+- Quick Lookup: HashTable, HashMap, HashSet
+- Search Indexing: Tree, Balanced Tree
+- Priority & Sequence: Queue
+- String Search: Trie
+- Numeric Value Search: BST (Binary Search Tree)
+- Grouping & Classification: Union-Find (Disjoint Set)
+- Range: Segment Tree

@@ -1,0 +1,13 @@
+There are multiple ways to solve this issue:
+
+See reference here:
+- https://www.youtube.com/watch?v=TqrZg4wYP1U
+- http://zxi.mytechroad.com/blog/string/leetcode-720-longest-word-in-dictionary/
+
+Methods:
+Brute force
+Brute force + Sorting
+Brute force + Pruning
+Trie
+Trie + Sorting
+Trie + Pruning
