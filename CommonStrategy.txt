@@ -12,6 +12,14 @@ problems
 ================================================================================
 Common Optimization Strategies:
 
+- Run Time & Space complexity analysis, see what is the complexity of current solution
+and how we are going to optimize it. (O(1) < O(logn) < O(n) < O(n * logn) < O(n ^ 2) < O(n ^ m))
+- O(1) - Array, HashMap, HashSet access
+- O(logn) - path length of a tree
+- O(n) - Array traverse
+- O(n * logn) - Merge Sort, Quick Sort
+- O(n ^ 2) - Enumeration, double loops
+- O(n ^ m) - Enumeration, multip layers of loops
 - Space & Time trade-off: sometimes we can use more space to fasten the solution
 (HashTable to remember result to avoid computing same values twice, DP)
 - Pruning: skip unnecessary steps to improve the time performance
@@ -30,3 +38,4 @@ Common Optimization Strategies using Data Structure:
 - Numeric Value Search: BST (Binary Search Tree)
 - Grouping & Classification: Union-Find (Disjoint Set)
 - Range: Segment Tree
+- Range Sum: Binary Indexed Tree (Fenwick Tree) (https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
