@@ -32,10 +32,11 @@ problems
 Common Optimization Strategies using Data Structure:
 
 - Quick Lookup: HashTable, HashMap, HashSet
-- Search Indexing: Tree, Balanced Tree
+- Search & Indexing: Tree, Balanced Tree, Binary Search Tree (BST)
 - Priority & Sequence: Queue
 - String Search: Trie
 - Numeric Value Search: BST (Binary Search Tree)
 - Grouping & Classification: Union-Find (Disjoint Set)
 - Range: Segment Tree
 - Range Sum: Binary Indexed Tree (Fenwick Tree) (https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
+- Self-Balanced Tree: Red-black Tree, AVL Tree

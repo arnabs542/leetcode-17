@@ -1,0 +1,10 @@
+We can use BST (Binary Search Tree) or BIT (Binary Indexed Tree) to solve the problem.
+
+This is a good example: https://zxi.mytechroad.com/blog/algorithms/array/leetcode-315-count-of-smaller-numbers-after-self/
+
+First, reverse the input so that we can solve the problem from left to right so that we can solve the problem from a smaller size to bigger size. (This is very important to the next steps.)
+
+Then as we know to scan from left to right, to count smaller count for current value, we will scan the values from left to right that we will end up scan the same value multiple times. We should think of a data structure to store the information once we scanned it. It is easy to think of Tree. We can use BST with count information.
+
+Similar problem:
+493 Reverse Pairs
