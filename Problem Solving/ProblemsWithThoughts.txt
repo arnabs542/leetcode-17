@@ -1,0 +1,6 @@
+=========================================================================================================
+218. The Skyline Problem
+
+- Divide & Conquer
+- Heap (sweep line: https://zxi.mytechroad.com/blog/tree/leetcode-218-the-skyline-problem/)
+- Tree, Segment Tree

@@ -1,5 +1,5 @@
 ================================================================================
-Common Problem-solving Strategies:
+Common Problem-solving Strategies: (https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 
 - Brute Force: the simplest and easiest way, when you do no have any idea, start with
 Brute Force, then think how to optimize it
@@ -29,11 +29,11 @@ is already sorted
 problems
 
 ================================================================================
-Common Optimization Strategies using Data Structure:
+Common Optimization Strategies using Data Structure: (https://www.geeksforgeeks.org/data-structures/)
 
 - Quick Lookup: HashTable, HashMap, HashSet
 - Search & Indexing: Tree, Balanced Tree, Binary Search Tree (BST)
-- Priority & Sequence: Queue
+- Priority & Sequence: Queue, Priority Queue (Heap)
 - String Search: Trie
 - Numeric Value Search: BST (Binary Search Tree)
 - Grouping & Classification: Union-Find (Disjoint Set)
