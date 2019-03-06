@@ -11,3 +11,34 @@
 - HashSet/HashMap
 - Trie
 - Array/List (Sorting & Backtracking)
+
+=========================================================================================================
+84. Largest Rectangle in Histogram
+
+- Brute Force
+Scan from left to right to find the area for each Histogram.
+Time: O(n * n)
+
+- Binary Search Tree
+We can think of the probelm is to solve that find the range of nodes that is larger than the current height
+and calculate the area from the range. e.g., for node 3, height is 5, and the nodes is higher than node 3 are
+node 4 and 5, thus the area is 5 * 2 = 10.
+We can build a binary search tree storing node numbers, find a range of nodes that is larger than current node
+and calculate the area and find the maximum.
+Time: O (n * logn)
+
+- Divide & Conquer (https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/)
+We can use Divide and Conquer to solve this in O(n * Logn) time. The idea is to find the minimum value in the given array. Once we have index of the minimum value, the max area is maximum of following three values.
+a) Maximum area in left side of minimum value (Not including the min value)
+b) Maximum area in right side of minimum value (Not including the min value)
+c) Number of bars multiplied by minimum value.
+The areas in left and right of minimum value bar can be calculated recursively. If we use linear search to find the minimum value, then the worst case time complexity of this algorithm becomes O(n^2). In worst case, we always have (n-1) elements in one side and 0 elements in other side and if the finding minimum takes O(n) time, we get the recurrence similar to worst case of Quick Sort.
+
+- Stack (https://www.geeksforgeeks.org/largest-rectangle-under-histogram/)
+We can use stack to calculate the area for each histogram in O(n).
+We traverse all bars from left to right, maintain a stack of bars. Every bar is pushed to stack once. A bar is popped from stack when a bar of smaller height is seen. When a bar is popped, we calculate the area with the popped bar as smallest bar. How do we get left and right indexes of the popped bar – the current index tells us the ‘right index’ and index of previous item in stack is the ‘left index’. Following is the complete algorithm.
+1) Create an empty stack.
+2) Start from first bar, and do following for every bar ‘hist[i]’ where ‘i’ varies from 0 to n-1.
+……a) If stack is empty or hist[i] is higher than the bar at top of stack, then push ‘i’ to stack.
+……b) If this bar is smaller than the top of stack, then keep removing the top of stack while top of the stack is greater. Let the removed bar be hist[tp]. Calculate area of rectangle with hist[tp] as smallest bar. For hist[tp], the ‘left index’ is previous (previous to tp) item in stack and ‘right index’ is ‘i’ (current index).
+3) If the stack is not empty, then one by one remove all bars from stack and do step 2.b for every removed bar.
