@@ -8,6 +8,7 @@ Brute Force, then think how to optimize it
 results of small problems
 - Data Structure: proper data structure would be very helpful when solve some specific
 problems
+- Two Pointer Scan: find min/max value when sequence matters
 
 ================================================================================
 Common Optimization Strategies:
@@ -23,6 +24,7 @@ and how we are going to optimize it. (O(1) < O(logn) < O(n) < O(n * logn) < O(n 
 - Space & Time trade-off: sometimes we can use more space to fasten the solution
 (HashTable to remember result to avoid computing same values twice, DP)
 - Pruning: skip unnecessary steps to improve the time performance
+- Backtracking: Prunning used in recursion
 - Sorting: solve some digit comparasion related problem would be easier if everythinkg
 is already sorted
 - Data Structure: proper data structure would be very helpful when solve some specific

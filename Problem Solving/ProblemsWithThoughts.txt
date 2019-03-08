@@ -9,6 +9,20 @@
 - Binary Search
 
 =========================================================================================================
+10. Regular Expression Matching
+
+- Recursion
+- Backtracking
+- DP
+
+=========================================================================================================
+11. Container With Most Water
+
+- Brute Force O(n * n)
+- Recursion O(n * n)
+- Two point scan O(n) (https://leetcode.com/problems/container-with-most-water/discuss/6091/Easy-Concise-Java-O(N)-Solution-with-Proof-and-Explanation)
+
+=========================================================================================================
 84. Largest Rectangle in Histogram
 
 - Brute Force
