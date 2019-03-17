@@ -23,6 +23,13 @@
 - Two point scan O(n) (https://leetcode.com/problems/container-with-most-water/discuss/6091/Easy-Concise-Java-O(N)-Solution-with-Proof-and-Explanation)
 
 =========================================================================================================
+32. Longest Valid Parentheses
+
+- Stack O(n) (https://leetcode.com/problems/longest-valid-parentheses/discuss/14126/My-O(n)-solution-using-a-stack)
+- Recursion O(2^n)
+- DP O(n) (https://leetcode.com/problems/longest-valid-parentheses/discuss/14133/My-DP-O(n)-solution-without-using-stack)
+
+=========================================================================================================
 84. Largest Rectangle in Histogram
 
 - Brute Force
