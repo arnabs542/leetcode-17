@@ -38,6 +38,14 @@
 - DP O(n) (https://leetcode.com/problems/longest-valid-parentheses/discuss/14133/My-DP-O(n)-solution-without-using-stack)
 
 =========================================================================================================
+42. Trapping Rain Water
+
+- Recursion O(n)
+- DP O(n) (http://www.cnblogs.com/grandyang/p/4402392.html)
+- Two Pointers O(n) (http://www.cnblogs.com/grandyang/p/4402392.html)
+- Stack O(n) (http://www.cnblogs.com/grandyang/p/4402392.html)
+
+=========================================================================================================
 84. Largest Rectangle in Histogram
 
 - Brute Force
