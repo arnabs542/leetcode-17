@@ -46,6 +46,12 @@
 - Stack O(n) (http://www.cnblogs.com/grandyang/p/4402392.html)
 
 =========================================================================================================
+72. Edit Distance
+
+- Recursion (http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-72-edit-distance/)
+- DP (http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-72-edit-distance/)
+
+=========================================================================================================
 84. Largest Rectangle in Histogram
 
 - Brute Force
