@@ -124,6 +124,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Interweave (http://fisherlei.blogspot.com/2013/11/leetcode-copy-list-with-random-pointer.html)
 
 =========================================================================================================
+139. Word Break
+
+- DFS + Trie
+- Backtracking + Trie
+- Recursion O(n * n)
+- DP O(n * n)
+
+=========================================================================================================
 211. Add and Search Word - Data structure design
 
 - HashSet/HashMap
