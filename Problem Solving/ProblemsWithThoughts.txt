@@ -104,6 +104,26 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Sort + Two pointers O(n * logn)
 
 =========================================================================================================
+126. Word Ladder II
+
+- DFS
+- BFS (Queue)
+- Backtracking (DFS + Pruning)
+
+=========================================================================================================
+127. Word Ladder
+
+- DFS
+- BFS (Queue) (The best solution) (https://zxi.mytechroad.com/blog/searching/127-word-ladder/)
+- Backtracking (DFS + Pruning)
+
+=========================================================================================================
+138. Copy List with Random Pointer
+
+- Hash Table/Map (https://blog.csdn.net/liuchonge/article/details/74858192)
+- Interweave (http://fisherlei.blogspot.com/2013/11/leetcode-copy-list-with-random-pointer.html)
+
+=========================================================================================================
 211. Add and Search Word - Data structure design
 
 - HashSet/HashMap
