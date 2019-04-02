@@ -8,7 +8,8 @@ Brute Force, then think how to optimize it
 results of small problems
 - Data Structure: proper data structure would be very helpful when solve some specific
 problems
-- Two Pointer Scan: find min/max value when sequence matters
+- Two Pointers: find min/max value when sequence matters, find if linked list has
+cycle in it
 - Shortest path: BFS, Bidirectional BFS
 
 ================================================================================

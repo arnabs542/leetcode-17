@@ -132,6 +132,19 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - DP O(n * n)
 
 =========================================================================================================
+141. Linked List Cycle
+
+- Set O(n)
+- Two Pointers (Fast + Slow) O(n)
+
+=========================================================================================================
+146. LRU Cache (*)
+
+- HashMap + Queue
+- HashMap + Double Linked List (https://leetcode.com/problems/lru-cache/discuss/45911/Java-Hashtable-%2B-Double-linked-list-(with-a-touch-of-pseudo-nodes))
+(https://www.cnblogs.com/yrbbest/p/4489577.html)
+
+=========================================================================================================
 211. Add and Search Word - Data structure design
 
 - HashSet/HashMap
