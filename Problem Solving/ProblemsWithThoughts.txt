@@ -145,6 +145,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://www.cnblogs.com/yrbbest/p/4489577.html)
 
 =========================================================================================================
+155. Min Stack (*)
+
+- Stack + Heap
+- Pure Stack (https://leetcode.com/problems/min-stack/discuss/49014/Java-accepted-solution-using-one-stack)
+- Two Stacks (https://leetcode.com/problems/min-stack/discuss/49030/Simple-Java-solution-using-two-build-in-stacks)
+- Pure Linked List (https://leetcode.com/problems/min-stack/discuss/49010/Clean-6ms-Java-solution)
+- Stack + Linked List
+
+=========================================================================================================
 211. Add and Search Word - Data structure design
 
 - HashSet/HashMap
