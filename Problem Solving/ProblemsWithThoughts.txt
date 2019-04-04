@@ -175,7 +175,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Replace 1 by 1 (https://leetcode.com/problems/rotate-array/discuss/54490/*Java*-O(1)-space-O(n)-time-with-detailed-explanations)
 
 =========================================================================================================
-211. Add and Search Word - Data structure design
+199. Binary Tree Right Side View
+
+- BFS (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56076/Reverse-Level-Order-Traversal-java)
+- DFS (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56167/DFS-solution-better-than-90-solutions!)
+- Recursion (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56012/My-simple-accepted-solution(JAVA))
+- Divide & Conquer (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56062/Java-Solution-using-Divide-and-Conquer)
+
+=========================================================================================================
+211. Add and Search Word - Data structure design (*)
 
 - HashSet/HashMap
 - Trie
