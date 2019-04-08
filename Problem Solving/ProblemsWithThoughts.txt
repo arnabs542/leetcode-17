@@ -31,7 +31,7 @@
 - Sorting O(n * logn)
 
 =========================================================================================================
-32. Longest Valid Parentheses
+32. Longest Valid Parentheses (*)
 
 - Stack O(n) (https://leetcode.com/problems/longest-valid-parentheses/discuss/14126/My-O(n)-solution-using-a-stack)
 - Recursion O(2^n)
@@ -183,7 +183,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Divide & Conquer (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56062/Java-Solution-using-Divide-and-Conquer)
 
 =========================================================================================================
-200. Number of Islands
+200. Number of Islands (*)
 
 - DFS O(n * m) (https://leetcode.com/problems/number-of-islands/discuss/56359/Very-concise-Java-AC-solution)
 - BFS O(n * m) (https://leetcode.com/problems/number-of-islands/discuss/56338/Java-DFS-and-BFS-solution)
@@ -211,7 +211,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Array/List (Sorting & Backtracking)
 
 =========================================================================================================
-218. The Skyline Problem
+218. The Skyline Problem (*)
 
 - Divide & Conquer
 - Heap (sweep line: https://zxi.mytechroad.com/blog/tree/leetcode-218-the-skyline-problem/)
