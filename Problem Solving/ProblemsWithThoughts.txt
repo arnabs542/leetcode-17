@@ -183,6 +183,27 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Divide & Conquer (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56062/Java-Solution-using-Divide-and-Conquer)
 
 =========================================================================================================
+200. Number of Islands
+
+- DFS O(n * m) (https://leetcode.com/problems/number-of-islands/discuss/56359/Very-concise-Java-AC-solution)
+- BFS O(n * m) (https://leetcode.com/problems/number-of-islands/discuss/56338/Java-DFS-and-BFS-solution)
+- Union Find O(n * m * log(n * m)) (https://leetcode.com/problems/number-of-islands/discuss/56354/1D-Union-Find-Java-solution-easily-generalized-to-other-problems)
+- Recursion (by row/column) O(n * m)
+- Divide & Conquer O(n * m)
+
+=========================================================================================================
+204. Count Primes
+
+- Math (https://leetcode.com/problems/count-primes/discuss/57588/My-simple-Java-solution)
+
+=========================================================================================================
+206. Reverse Linked List
+
+- Recursion (https://leetcode.com/problems/reverse-linked-list/discuss/58156/My-Java-recursive-solution)
+- Divide & Conquer
+- Linked List operation (in-place) (https://leetcode.com/problems/reverse-linked-list/discuss/58125/In-place-iterative-and-recursive-Java-solution)
+
+=========================================================================================================
 211. Add and Search Word - Data structure design (*)
 
 - HashSet/HashMap
