@@ -2,15 +2,12 @@
 Common Problem-solving Strategies: (https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 
 - Brute Force: the simplest and easiest way, when you do no have any idea, start with
-Brute Force, then think how to optimize it
+Brute Force, then think how to optimize it (simulate human's solution)
 - Recursion: solve a problem by solving sub-problems
 - Divide & Conquer: solve a big problem by solving small problems and combine the
 results of small problems
 - Data Structure: proper data structure would be very helpful when solve some specific
 problems
-- Two Pointers: find min/max value when sequence matters, find if linked list has
-cycle in it
-- Shortest path: BFS, Bidirectional BFS
 
 ================================================================================
 Common Optimization Strategies:
@@ -31,7 +28,6 @@ and how we are going to optimize it. (O(1) < O(logn) < O(n) < O(n * logn) < O(n 
 is already sorted
 - Data Structure: proper data structure would be very helpful when solve some specific
 problems
-- Search: DFS, BFS
 
 ================================================================================
 Common Optimization Strategies using Data Structure: (https://www.geeksforgeeks.org/data-structures/)
@@ -45,3 +41,12 @@ Common Optimization Strategies using Data Structure: (https://www.geeksforgeeks.
 - Range: Segment Tree
 - Range Sum: Binary Indexed Tree (Fenwick Tree) (https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
 - Self-Balanced Tree: Red-black Tree, AVL Tree
+
+================================================================================
+Specific Problem-solving Strategies:
+
+- Two Pointers: find min/max value when sequence matters, find if linked list has
+cycle in it
+- Search: DFS, BFS
+- Shortest path: BFS, Bidirectional BFS
+- Selection: Quick Select (https://en.wikipedia.org/wiki/Quickselect)
