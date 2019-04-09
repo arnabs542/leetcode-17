@@ -224,3 +224,17 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Divide & Conquer
 - Heap (sweep line: https://zxi.mytechroad.com/blog/tree/leetcode-218-the-skyline-problem/)
 - Tree, Segment Tree
+
+=========================================================================================================
+234. Palindrome Linked List
+
+- Stack
+- Array
+- Recursion
+- Two Pointers (https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand)
+
+=========================================================================================================
+235. Lowest Common Ancestor of a Binary Search Tree
+
+- Iteratvie O(logn)
+- Recursion
