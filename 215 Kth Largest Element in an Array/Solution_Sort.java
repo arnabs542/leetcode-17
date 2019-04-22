@@ -4,14 +4,14 @@ Find the kth largest element in an unsorted array. Note that it is the kth large
 For example,
 Given [3,2,1,5,6,4] and k = 2, return 5.
 
-Note: 
+Note:
 You may assume k is always valid, 1 ≤ k ≤ array's length.
 */
 
-public class Solution {
+class Solution {
     public int findKthLargest(int[] nums, int k) {
-        int len = nums.length;
-        Arrays.sort(nums);
-        return nums[len - k];
+        int[] sortedNum = Arrays.copyOf(nums, nums.length);
+        Arrays.sort(sortedNum);
+        return sortedNum[nums.length - k];
     }
 }
