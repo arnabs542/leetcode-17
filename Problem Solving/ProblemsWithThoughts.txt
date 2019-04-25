@@ -238,3 +238,16 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 
 - Iteratvie O(logn)
 - Recursion
+
+=========================================================================================================
+236. Lowest Common Ancestor of a Binary Tree
+
+- DFS/BFS to find the path, then find common ancester (https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/65335/Java-iterative-and-recursive-solutions.)
+- Recursion (https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/65225/4-lines-C%2B%2BJavaPythonRuby)
+
+=========================================================================================================
+238. Product of Array Except Self (*)
+
+- Math (https://leetcode.com/problems/product-of-array-except-self/discuss/65622/Simple-Java-solution-in-O(n)-without-extra-space)
+(https://leetcode.com/problems/product-of-array-except-self/discuss/65632/My-solution-beats-100-java-solutions)
+(https://leetcode.com/problems/product-of-array-except-self/discuss/65622/Simple-Java-solution-in-O(n)-without-extra-space/265861)
