@@ -267,4 +267,11 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - DFS/Recursion O(m * n)
 - Iterative O(m * n)
 - Divide & Conquer (https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66147/*Java*-an-easy-to-understand-divide-and-conquer-method)
-- Two Pointers O(m + n) (https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66140/My-concise-O(m%2Bn)-Java-solution)
+- Two Pointers/BST O(m + n) (https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66140/My-concise-O(m%2Bn)-Java-solution)
+
+=========================================================================================================
+242. Valid Anagram
+
+- HashMap/HashTable O(n) (https://leetcode.com/problems/valid-anagram/discuss/66533/Java-solution-HashMap-Unicode-Follow-up)
+- Sort O(n * logn) (https://leetcode.com/problems/valid-anagram/discuss/66651/Java-solution-using-sort)
+- Array O(n) (https://leetcode.com/problems/valid-anagram/discuss/66484/Accepted-Java-O(n)-solution-in-5-lines)
