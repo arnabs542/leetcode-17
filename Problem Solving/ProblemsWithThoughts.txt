@@ -275,3 +275,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - HashMap/HashTable O(n) (https://leetcode.com/problems/valid-anagram/discuss/66533/Java-solution-HashMap-Unicode-Follow-up)
 - Sort O(n * logn) (https://leetcode.com/problems/valid-anagram/discuss/66651/Java-solution-using-sort)
 - Array O(n) (https://leetcode.com/problems/valid-anagram/discuss/66484/Accepted-Java-O(n)-solution-in-5-lines)
+
+=========================================================================================================
+297. Serialize and Deserialize Binary Tree (*)
+
+- Serialize as array - [1,2,3,null,null,4,5]
+- Serialize as JSON with ID - [id:1,val:1,left:2,right:3],[id:2,val:2],[id:3,left:4,right:5],...
+- Serialize as String - 1{2}{3{4}{5}}/1(2)(3(4(5))
+- Pre-order & Queue (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74253/Easy-to-understand-Java-Solution)
+- BFS & Queue (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74264/Short-and-straight-forward-BFS-Java-code-with-a-queue)
+- DFS & BFS (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74260/Recursive-DFS-Iterative-DFS-and-BFS)
+- Recusion (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74417/Short-and-clear-recursive-Java-solution)
