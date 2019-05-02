@@ -286,3 +286,11 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - BFS & Queue (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74264/Short-and-straight-forward-BFS-Java-code-with-a-queue)
 - DFS & BFS (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74260/Recursive-DFS-Iterative-DFS-and-BFS)
 - Recusion (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74417/Short-and-clear-recursive-Java-solution)
+
+=========================================================================================================
+355. Design Twitter (*)
+
+- HashMap/HashTable + Linked List
+- OO Design + HashTable/HashMap + Heap + Linked List + HashSet/Set (https://leetcode.com/problems/design-twitter/discuss/82825/Java-OO-Design-with-most-efficient-function-getNewsFeed)
+- Map + Heap (https://leetcode.com/problems/design-twitter/discuss/82837/Java-Solutions-with-Two-Maps-and-PriorityQueue)
+- OO Design (https://leetcode.com/problems/design-twitter/discuss/82935/Java-OOD-solution-with-detailed-explanation)
