@@ -294,3 +294,16 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - OO Design + HashTable/HashMap + Heap + Linked List + HashSet/Set (https://leetcode.com/problems/design-twitter/discuss/82825/Java-OO-Design-with-most-efficient-function-getNewsFeed)
 - Map + Heap (https://leetcode.com/problems/design-twitter/discuss/82837/Java-Solutions-with-Two-Maps-and-PriorityQueue)
 - OO Design (https://leetcode.com/problems/design-twitter/discuss/82935/Java-OOD-solution-with-detailed-explanation)
+
+=========================================================================================================
+380. Insert Delete GetRandom O(1) (*)
+
+- HashSet, HashMap, Array
+- HashMap, List/Array (https://leetcode.com/problems/insert-delete-getrandom-o1/discuss/85401/Java-solution-using-a-HashMap-and-an-ArrayList-along-with-a-follow-up.-(131-ms))
+
+=========================================================================================================
+387. First Unique Character in a String
+
+- HashMap O(n)
+- Divide & Conquer O(n * logn)
+- Recursion O(n * n)
