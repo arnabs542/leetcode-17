@@ -307,3 +307,9 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - HashMap O(n)
 - Divide & Conquer O(n * logn)
 - Recursion O(n * n)
+
+=========================================================================================================
+396. Rotate Function
+
+- Brute Force to list all possible results O(n * n)
+- Math O(n) (https://leetcode.com/problems/rotate-function/discuss/87853/Java-O(n)-solution-with-explanation)
