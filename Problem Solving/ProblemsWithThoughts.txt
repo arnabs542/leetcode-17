@@ -313,3 +313,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 
 - Brute Force to list all possible results O(n * n)
 - Math O(n) (https://leetcode.com/problems/rotate-function/discuss/87853/Java-O(n)-solution-with-explanation)
+
+=========================================================================================================
+414. Third Maximum Number
+
+- Heap/Priority Queue O(n * logn) (https://leetcode.com/problems/third-maximum-number/discuss/90190/Java-PriorityQueue-O(n)-%2B-O(1))
+- Sorting O(n * logn)
+- Fixed length array/Double Linked List O(n) (https://leetcode.com/problems/third-maximum-number/discuss/90202/Java-neat-and-easy-understand-solution-O(n)-time-O(1)-space)
+
+=========================================================================================================
+438. Find All Anagrams in a String
+
+- HashMap to build char-count map O(n) (Sliding Window Solution)
