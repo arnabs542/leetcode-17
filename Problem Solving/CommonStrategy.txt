@@ -35,7 +35,7 @@ Common Optimization Strategies using Data Structure: (https://www.geeksforgeeks.
 - Quick Lookup: HashTable, HashMap, HashSet
 - Search & Indexing: Tree, Balanced Tree, Binary Search Tree (BST)
 - Priority & Sequence: Queue, Priority Queue (Heap), Stack
-- String Search: Trie
+- String Search: Trie, KMP
 - Numeric Value Search: BST (Binary Search Tree)
 - Grouping & Classification: Union-Find (Disjoint Set)
 - Range: Segment Tree
