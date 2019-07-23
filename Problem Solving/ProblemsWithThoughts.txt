@@ -355,3 +355,8 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - HashMap + DoubleLinkedList + LinkedHashSet O(1) (https://leetcode.com/problems/lfu-cache/discuss/94515/Java-O(1)-Accept-Solution-Using-HashMap-DoubleLinkedList-and-LinkedHashSet)
 (https://leetcode.com/problems/lfu-cache/discuss/94547/Java-O(1)-Solution-Using-Two-HashMap-and-One-DoubleLinkedList)
 - Reb-Black Tree + HashMap O(logn) (https://leetcode.com/problems/lfu-cache/discuss/94657/Java-solutions-of-three-different-ways.-PriorityQueue-%3A-O(capacity)-TreeMap-%3A-O(log(capacity))-DoubleLinkedList-%3A-O(1))
+
+=========================================================================================================
+508. Most Frequent Subtree Sum
+
+- DFS + Heap/Priority Queue O(n * logn) (https://leetcode.com/problems/most-frequent-subtree-sum/discuss/98675/JavaC%2B%2BPython-DFS-Find-Subtree-Sum)
