@@ -360,3 +360,9 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 508. Most Frequent Subtree Sum
 
 - DFS + Heap/Priority Queue O(n * logn) (https://leetcode.com/problems/most-frequent-subtree-sum/discuss/98675/JavaC%2B%2BPython-DFS-Find-Subtree-Sum)
+
+=========================================================================================================
+515. Find Largest Value in Each Tree Row
+
+- BFS + Queue O(n) (https://leetcode.com/problems/find-largest-value-in-each-tree-row/discuss/98976/Java-BFS)
+- Traverse trhough Tree/DFS (pre-order, in-order, post-order) O(n) (https://leetcode.com/problems/find-largest-value-in-each-tree-row/discuss/98971/9ms-JAVA-DFS-solution)
