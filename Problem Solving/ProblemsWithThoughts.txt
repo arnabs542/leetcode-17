@@ -372,3 +372,8 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 
 - Brute Force (List all substring possibilities and check) O(n * n)
 - Recusion/DP O(n * n) (https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99101/Straight-forward-Java-DP-solution)
+
+=========================================================================================================
+517. Super Washing Machines (*)
+
+- Math (https://blog.csdn.net/TstsUgeg/article/details/62427718) (https://leetcode.com/problems/super-washing-machines/discuss/99185/Super-Short-and-Easy-Java-O(n)-Solution)
