@@ -391,3 +391,11 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recursion O(n) (f(n) = f(n - 1) + exist(n +/- k))
 - Sorting (n * logn)
 - Sorting + Two Pointers (n * logn) (https://leetcode.com/problems/k-diff-pairs-in-an-array/discuss/100104/Two-pointer-Approach)
+
+=========================================================================================================
+535. Encode and Decode TinyURL (*)
+
+- HashMap - Random String (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/100268/Two-solutions-and-thoughts)
+- HashMap - Hashcode String (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/100270/Three-different-approaches-in-java)
+(https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/254145/Java-Solutions)
+- HashMap/Array - Use Index/Counter (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/100276/Easy-solution-in-java-5-line-code)
