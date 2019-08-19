@@ -383,3 +383,11 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 
 - BFS/DFS to find adjacent blank square (https://leetcode.com/problems/minesweeper/discuss/99826/Java-Solution-DFS-%2B-BFS)
 - Union-Find (Grouping) to find adjacent blank square
+
+=========================================================================================================
+532. K-diff Pairs in an Array
+
+- HashSet/HashMap (Brute Force) O(n) (https://leetcode.com/problems/k-diff-pairs-in-an-array/discuss/355150/Java-time-and-space-O(n)-solution-by-HaspMap)
+- Recursion O(n) (f(n) = f(n - 1) + exist(n +/- k))
+- Sorting (n * logn)
+- Sorting + Two Pointers (n * logn) (https://leetcode.com/problems/k-diff-pairs-in-an-array/discuss/100104/Two-pointer-Approach)
