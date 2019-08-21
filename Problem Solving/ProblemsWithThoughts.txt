@@ -399,3 +399,8 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - HashMap - Hashcode String (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/100270/Three-different-approaches-in-java)
 (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/254145/Java-Solutions)
 - HashMap/Array - Use Index/Counter (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/100276/Easy-solution-in-java-5-line-code)
+
+=========================================================================================================
+537. Complex Number Multiplication
+
+- String & Math (https://leetcode.com/problems/complex-number-multiplication/discuss/100430/Java-3-liner)
