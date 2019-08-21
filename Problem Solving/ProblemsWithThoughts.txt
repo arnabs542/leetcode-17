@@ -404,3 +404,9 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 537. Complex Number Multiplication
 
 - String & Math (https://leetcode.com/problems/complex-number-multiplication/discuss/100430/Java-3-liner)
+
+=========================================================================================================
+538. Convert BST to Greater Tree
+
+- DFS/Recursion/Traverse (Traverse in decreasing order, sum up accumulatively) O(n) (https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100506/Java-Recursive-O(n)-time)
+- Iterative using Stack O(n) (https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100516/Java-Three-O(n)-Methods%3A-Recursive-Iterative-and-Morris-Traversal)
