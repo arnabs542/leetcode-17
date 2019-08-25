@@ -410,3 +410,10 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 
 - DFS/Recursion/Traverse (Traverse in decreasing order, sum up accumulatively) O(n) (https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100506/Java-Recursive-O(n)-time)
 - Iterative using Stack O(n) (https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100516/Java-Three-O(n)-Methods%3A-Recursive-Iterative-and-Morris-Traversal)
+
+=========================================================================================================
+553. Optimal Division
+
+- Math O(n) (https://leetcode.com/problems/optimal-division/discuss/101687/Easy-to-understand-simple-O(n)-solution-with-explanation)
+- Recursion O(n * n)
+- DP O(n * n * n)
