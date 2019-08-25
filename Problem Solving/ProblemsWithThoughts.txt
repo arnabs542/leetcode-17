@@ -429,3 +429,9 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Tree/Recursion O(n)
 - Turn Tree into an array O(n)
 - DFS/BFS O(n) (https://leetcode.com/problems/merge-two-binary-trees/discuss/104331/Java-One-Recursive-Solution-and-Two-Iterative-Solutions-(DFS-and-BFS)-with-Explanations)
+
+=========================================================================================================
+640. Solve the Equation
+
+- Math (https://leetcode.com/problems/solve-the-equation/discuss/105311/Concise-Java-Solution)
+(https://leetcode.com/problems/solve-the-equation/discuss/306157/Java-solution-with-some-tricky-technique-for-tokenizing)
