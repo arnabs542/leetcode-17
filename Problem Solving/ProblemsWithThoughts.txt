@@ -417,3 +417,8 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Math O(n) (https://leetcode.com/problems/optimal-division/discuss/101687/Easy-to-understand-simple-O(n)-solution-with-explanation)
 - Recursion O(n * n)
 - DP O(n * n * n)
+
+=========================================================================================================
+606. Construct String from Binary Tree
+
+- Tree/Recursion
