@@ -435,3 +435,10 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 
 - Math (https://leetcode.com/problems/solve-the-equation/discuss/105311/Concise-Java-Solution)
 (https://leetcode.com/problems/solve-the-equation/discuss/306157/Java-solution-with-some-tricky-technique-for-tokenizing)
+
+=========================================================================================================
+645. Set Mismatch
+
+- HashSet + Math O(n) (https://leetcode.com/problems/set-mismatch/discuss/105528/Simple-Java-O(n)-solution-HashSet)
+- Array Swap O(n) (https://leetcode.com/problems/set-mismatch/discuss/105520/Java-solution-array-swap)
+- Math O(n) (https://leetcode.com/problems/set-mismatch/discuss/179810/Java-Solution-beats-100-with-O(1)-space)
