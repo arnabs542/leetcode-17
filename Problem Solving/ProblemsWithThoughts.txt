@@ -442,3 +442,12 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - HashSet + Math O(n) (https://leetcode.com/problems/set-mismatch/discuss/105528/Simple-Java-O(n)-solution-HashSet)
 - Array Swap O(n) (https://leetcode.com/problems/set-mismatch/discuss/105520/Java-solution-array-swap)
 - Math O(n) (https://leetcode.com/problems/set-mismatch/discuss/179810/Java-Solution-beats-100-with-O(1)-space)
+
+=========================================================================================================
+646. Maximum Length of Pair Chain (*)
+
+- Brute Force O(2 ^ n)
+- Sorting + Recursion O(n * n)
+- Sorting + DP O(n * n) (https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/105602/easy-dp)
+- Greedy Algorithm O(n * logn) (https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/105610/Java-O(nlog(n))-Time-O(1)-Space)
+(https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/225801/Proof-of-the-greedy-solution)
