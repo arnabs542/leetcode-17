@@ -451,3 +451,23 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Sorting + DP O(n * n) (https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/105602/easy-dp)
 - Greedy Algorithm O(n * logn) (https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/105610/Java-O(nlog(n))-Time-O(1)-Space)
 (https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/225801/Proof-of-the-greedy-solution)
+
+=========================================================================================================
+661. Image Smoother
+
+- Array O(m * n)
+
+=========================================================================================================
+662. Maximum Width of Binary Tree (*)
+
+- BFS (Using Queue, test width level by level) (https://leetcode.com/problems/maximum-width-of-binary-tree/discuss/106645/C%2B%2BJava-*-BFSDFS3liner-Clean-Code-With-Explanation)
+- DFS (https://leetcode.com/problems/maximum-width-of-binary-tree/discuss/106654/JavaC%2B%2B-Very-simple-dfs-solution)
+- Array (https://leetcode.com/problems/maximum-width-of-binary-tree/discuss/106654/JavaC%2B%2B-Very-simple-dfs-solution)
+
+=========================================================================================================
+675. Cut Off Trees for Golf Event (*)
+
+- BFS/DFS with pruning
+- Shortest Path (Sort known tree heights in order, traverse in a known order, add up shortest path between two points)
+(Use DP/BFS for calculating shortest path between two points)
+(https://leetcode.com/problems/cut-off-trees-for-golf-event/discuss/107404/Java-solution-PriorityQueue-%2B-BFS)
