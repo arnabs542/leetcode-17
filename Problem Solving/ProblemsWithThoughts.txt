@@ -471,3 +471,19 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Shortest Path (Sort known tree heights in order, traverse in a known order, add up shortest path between two points)
 (Use DP/BFS for calculating shortest path between two points)
 (https://leetcode.com/problems/cut-off-trees-for-golf-event/discuss/107404/Java-solution-PriorityQueue-%2B-BFS)
+
+=========================================================================================================
+682. Baseball Game (*)
+
+- Stack O(n) (https://leetcode.com/problems/baseball-game/discuss/107873/JAVA-very-concise-and-easy-to-understand-using-stack)
+- List/Array O(n) (https://leetcode.com/problems/baseball-game/discuss/107860/Verbose-Java-solution-LinkedList)
+- Doubly Linked List O(n)
+
+=========================================================================================================
+692. Top K Frequent Words (*)
+
+- Heap/PriorityQueue O(n * logn) (https://leetcode.com/problems/top-k-frequent-words/discuss/108346/My-simple-Java-solution-using-HashMap-and-PriorityQueue-O(nlogk)-time-and-O(n)-space)
+- Map/HashTable + Sort O(n * logn)
+- Recursion O(n)
+- HashMap + BucketSort + Trie O(n) (https://leetcode.com/problems/top-k-frequent-words/discuss/108399/Java-O(n)-solution-using-HashMap-BucketSort-and-Trie-22ms-Beat-81)
+(https://leetcode.com/problems/top-k-frequent-words/discuss/176865/13ms-Prefix-Tree-(Trie)-and-Bucket-Sort-Java-with-Explanation)
