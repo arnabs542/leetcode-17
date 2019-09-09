@@ -487,3 +487,8 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recursion O(n)
 - HashMap + BucketSort + Trie O(n) (https://leetcode.com/problems/top-k-frequent-words/discuss/108399/Java-O(n)-solution-using-HashMap-BucketSort-and-Trie-22ms-Beat-81)
 (https://leetcode.com/problems/top-k-frequent-words/discuss/176865/13ms-Prefix-Tree-(Trie)-and-Bucket-Sort-Java-with-Explanation)
+
+=========================================================================================================
+725. Split Linked List in Parts
+
+- Math & LinkedList
