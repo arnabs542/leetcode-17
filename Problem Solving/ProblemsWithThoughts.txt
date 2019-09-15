@@ -1,22 +1,27 @@
 =========================================================================================================
+Tags: AMZ, GOG
+
+=========================================================================================================
 (AMZ)
 3. Longest Substring Without Repeating Characters
 
 - Queue + Set O(n)
 
 =========================================================================================================
-(AMZ)
-4. Median of Two Sorted Arrays
+(AMZ, GOG)
+4. Median of Two Sorted Arrays (*)
 
-- Binary Search
+- Binary Search O(log(m + n)) (https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2481/Share-my-O(log(min(mn)))-solution-with-explanation)
+- Recursion O(log(m + n)) (https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2496/Concise-JAVA-solution-based-on-Binary-Search)
+- Divide & Conquer
 
 =========================================================================================================
-(AMZ)
-10. Regular Expression Matching
+(AMZ, GOG)
+10. Regular Expression Matching (*)
 
-- Recursion
-- Backtracking
-- DP
+- Recursion (https://leetcode.com/problems/regular-expression-matching/discuss/5847/Evolve-from-brute-force-to-dp)
+- Backtracking (https://leetcode.com/problems/regular-expression-matching/discuss/5847/Evolve-from-brute-force-to-dp)
+- DP (https://leetcode.com/problems/regular-expression-matching/discuss/5651/Easy-DP-Java-Solution-with-detailed-Explanation)
 
 =========================================================================================================
 (AMZ)
