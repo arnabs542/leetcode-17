@@ -1,14 +1,17 @@
 =========================================================================================================
+(AMZ)
 3. Longest Substring Without Repeating Characters
 
 - Queue + Set O(n)
 
 =========================================================================================================
+(AMZ)
 4. Median of Two Sorted Arrays
 
 - Binary Search
 
 =========================================================================================================
+(AMZ)
 10. Regular Expression Matching
 
 - Recursion
@@ -16,6 +19,7 @@
 - DP
 
 =========================================================================================================
+(AMZ)
 11. Container With Most Water
 
 - Brute Force O(n * n)
@@ -23,6 +27,7 @@
 - Two point scan O(n) (https://leetcode.com/problems/container-with-most-water/discuss/6091/Easy-Concise-Java-O(N)-Solution-with-Proof-and-Explanation)
 
 =========================================================================================================
+(AMZ)
 23. Merge k Sorted Lists
 
 - Divide & Conquer O(n * logn)
@@ -31,6 +36,7 @@
 - Sorting O(n * logn)
 
 =========================================================================================================
+(AMZ)
 32. Longest Valid Parentheses (*)
 
 - Stack O(n) (https://leetcode.com/problems/longest-valid-parentheses/discuss/14126/My-O(n)-solution-using-a-stack)
@@ -38,6 +44,7 @@
 - DP O(n) (https://leetcode.com/problems/longest-valid-parentheses/discuss/14133/My-DP-O(n)-solution-without-using-stack)
 
 =========================================================================================================
+(AMZ)
 42. Trapping Rain Water (*)
 
 - Recursion O(n)
@@ -46,18 +53,21 @@
 - Stack O(n) (http://www.cnblogs.com/grandyang/p/4402392.html)
 
 =========================================================================================================
+(AMZ)
 49. Group Anagrams
 
 - Union Find O(n * n)
 - HashTable/HashMap O(n)
 
 =========================================================================================================
+(AMZ)
 72. Edit Distance
 
 - Recursion (http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-72-edit-distance/)
 - DP (http://zxi.mytechroad.com/blog/dynamic-programming/leetcode-72-edit-distance/)
 
 =========================================================================================================
+(AMZ)
 84. Largest Rectangle in Histogram (*)
 
 - Brute Force
@@ -89,12 +99,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 3) If the stack is not empty, then one by one remove all bars from stack and do step 2.b for every removed bar.
 
 =========================================================================================================
+(AMZ)
 102. Binary Tree Level Order Traversal
 
 - BFS
 - Queue
 
 =========================================================================================================
+(AMZ)
 121. Best Time to Buy and Sell Stock
 
 - Brute Force O(n * n)
@@ -104,6 +116,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Sort + Two pointers O(n * logn)
 
 =========================================================================================================
+(AMZ)
 126. Word Ladder II (*)
 
 - DFS
@@ -111,6 +124,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Backtracking (DFS + Pruning)
 
 =========================================================================================================
+(AMZ)
 127. Word Ladder
 
 - DFS
@@ -118,12 +132,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Backtracking (DFS + Pruning)
 
 =========================================================================================================
+(AMZ)
 138. Copy List with Random Pointer
 
 - Hash Table/Map (https://blog.csdn.net/liuchonge/article/details/74858192)
 - Interweave (http://fisherlei.blogspot.com/2013/11/leetcode-copy-list-with-random-pointer.html)
 
 =========================================================================================================
+(AMZ)
 139. Word Break
 
 - DFS + Trie
@@ -132,12 +148,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - DP O(n * n)
 
 =========================================================================================================
+(AMZ)
 141. Linked List Cycle
 
 - Set O(n)
 - Two Pointers (Fast + Slow) O(n)
 
 =========================================================================================================
+(AMZ)
 146. LRU Cache (*)
 
 - HashMap + Queue
@@ -145,6 +163,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://www.cnblogs.com/yrbbest/p/4489577.html)
 
 =========================================================================================================
+(AMZ)
 155. Min Stack (*)
 
 - Stack + Heap
@@ -154,6 +173,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Stack + Linked List
 
 =========================================================================================================
+(AMZ)
 160. Intersection of Two Linked Lists (*)
 
 - Set
@@ -161,6 +181,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Two pointers (https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/49785/Java-solution-without-knowing-the-difference-in-len!)
 
 =========================================================================================================
+(AMZ)
 167. Two Sum II - Input array is sorted
 
 - Recursion O(n * n)
@@ -168,6 +189,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Binary Search O(n * logn)
 
 =========================================================================================================
+(AMZ)
 189. Rotate Array (*)
 
 - Reverse Array (https://leetcode.com/problems/rotate-array/discuss/54250/Easy-to-read-Java-solution)
@@ -175,6 +197,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Replace 1 by 1 (https://leetcode.com/problems/rotate-array/discuss/54490/*Java*-O(1)-space-O(n)-time-with-detailed-explanations)
 
 =========================================================================================================
+(AMZ)
 199. Binary Tree Right Side View (*)
 
 - BFS (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56076/Reverse-Level-Order-Traversal-java)
@@ -183,6 +206,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Divide & Conquer (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56062/Java-Solution-using-Divide-and-Conquer)
 
 =========================================================================================================
+(AMZ)
 200. Number of Islands (*)
 
 - DFS O(n * m) (https://leetcode.com/problems/number-of-islands/discuss/56359/Very-concise-Java-AC-solution)
@@ -192,11 +216,13 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Divide & Conquer O(n * m)
 
 =========================================================================================================
+(AMZ)
 204. Count Primes
 
 - Math (https://leetcode.com/problems/count-primes/discuss/57588/My-simple-Java-solution)
 
 =========================================================================================================
+(AMZ)
 206. Reverse Linked List
 
 - Recursion (https://leetcode.com/problems/reverse-linked-list/discuss/58156/My-Java-recursive-solution)
@@ -204,6 +230,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Linked List operation (in-place) (https://leetcode.com/problems/reverse-linked-list/discuss/58125/In-place-iterative-and-recursive-Java-solution)
 
 =========================================================================================================
+(AMZ)
 211. Add and Search Word - Data structure design (*)
 
 - HashSet/HashMap
@@ -211,6 +238,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Array/List (Sorting & Backtracking)
 
 =========================================================================================================
+(AMZ)
 215. Kth Largest Element in an Array (*)
 
 - Sort O(n * logn) (https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/60294/Solution-explained)
@@ -219,6 +247,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recursion O(n * n)
 
 =========================================================================================================
+(AMZ)
 218. The Skyline Problem (*)
 
 - Divide & Conquer
@@ -226,6 +255,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Tree, Segment Tree
 
 =========================================================================================================
+(AMZ)
 234. Palindrome Linked List
 
 - Stack
@@ -234,18 +264,21 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Two Pointers (https://leetcode.com/problems/palindrome-linked-list/discuss/64501/Java-easy-to-understand)
 
 =========================================================================================================
+(AMZ)
 235. Lowest Common Ancestor of a Binary Search Tree
 
 - Iteratvie O(logn)
 - Recursion
 
 =========================================================================================================
+(AMZ)
 236. Lowest Common Ancestor of a Binary Tree
 
 - DFS/BFS to find the path, then find common ancester (https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/65335/Java-iterative-and-recursive-solutions.)
 - Recursion (https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/65225/4-lines-C%2B%2BJavaPythonRuby)
 
 =========================================================================================================
+(AMZ)
 238. Product of Array Except Self (*)
 
 - Math (https://leetcode.com/problems/product-of-array-except-self/discuss/65622/Simple-Java-solution-in-O(n)-without-extra-space)
@@ -253,6 +286,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/product-of-array-except-self/discuss/65622/Simple-Java-solution-in-O(n)-without-extra-space/265861)
 
 =========================================================================================================
+(AMZ)
 239. Sliding Window Maximum
 
 - Heap O(n * logk) (https://leetcode.com/problems/sliding-window-maximum/discuss/65936/My-Java-Solution-Using-PriorityQueue)
@@ -262,6 +296,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Math O(n) (https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
 
 =========================================================================================================
+(AMZ)
 240. Search a 2D Matrix II
 
 - DFS/Recursion O(m * n)
@@ -270,6 +305,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Two Pointers/BST O(m + n) (https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66140/My-concise-O(m%2Bn)-Java-solution)
 
 =========================================================================================================
+(AMZ)
 242. Valid Anagram
 
 - HashMap/HashTable O(n) (https://leetcode.com/problems/valid-anagram/discuss/66533/Java-solution-HashMap-Unicode-Follow-up)
@@ -277,6 +313,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Array O(n) (https://leetcode.com/problems/valid-anagram/discuss/66484/Accepted-Java-O(n)-solution-in-5-lines)
 
 =========================================================================================================
+(AMZ)
 297. Serialize and Deserialize Binary Tree (*)
 
 - Serialize as array - [1,2,3,null,null,4,5]
@@ -288,6 +325,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recusion (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74417/Short-and-clear-recursive-Java-solution)
 
 =========================================================================================================
+(AMZ)
 355. Design Twitter (*)
 
 - HashMap/HashTable + Linked List
@@ -296,12 +334,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - OO Design (https://leetcode.com/problems/design-twitter/discuss/82935/Java-OOD-solution-with-detailed-explanation)
 
 =========================================================================================================
+(AMZ)
 380. Insert Delete GetRandom O(1) (*)
 
 - HashSet, HashMap, Array
 - HashMap, List/Array (https://leetcode.com/problems/insert-delete-getrandom-o1/discuss/85401/Java-solution-using-a-HashMap-and-an-ArrayList-along-with-a-follow-up.-(131-ms))
 
 =========================================================================================================
+(AMZ)
 387. First Unique Character in a String
 
 - HashMap O(n)
@@ -309,12 +349,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recursion O(n * n)
 
 =========================================================================================================
+(AMZ)
 396. Rotate Function
 
 - Brute Force to list all possible results O(n * n)
 - Math O(n) (https://leetcode.com/problems/rotate-function/discuss/87853/Java-O(n)-solution-with-explanation)
 
 =========================================================================================================
+(AMZ)
 414. Third Maximum Number
 
 - Heap/Priority Queue O(n * logn) (https://leetcode.com/problems/third-maximum-number/discuss/90190/Java-PriorityQueue-O(n)-%2B-O(1))
@@ -322,17 +364,20 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Fixed length array/Double Linked List O(n) (https://leetcode.com/problems/third-maximum-number/discuss/90202/Java-neat-and-easy-understand-solution-O(n)-time-O(1)-space)
 
 =========================================================================================================
+(AMZ)
 438. Find All Anagrams in a String
 
 - HashMap to build char-count map O(n) (Sliding Window Solution)
 
 =========================================================================================================
+(AMZ)
 449. Serialize and Deserialize BST
 
 - Recusrion: use parentheses e.g. 78(13(5)(45))(105) (Generic: applicable to all types of trees)
 - BFS: 78, 13, 105, 5, 45, null, null (Generic: applicable to all types of trees)
 
 =========================================================================================================
+(AMZ)
 451. Sort Characters By Frequency
 
 - HashMap + Sort O(n)
@@ -340,6 +385,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - HashMap + Heap/Priority Queue O(n) (https://leetcode.com/problems/sort-characters-by-frequency/discuss/93420/Java-O(n)-Bucket-Sort-Solution-O(nlogm)-PriorityQueue-Solution-easy-to-understand)
 
 =========================================================================================================
+(AMZ)
 459. Repeated Substring Pattern (*)
 
 - Brute Force (iterate through all possible substrings, with pruning) O(n * n) (https://leetcode.com/problems/repeated-substring-pattern/discuss/94352/Java-Simple-Solution-with-Explanation)
@@ -348,6 +394,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - KMP O(n) (https://leetcode.com/problems/repeated-substring-pattern/discuss/94340/Java-and-O(n)/113294)
 
 =========================================================================================================
+(AMZ)
 460. LFU Cache (*)
 
 - Heap/Priority Queue + HashMap O(logn)
@@ -357,34 +404,40 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Reb-Black Tree + HashMap O(logn) (https://leetcode.com/problems/lfu-cache/discuss/94657/Java-solutions-of-three-different-ways.-PriorityQueue-%3A-O(capacity)-TreeMap-%3A-O(log(capacity))-DoubleLinkedList-%3A-O(1))
 
 =========================================================================================================
+(AMZ)
 508. Most Frequent Subtree Sum
 
 - DFS + Heap/Priority Queue O(n * logn) (https://leetcode.com/problems/most-frequent-subtree-sum/discuss/98675/JavaC%2B%2BPython-DFS-Find-Subtree-Sum)
 
 =========================================================================================================
+(AMZ)
 515. Find Largest Value in Each Tree Row
 
 - BFS + Queue O(n) (https://leetcode.com/problems/find-largest-value-in-each-tree-row/discuss/98976/Java-BFS)
 - Traverse trhough Tree/DFS (pre-order, in-order, post-order) O(n) (https://leetcode.com/problems/find-largest-value-in-each-tree-row/discuss/98971/9ms-JAVA-DFS-solution)
 
 =========================================================================================================
+(AMZ)
 516. Longest Palindromic Subsequence
 
 - Brute Force (List all substring possibilities and check) O(n * n)
 - Recusion/DP O(n * n) (https://leetcode.com/problems/longest-palindromic-subsequence/discuss/99101/Straight-forward-Java-DP-solution)
 
 =========================================================================================================
+(AMZ)
 517. Super Washing Machines (*)
 
 - Math (https://blog.csdn.net/TstsUgeg/article/details/62427718) (https://leetcode.com/problems/super-washing-machines/discuss/99185/Super-Short-and-Easy-Java-O(n)-Solution)
 
 =========================================================================================================
+(AMZ)
 529. Minesweeper (*)
 
 - BFS/DFS to find adjacent blank square (https://leetcode.com/problems/minesweeper/discuss/99826/Java-Solution-DFS-%2B-BFS)
 - Union-Find (Grouping) to find adjacent blank square
 
 =========================================================================================================
+(AMZ)
 532. K-diff Pairs in an Array
 
 - HashSet/HashMap (Brute Force) O(n) (https://leetcode.com/problems/k-diff-pairs-in-an-array/discuss/355150/Java-time-and-space-O(n)-solution-by-HaspMap)
@@ -393,6 +446,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Sorting + Two Pointers (n * logn) (https://leetcode.com/problems/k-diff-pairs-in-an-array/discuss/100104/Two-pointer-Approach)
 
 =========================================================================================================
+(AMZ)
 535. Encode and Decode TinyURL (*)
 
 - HashMap - Random String (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/100268/Two-solutions-and-thoughts)
@@ -401,17 +455,20 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - HashMap/Array - Use Index/Counter (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/100276/Easy-solution-in-java-5-line-code)
 
 =========================================================================================================
+(AMZ)
 537. Complex Number Multiplication
 
 - String & Math (https://leetcode.com/problems/complex-number-multiplication/discuss/100430/Java-3-liner)
 
 =========================================================================================================
+(AMZ)
 538. Convert BST to Greater Tree
 
 - DFS/Recursion/Traverse (Traverse in decreasing order, sum up accumulatively) O(n) (https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100506/Java-Recursive-O(n)-time)
 - Iterative using Stack O(n) (https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100516/Java-Three-O(n)-Methods%3A-Recursive-Iterative-and-Morris-Traversal)
 
 =========================================================================================================
+(AMZ)
 553. Optimal Division
 
 - Math O(n) (https://leetcode.com/problems/optimal-division/discuss/101687/Easy-to-understand-simple-O(n)-solution-with-explanation)
@@ -419,11 +476,13 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - DP O(n * n * n)
 
 =========================================================================================================
+(AMZ)
 606. Construct String from Binary Tree
 
 - Tree/Recursion
 
 =========================================================================================================
+(AMZ)
 617. Merge Two Binary Trees
 
 - Tree/Recursion O(n)
@@ -431,12 +490,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - DFS/BFS O(n) (https://leetcode.com/problems/merge-two-binary-trees/discuss/104331/Java-One-Recursive-Solution-and-Two-Iterative-Solutions-(DFS-and-BFS)-with-Explanations)
 
 =========================================================================================================
+(AMZ)
 640. Solve the Equation
 
 - Math (https://leetcode.com/problems/solve-the-equation/discuss/105311/Concise-Java-Solution)
 (https://leetcode.com/problems/solve-the-equation/discuss/306157/Java-solution-with-some-tricky-technique-for-tokenizing)
 
 =========================================================================================================
+(AMZ)
 645. Set Mismatch
 
 - HashSet + Math O(n) (https://leetcode.com/problems/set-mismatch/discuss/105528/Simple-Java-O(n)-solution-HashSet)
@@ -444,6 +505,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Math O(n) (https://leetcode.com/problems/set-mismatch/discuss/179810/Java-Solution-beats-100-with-O(1)-space)
 
 =========================================================================================================
+(AMZ)
 646. Maximum Length of Pair Chain (*)
 
 - Brute Force O(2 ^ n)
@@ -453,11 +515,13 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/225801/Proof-of-the-greedy-solution)
 
 =========================================================================================================
+(AMZ)
 661. Image Smoother
 
 - Array O(m * n)
 
 =========================================================================================================
+(AMZ)
 662. Maximum Width of Binary Tree (*)
 
 - BFS (Using Queue, test width level by level) (https://leetcode.com/problems/maximum-width-of-binary-tree/discuss/106645/C%2B%2BJava-*-BFSDFS3liner-Clean-Code-With-Explanation)
@@ -465,6 +529,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Array (https://leetcode.com/problems/maximum-width-of-binary-tree/discuss/106654/JavaC%2B%2B-Very-simple-dfs-solution)
 
 =========================================================================================================
+(AMZ)
 675. Cut Off Trees for Golf Event (*)
 
 - BFS/DFS with pruning
@@ -473,6 +538,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/cut-off-trees-for-golf-event/discuss/107404/Java-solution-PriorityQueue-%2B-BFS)
 
 =========================================================================================================
+(AMZ)
 682. Baseball Game (*)
 
 - Stack O(n) (https://leetcode.com/problems/baseball-game/discuss/107873/JAVA-very-concise-and-easy-to-understand-using-stack)
@@ -480,6 +546,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Doubly Linked List O(n)
 
 =========================================================================================================
+(AMZ)
 692. Top K Frequent Words (*)
 
 - Heap/PriorityQueue O(n * logn) (https://leetcode.com/problems/top-k-frequent-words/discuss/108346/My-simple-Java-solution-using-HashMap-and-PriorityQueue-O(nlogk)-time-and-O(n)-space)
@@ -489,6 +556,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/top-k-frequent-words/discuss/176865/13ms-Prefix-Tree-(Trie)-and-Bucket-Sort-Java-with-Explanation)
 
 =========================================================================================================
+(AMZ)
 725. Split Linked List in Parts
 
 - Math & LinkedList
