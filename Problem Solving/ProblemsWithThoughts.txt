@@ -32,6 +32,21 @@ Tags: AMZ, GOG
 - Two point scan O(n) (https://leetcode.com/problems/container-with-most-water/discuss/6091/Easy-Concise-Java-O(N)-Solution-with-Proof-and-Explanation)
 
 =========================================================================================================
+(GOG)
+17. Letter Combinations of a Phone Number
+
+- Brute Force (for loop) O(3 ^ n)
+- Recursion O(3 ^ n)
+- Divide & Conquer O(3 ^ n)
+- Queue O(3 ^ n) (https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/8064/My-java-solution-with-FIFO-queue)
+
+=========================================================================================================
+(GOG)
+20. Valid Parentheses
+
+- Stack O(n) (https://leetcode.com/problems/valid-parentheses/discuss/9178/Short-java-solution)
+
+=========================================================================================================
 (AMZ)
 23. Merge k Sorted Lists
 
