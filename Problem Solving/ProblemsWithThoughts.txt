@@ -47,6 +47,14 @@ Tags: AMZ, GOG
 - Stack O(n) (https://leetcode.com/problems/valid-parentheses/discuss/9178/Short-java-solution)
 
 =========================================================================================================
+(GOG)
+22. Generate Parentheses (*)
+
+- Brute Force (list all possible combinations)
+- Recursion (get all substrings with valid parentheses) (https://leetcode.com/problems/generate-parentheses/discuss/10337/My-accepted-JAVA-solution)
+- Backtracking (https://leetcode.com/problems/generate-parentheses/discuss/10100/Easy-to-understand-Java-backtracking-solution)
+
+=========================================================================================================
 (AMZ)
 23. Merge k Sorted Lists
 
