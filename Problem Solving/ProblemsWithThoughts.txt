@@ -55,13 +55,19 @@ Tags: AMZ, GOG
 - Backtracking (https://leetcode.com/problems/generate-parentheses/discuss/10100/Easy-to-understand-Java-backtracking-solution)
 
 =========================================================================================================
-(AMZ)
-23. Merge k Sorted Lists
+(AMZ, GOG)
+23. Merge k Sorted Lists (*)
 
 - Divide & Conquer O(n * logn)
 - Heap/Priority Queue O(n * logn)
 - Recursion O(n * n)
 - Sorting O(n * logn)
+
+=========================================================================================================
+(GOG)
+31. Next Permutation (*)
+
+- Math (find the digit need to change that digits on its right have digit bigger than it)
 
 =========================================================================================================
 (AMZ)
