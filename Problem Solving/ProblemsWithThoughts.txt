@@ -78,7 +78,7 @@ Tags: AMZ, GOG
 - DP O(n) (https://leetcode.com/problems/longest-valid-parentheses/discuss/14133/My-DP-O(n)-solution-without-using-stack)
 
 =========================================================================================================
-(AMZ)
+(AMZ, GOG)
 42. Trapping Rain Water (*)
 
 - Recursion O(n)
