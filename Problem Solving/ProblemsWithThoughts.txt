@@ -91,7 +91,8 @@ Tags: AMZ, GOG
 44. Wildcard Matching (*)
 
 - Recursion (Time Out)
-- DP O(n * n * n)
+- DP (https://leetcode.com/problems/wildcard-matching/discuss/17812/My-java-DP-solution-using-2D-table)
+- Two Pointers / Greedy (https://leetcode.com/problems/wildcard-matching/discuss/17810/Linear-runtime-and-constant-space-solution)
 
 =========================================================================================================
 (AMZ)
