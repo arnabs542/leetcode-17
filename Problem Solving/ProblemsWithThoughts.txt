@@ -102,6 +102,21 @@ Tags: AMZ, GOG
 - HashTable/HashMap O(n)
 
 =========================================================================================================
+(GOG)
+50. Pow(x, n) (*)
+
+- Brute Force O(n)
+- Recursion O(n)
+- Divide & Conquer O(logn) (https://leetcode.com/problems/powx-n/discuss/19546/Short-and-easy-to-understand-solution)
+- Bit Operation O(n)
+
+=========================================================================================================
+(GOG)
+54. Spiral Matrix
+
+- Traverse node in four directions
+
+=========================================================================================================
 (AMZ)
 72. Edit Distance
 
