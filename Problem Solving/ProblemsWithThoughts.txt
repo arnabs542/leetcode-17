@@ -117,6 +117,30 @@ Tags: AMZ, GOG
 - Traverse node in four directions
 
 =========================================================================================================
+(GOG)
+56. Merge Intervals (*)
+
+- Sort + Greedy O(n * logn) (https://leetcode.com/problems/merge-intervals/discuss/21222/A-simple-Java-solution)
+- Recursion O(n * n)
+- Recursion + Binary Search O(n * logn)
+- Divide & Conquer O(n * logn)
+- Interval/Range Tree (for streaming input) O(n * logn) (https://leetcode.com/problems/merge-intervals/discuss/21451/Share-my-BST-interval-tree-solution-C%2B%2B-No-sorting!)
+
+=========================================================================================================
+(GOG)
+57. Insert Interval (*)
+
+- Brute Force O(n)
+- Binary Search (start node + end node) O(logn)
+- Interval Tree O(n * logn)
+
+=========================================================================================================
+66. Plus One
+(GOG)
+
+- Math O(n)
+
+=========================================================================================================
 (AMZ)
 72. Edit Distance
 

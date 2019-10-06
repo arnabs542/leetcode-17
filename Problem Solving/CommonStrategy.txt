@@ -6,7 +6,7 @@ Brute Force, then think how to optimize it (simulate human's solution)
 - Recursion: solve a problem by solving sub-problems
 - Divide & Conquer: solve a big problem by solving small problems and combine the
 results of small problems
-- Data Structure: proper data structure would be very helpful when solve some specific
+- Data Structure/Tree: proper data structure would be very helpful when solve some specific
 problems
 
 ================================================================================
