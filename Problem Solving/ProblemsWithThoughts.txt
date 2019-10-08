@@ -135,8 +135,8 @@ Tags: AMZ, GOG
 - Interval Tree O(n * logn)
 
 =========================================================================================================
-66. Plus One
 (GOG)
+66. Plus One
 
 - Math O(n)
 
@@ -211,6 +211,17 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - DFS
 - BFS (Queue) (The best solution) (https://zxi.mytechroad.com/blog/searching/127-word-ladder/)
 - Backtracking (DFS + Pruning)
+
+=========================================================================================================
+(GOG)
+128. Longest Consecutive Sequence (*)
+
+- HashMap O(n) (https://leetcode.com/problems/longest-consecutive-sequence/discuss/41055/My-really-simple-Java-O(n)-solution-Accepted)
+- HashSet O(n) (https://leetcode.com/problems/longest-consecutive-sequence/discuss/41057/Simple-O(n)-with-Explanation-Just-walk-each-streak)
+- Space for time O(N) (N = Integer.MAX)
+- Union & Find O(n * logn) (https://leetcode.com/problems/longest-consecutive-sequence/discuss/41062/My-Java-Solution-using-UnionFound)
+- Range Tree O(n * logn)
+- Sort O(n * logn)
 
 =========================================================================================================
 (AMZ)
