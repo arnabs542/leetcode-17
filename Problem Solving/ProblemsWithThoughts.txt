@@ -238,8 +238,8 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Interweave (http://fisherlei.blogspot.com/2013/11/leetcode-copy-list-with-random-pointer.html)
 
 =========================================================================================================
-(AMZ)
-139. Word Break
+(AMZ, GOG)
+139. Word Break (*)
 
 - DFS + Trie
 - Backtracking + Trie
