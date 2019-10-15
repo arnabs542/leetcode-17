@@ -263,7 +263,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Two Pointers (Fast + Slow) O(n)
 
 =========================================================================================================
-(AMZ)
+(AMZ, GOG)
 146. LRU Cache (*)
 
 - HashMap + Queue
