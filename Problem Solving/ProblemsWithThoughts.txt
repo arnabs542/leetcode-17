@@ -247,6 +247,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - DP O(n * n)
 
 =========================================================================================================
+(GOG)
+140. Word Break II (*)
+
+- Trie + DFS/BFS (search all possibilities) (https://leetcode.com/problems/word-break-ii/discuss/44167/My-concise-JAVA-solution-based-on-memorized-DFS)
+- Trie + Backtracking
+- Trie + Recursion
+- DP (https://leetcode.com/problems/word-break-ii/discuss/44353/My-DP-solution-in-JAVA)
+
+=========================================================================================================
 (AMZ)
 141. Linked List Cycle
 

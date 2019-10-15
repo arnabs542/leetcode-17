@@ -1,8 +1,9 @@
 ================================================================================
 Common Problem-solving Strategies: (https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 
-- Brute Force: the simplest and easiest way, when you do no have any idea, start with
-Brute Force, then think how to optimize it (simulate human's solution)
+- Brute Force: list all possibilities (the simplest and easiest way, when you have no idea, start with
+Brute Force, to just simulate how human solve the problem, then think of how to optimize it)
+- Search (find solutions): DFS, BFS, Backtracking (https://en.wikipedia.org/wiki/Backtracking)
 - Recursion: solve a problem by solving sub-problems
 - Divide & Conquer: solve a big problem by solving small problems and combine the
 results of small problems
@@ -47,6 +48,6 @@ Specific Problem-solving Strategies:
 
 - Two Pointers: find min/max value when sequence matters, find if linked list has
 cycle in it
-- Search: DFS, BFS
+- Search: DFS, BFS, Backtracking (https://en.wikipedia.org/wiki/Backtracking)
 - Shortest path: BFS, Bidirectional BFS
 - Selection: Quick Select (https://en.wikipedia.org/wiki/Quickselect)
