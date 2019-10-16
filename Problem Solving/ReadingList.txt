@@ -1,0 +1,4 @@
+================================================================================
+Tips on Software Engineering Interview:
+
+- http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html

@@ -271,7 +271,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://www.cnblogs.com/yrbbest/p/4489577.html)
 
 =========================================================================================================
-(AMZ)
+(AMZ, GOG)
 155. Min Stack (*)
 
 - Stack + Heap
