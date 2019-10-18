@@ -289,6 +289,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Two pointers (https://leetcode.com/problems/intersection-of-two-linked-lists/discuss/49785/Java-solution-without-knowing-the-difference-in-len!)
 
 =========================================================================================================
+(GOG)
+162. Find Peak Element (*)
+
+- Brute Force O(n)
+- Binary Search O(logn) (https://leetcode.com/problems/find-peak-element/discuss/50239/Java-solution-and-explanation-using-invariants)
+(https://leetcode.com/problems/find-peak-element/discuss/192138/A-simple-reason-why-binary-search-works)
+
+=========================================================================================================
 (AMZ)
 167. Two Sum II - Input array is sorted
 
