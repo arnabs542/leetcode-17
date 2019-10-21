@@ -4,7 +4,7 @@ Common Problem-solving Strategies: (https://www.geeksforgeeks.org/fundamentals-o
 - Brute Force: list all possibilities (the simplest and easiest way, when you have no idea, start with
 Brute Force, to just simulate how human solve the problem, then think of how to optimize it)
 - Search (find solutions): DFS, BFS, Backtracking (https://en.wikipedia.org/wiki/Backtracking)
-- Recursion: solve a problem by solving sub-problems
+- Recursion: solve a problem by solving sub-problems (DP)
 - Divide & Conquer: solve a big problem by solving small problems and combine the
 results of small problems
 - Data Structure/Tree: proper data structure would be very helpful when solve some specific
@@ -34,6 +34,7 @@ problems
 Common Optimization Strategies using Data Structure: (https://www.geeksforgeeks.org/data-structures/)
 
 - Quick Lookup: HashTable, HashMap, HashSet
+- Quick Access: Array, Linked List
 - Search & Indexing: Tree, Balanced Tree, Binary Search Tree (BST)
 - Priority & Sequence: Queue, Priority Queue (Heap), Stack
 - String Search: Trie, KMP
