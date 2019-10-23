@@ -361,12 +361,37 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Linked List operation (in-place) (https://leetcode.com/problems/reverse-linked-list/discuss/58125/In-place-iterative-and-recursive-Java-solution)
 
 =========================================================================================================
+(GOG)
+208. Implement Trie (Prefix Tree) (*)
+
+- Trie (use Tree + Array to implement)
+(https://leetcode.com/problems/implement-trie-prefix-tree/discuss/58832/AC-JAVA-solution-simple-using-single-array)
+- Trie (use Tree + HashMap to implement)
+(https://leetcode.com/problems/implement-trie-prefix-tree/discuss/58868/Implement-Trie-(Prefix-Tree)-C%2B%2B-Clean-Code-(array-or-map))
+(https://leetcode.com/problems/implement-trie-prefix-tree/discuss/58986/Concise-O(1)-JAVA-solution-based-on-HashMap)
+
+=========================================================================================================
 (AMZ)
 211. Add and Search Word - Data structure design (*)
 
 - HashSet/HashMap
 - Trie
 - Array/List (Sorting & Backtracking)
+
+=========================================================================================================
+(GOG)
+212. Word Search II (*)
+
+- DFS/Backtracking
+(https://leetcode.com/problems/word-search-ii/discuss/59780/Java-15ms-Easiest-Solution-(100.00))
+(https://leetcode.com/problems/word-search-ii/discuss/59784/My-simple-and-clean-Java-code-using-DFS-and-Trie)
+(https://leetcode.com/problems/word-search-ii/discuss/156559/Java-(40ms)-Solution-with-Complexity-Analysis)
+- BFS
+- Sort + Trie (avoid duplicated search cases)
+(https://leetcode.com/problems/word-search-ii/discuss/59780/Java-15ms-Easiest-Solution-(100.00))
+(https://leetcode.com/problems/word-search-ii/discuss/59784/My-simple-and-clean-Java-code-using-DFS-and-Trie)
+(https://leetcode.com/problems/word-search-ii/discuss/156559/Java-(40ms)-Solution-with-Complexity-Analysis)
+- Use Shortest Distance for Pruning (reduce search space)
 
 =========================================================================================================
 (AMZ)
