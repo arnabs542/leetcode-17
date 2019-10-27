@@ -394,6 +394,20 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Use Shortest Distance for Pruning (reduce search space)
 
 =========================================================================================================
+(GOG)
+214. Shortest Palindrome (*)
+
+- Backtracking/Recursion (start from mid of string and to the most left) O(n * n)
+- Brute Force (try extending from 0 - n characters) O(n * n)
+(https://leetcode.com/problems/shortest-palindrome/discuss/60099/AC-in-288-ms-simple-brute-force)
+- Stack O(n * n)
+- KMP O(n)
+(https://leetcode.com/problems/shortest-palindrome/discuss/60113/Clean-KMP-solution-with-super-detailed-explanation)
+(https://leetcode.com/problems/shortest-palindrome/discuss/60141/C%2B%2B-8-ms-KMP-based-O(n)-time-and-O(n)-memory-solution)
+- Rabin-Karp Rolling Hash O(n)
+(https://leetcode.com/problems/shortest-palindrome/discuss/60153/8-line-O(n)-method-using-Rabin-Karp-rolling-hash)
+
+=========================================================================================================
 (AMZ)
 215. Kth Largest Element in an Array (*)
 
@@ -403,12 +417,26 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recursion O(n * n)
 
 =========================================================================================================
-(AMZ)
+(AMZ, GOG)
 218. The Skyline Problem (*)
 
-- Divide & Conquer
-- Heap (sweep line: https://zxi.mytechroad.com/blog/tree/leetcode-218-the-skyline-problem/)
-- Tree, Segment Tree
+- Heap O(n * logn) - (Naturally Thinking / Data Structure in Common Strategy)
+(sweep line: https://zxi.mytechroad.com/blog/tree/leetcode-218-the-skyline-problem/)
+- Recursion O(n * n) - (Recursion in Common Strategy)
+- Divide & Conquer O(n * logn) - (Divide & Conquer in Common Strategy)
+(https://www.geeksforgeeks.org/the-skyline-problem-using-divide-and-conquer-algorithm/)
+(https://leetcode.com/problems/the-skyline-problem/discuss/61281/Java-divide-and-conquer-solution-beats-96)
+- Tree, Segment Tree O(n * logn) - (Tree in Common Strategy)
+(https://leetcode.com/problems/the-skyline-problem/discuss/61313/A-segment-tree-solution)
+- Binary Indexed Tree(BIT)/Fenwick Tree O(n * logn) - (Data Structure in Common Strategy)
+(https://leetcode.com/problems/the-skyline-problem/discuss/61198/My-O(nlogn)-solution-using-Binary-Indexed-Tree(BIT)Fenwick-Tree)
+
+=========================================================================================================
+(GOG)
+224. Basic Calculator (*)
+
+- Divide & Conquer + Stack
+- Recursion + Stack
 
 =========================================================================================================
 (AMZ)

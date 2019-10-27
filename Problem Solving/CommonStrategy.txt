@@ -1,14 +1,17 @@
 ================================================================================
-Common Problem-solving Strategies: (https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+Common Problem-solving Strategies: (*) (https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 
-- Brute Force: list all possibilities (the simplest and easiest way, when you have no idea, start with
+- Brute Force / Naturally Thinking: (simulate how human solve the problem)
+list all possibilities (the simplest and easiest way, when you have no idea, start with
 Brute Force, to just simulate how human solve the problem, then think of how to optimize it)
-- Search (find solutions): DFS, BFS, Backtracking (https://en.wikipedia.org/wiki/Backtracking)
-- Recursion: solve a problem by solving sub-problems (DP)
-- Divide & Conquer: solve a big problem by solving small problems and combine the
-results of small problems
-- Data Structure/Tree: proper data structure would be very helpful when solve some specific
-problems
+- Search (find solutions):
+DFS, BFS, Backtracking
+- Recursion:
+solve a problem by solving sub-problems (DP), f(n) = g(f(n - 1))
+- Divide & Conquer:
+solve a big problem by solving small problems and combine the results of small problems, f(0, n) = g(f(0, m), f(m + 1, n))
+- Tree / Data Structure:
+proper data structure would be very helpful when solve some specific problems
 
 ================================================================================
 Common Optimization Strategies:
