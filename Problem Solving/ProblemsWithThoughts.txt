@@ -439,6 +439,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recursion + Stack
 
 =========================================================================================================
+(GOG)
+228. Summary Ranges (*)
+
+- Sort + Scan
+- Recursion
+- Divide & Conquer
+- Segment Tree
+
+=========================================================================================================
 (AMZ)
 234. Palindrome Linked List
 
