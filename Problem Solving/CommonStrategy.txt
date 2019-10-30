@@ -12,9 +12,11 @@ solve a problem by solving sub-problems (DP), f(n) = g(f(n - 1))
 solve a big problem by solving small problems and combine the results of small problems, f(0, n) = g(f(0, m), f(m + 1, n))
 - Tree / Data Structure:
 proper data structure would be very helpful when solve some specific problems
+- Space & Time trade-off:
+we can use more space to record result from duplicate computation to fasten the solution (HashTable, DP, Change tree node)
 
 ================================================================================
-Common Optimization Strategies:
+Common Optimization Strategies: (*)
 
 - Run Time & Space complexity analysis, see what is the complexity of current solution
 and how we are going to optimize it. (O(1) < O(logn) < O(n) < O(n * logn) < O(n ^ 2) < O(n ^ m))

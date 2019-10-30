@@ -448,6 +448,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Segment Tree
 
 =========================================================================================================
+(GOG)
+230. Kth Smallest Element in a BST (*)
+
+- Tree Traverse O(n)
+- Tree Traverse + Array O(n) (Query time: O(1))
+- Recursion/Divide & Conquer O(n)
+- Design/Change Tree Node Structure O(n) (Query time: O(logn))
+
+=========================================================================================================
 (AMZ)
 234. Palindrome Linked List
 
