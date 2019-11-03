@@ -502,13 +502,13 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/product-of-array-except-self/discuss/65622/Simple-Java-solution-in-O(n)-without-extra-space/265861)
 
 =========================================================================================================
-(AMZ)
-239. Sliding Window Maximum
+(AMZ, GOG)
+239. Sliding Window Maximum (*)
 
-- Heap O(n * logk) (https://leetcode.com/problems/sliding-window-maximum/discuss/65936/My-Java-Solution-Using-PriorityQueue)
 - Recursion O(n * k)
-- Two Pointers, record the highest and the second highest point O(n)
+- Heap O(n * logk) (https://leetcode.com/problems/sliding-window-maximum/discuss/65936/My-Java-Solution-Using-PriorityQueue)
 - Deque O(n) (https://leetcode.com/problems/sliding-window-maximum/discuss/65884/Java-O(n)-solution-using-deque-with-explanation)
+- Two Pointers, record the highest and the second highest point O(n)
 - Math O(n) (https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
 
 =========================================================================================================
