@@ -457,6 +457,20 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Design/Change Tree Node Structure O(n) (Query time: O(logn))
 
 =========================================================================================================
+(GOG)
+231. Power of Two (*)
+
+- Math O(1)
+(https://leetcode.com/problems/power-of-two/discuss/63974/Using-nand(n-1)-trick)
+(https://leetcode.com/problems/power-of-two/discuss/63966/4-different-ways-to-solve-Iterative-Recursive-Bit-operation-Math)
+- Division O(logn) (https://leetcode.com/problems/power-of-two/discuss/63966/4-different-ways-to-solve-Iterative-Recursive-Bit-operation-Math)
+- Recursion O(logn) (https://leetcode.com/problems/power-of-two/discuss/63966/4-different-ways-to-solve-Iterative-Recursive-Bit-operation-Math)
+- Bit Manipulation O(logn)
+(https://leetcode.com/problems/power-of-two/discuss/63966/4-different-ways-to-solve-Iterative-Recursive-Bit-operation-Math)
+(https://leetcode.com/problems/power-of-two/discuss/63972/One-line-java-solution-using-bitCount)
+- HashSet (for frequent numbers) O(1) (https://leetcode.com/problems/power-of-two/discuss/63966/4-different-ways-to-solve-Iterative-Recursive-Bit-operation-Math)
+
+=========================================================================================================
 (AMZ)
 234. Palindrome Linked List
 
