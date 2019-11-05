@@ -5,7 +5,7 @@ Common Problem-solving Strategies: (*) (https://www.geeksforgeeks.org/fundamenta
 list all possibilities (the simplest and easiest way, when you have no idea, start with
 Brute Force, to just simulate how human solve the problem, then think of how to optimize it)
 - Search (find solutions):
-DFS, BFS, Backtracking
+DFS(Stack), BFS(Queue), Backtracking
 - Recursion:
 solve a problem by solving sub-problems (DP), f(n) = g(f(n - 1))
 - Divide & Conquer:

@@ -512,10 +512,11 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Math O(n) (https://leetcode.com/problems/sliding-window-maximum/discuss/65881/O(n)-solution-in-Java-with-two-simple-pass-in-the-array)
 
 =========================================================================================================
-(AMZ)
-240. Search a 2D Matrix II
+(AMZ, GOG)
+240. Search a 2D Matrix II (*)
 
-- DFS/Recursion O(m * n)
+- HashMap O(m * n)
+- DFS/BFS/Backtracking O(m * n)
 - Iterative O(m * n)
 - Divide & Conquer (https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66147/*Java*-an-easy-to-understand-divide-and-conquer-method)
 - Two Pointers/BST O(m + n) (https://leetcode.com/problems/search-a-2d-matrix-ii/discuss/66140/My-concise-O(m%2Bn)-Java-solution)
@@ -527,6 +528,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - HashMap/HashTable O(n) (https://leetcode.com/problems/valid-anagram/discuss/66533/Java-solution-HashMap-Unicode-Follow-up)
 - Sort O(n * logn) (https://leetcode.com/problems/valid-anagram/discuss/66651/Java-solution-using-sort)
 - Array O(n) (https://leetcode.com/problems/valid-anagram/discuss/66484/Accepted-Java-O(n)-solution-in-5-lines)
+
+=========================================================================================================
+(GOG)
+257. Binary Tree Paths (*)
+
+- Recursion/Divide & Conquer (https://leetcode.com/problems/binary-tree-paths/discuss/68278/My-Java-solution-in-DFS-BFS-recursion)
+- DFS (https://leetcode.com/problems/binary-tree-paths/discuss/68278/My-Java-solution-in-DFS-BFS-recursion)
+- BFS (https://leetcode.com/problems/binary-tree-paths/discuss/68278/My-Java-solution-in-DFS-BFS-recursion)
 
 =========================================================================================================
 (AMZ)
