@@ -538,6 +538,24 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - BFS (https://leetcode.com/problems/binary-tree-paths/discuss/68278/My-Java-solution-in-DFS-BFS-recursion)
 
 =========================================================================================================
+(GOG)
+274. H-Index (*)
+
+- Sort + Brute Force O(n * logn)
+- Sort + Binary Search + Pruning O(n * logn) (https://leetcode.com/problems/h-index/discuss/70990/Java-AC-solution-by-Binary-Search)
+- Recursion O(n * logn)
+- Bucket Sort O(n) (https://leetcode.com/problems/h-index/discuss/70768/Java-bucket-sort-O(n)-solution-with-detail-explanation)
+
+=========================================================================================================
+(GOG)
+279. Perfect Squares (*)
+
+- Brute Force
+- Recursion
+- DP O(n) (https://leetcode.com/problems/perfect-squares/discuss/71488/Summary-of-4-different-solutions-(BFS-DP-static-DP-and-mathematics))
+- BFS (https://leetcode.com/problems/perfect-squares/discuss/71488/Summary-of-4-different-solutions-(BFS-DP-static-DP-and-mathematics))
+
+=========================================================================================================
 (AMZ)
 297. Serialize and Deserialize Binary Tree (*)
 

@@ -57,3 +57,4 @@ cycle in it
 - Search: DFS, BFS, Backtracking (https://en.wikipedia.org/wiki/Backtracking)
 - Shortest path: BFS, Bidirectional BFS
 - Selection: Quick Select (https://en.wikipedia.org/wiki/Quickselect)
+- Bucket Sort: O(n) sorting
