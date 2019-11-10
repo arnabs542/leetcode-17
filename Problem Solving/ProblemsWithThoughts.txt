@@ -556,6 +556,31 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - BFS (https://leetcode.com/problems/perfect-squares/discuss/71488/Summary-of-4-different-solutions-(BFS-DP-static-DP-and-mathematics))
 
 =========================================================================================================
+(GOG)
+282. Expression Add Operators (*)
+
+- Brute Force (try all possibilities to fill in operators) O(4 ^ n)
+- Recursion/DFS O(4 ^ n)
+(https://leetcode.com/problems/expression-add-operators/discuss/71895/Java-Standard-Backtrace-AC-Solutoin-short-and-clear)
+(https://leetcode.com/problems/expression-add-operators/discuss/71897/Java-AC-solution-19ms-beat-100.00.)
+
+=========================================================================================================
+(GOG)
+284. Peeking Iterator (*)
+
+- Design
+(Think of "looking ahead". You want to cache the next element.)
+(https://github.com/google/guava/blob/703ef758b8621cfbab16814f01ddcc5324bdea33/guava-gwt/src-super/com/google/common/collect/super/com/google/common/collect/Iterators.java#L1125)
+
+=========================================================================================================
+(GOG)
+289. Game of Life (*)
+
+- Array (In-place change)
+(https://leetcode.com/problems/game-of-life/discuss/73223/Easiest-JAVA-solution-with-explanation)
+(https://leetcode.com/problems/game-of-life/discuss/73366/Clean-O(1)-space-O(mn)-time-Java-Solution)
+
+=========================================================================================================
 (AMZ)
 297. Serialize and Deserialize Binary Tree (*)
 
