@@ -581,6 +581,18 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/game-of-life/discuss/73366/Clean-O(1)-space-O(mn)-time-Java-Solution)
 
 =========================================================================================================
+(GOG)
+295. Find Median from Data Stream (*)
+
+- Binary Search Tree with children count (Insert: O(logn), Query: O(logn))
+- LinkedList/DoubleLinkedList/Array (Insert: O(n), Query: O(1))
+- Segment Tree/Range Tree with children count (Insert: O(logn), Query: O(logn))
+- Bucket Sort (Insert: O(n), Query: O(1))
+- Heap (Insert: O(logn), Query: O(1))
+(https://leetcode.com/problems/find-median-from-data-stream/discuss/74047/JavaPython-two-heap-solution-O(log-n)-add-O(1)-find)
+(https://leetcode.com/problems/find-median-from-data-stream/discuss/74144/Easy-to-understand-double-heap-solution-in-Java)
+
+=========================================================================================================
 (AMZ)
 297. Serialize and Deserialize Binary Tree (*)
 
