@@ -593,7 +593,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/find-median-from-data-stream/discuss/74144/Easy-to-understand-double-heap-solution-in-Java)
 
 =========================================================================================================
-(AMZ)
+(AMZ, GOG)
 297. Serialize and Deserialize Binary Tree (*)
 
 - Serialize as array - [1,2,3,null,null,4,5]
@@ -603,6 +603,25 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - BFS & Queue (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74264/Short-and-straight-forward-BFS-Java-code-with-a-queue)
 - DFS & BFS (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74260/Recursive-DFS-Iterative-DFS-and-BFS)
 - Recusion (https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/74417/Short-and-clear-recursive-Java-solution)
+
+=========================================================================================================
+(GOG)
+309. Best Time to Buy and Sell Stock with Cooldown (*)
+
+- Brute Force O(2 ^ n)
+- Divide & Conquer/Recursion O(n * n)
+- DP O(n * n)
+(https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75927/Share-my-thinking-process)
+(https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75931/Easiest-JAVA-solution-with-explanations)
+
+=========================================================================================================
+(GOG)
+310. Minimum Height Trees (*)
+
+- BFS/Minimum Path
+(https://leetcode.com/problems/minimum-height-trees/discuss/76055/Share-some-thoughts)
+(https://leetcode.com/problems/minimum-height-trees/discuss/76052/Two-O(n)-solutions)
+- DFS
 
 =========================================================================================================
 (AMZ)
