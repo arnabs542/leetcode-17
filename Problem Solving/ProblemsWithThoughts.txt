@@ -648,6 +648,19 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/super-ugly-number/discuss/76291/Java-three-methods-23ms-36-ms-58ms(with-heap)-performance-explained)
 
 =========================================================================================================
+(GOG)
+315. Count of Smaller Numbers After Self (*)
+
+- Brute Force O(n * n)
+- Recursion O(n * n)
+- DP O(n * n)
+- Sort + Map O(n * n)
+- BST O(n * logn) (https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76580/9ms-short-Java-BST-solution-get-answer-when-building-BST)
+- Divide & Conquer/Merge Sort O(n * logn) (https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76584/Mergesort-solution)
+- Binary Index Tree O(n * logn) (https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76611/Short-Java-Binary-Index-Tree-BEAT-97.33-With-Detailed-Explanation)
+- Segment Tree O(n * logn) (https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76657/3-ways-(Segment-Tree-Binary-Indexed-Tree-Binary-Search-Tree)-clean-python-code)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
