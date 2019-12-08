@@ -661,6 +661,17 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Segment Tree O(n * logn) (https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76657/3-ways-(Segment-Tree-Binary-Indexed-Tree-Binary-Search-Tree)-clean-python-code)
 
 =========================================================================================================
+(GOG)
+316. Remove Duplicate Letters (*)
+
+- Brute Force O(a * b * c * ...)
+- Greedy + Sort + Map O(n * logn) (Arrange letters are unique first, then greedyly decide the position of duplicated letters from small to big letters)
+- Greedy
+(https://leetcode.com/problems/remove-duplicate-letters/discuss/76768/A-short-O(n)-recursive-greedy-solution)
+(https://leetcode.com/problems/remove-duplicate-letters/discuss/76766/Easy-to-understand-iterative-Java-solution)
+- Greedy + Stack O(n) (https://leetcode.com/problems/remove-duplicate-letters/discuss/76762/Java-O(n)-solution-using-stack-with-detail-explanation)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
