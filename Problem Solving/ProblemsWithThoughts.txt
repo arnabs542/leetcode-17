@@ -672,6 +672,16 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Greedy + Stack O(n) (https://leetcode.com/problems/remove-duplicate-letters/discuss/76762/Java-O(n)-solution-using-stack-with-detail-explanation)
 
 =========================================================================================================
+(GOG)
+318. Maximum Product of Word Lengths (*)
+
+- Brute Force O(n * n)
+- Recursion + Pruning O(n * n)
+- Bit Operation + Greedy O(n * n) (use 26 bits to represent if each letter is part of the string) (starts from longest string to shortest)
+- Bit Operation O(n * n)
+(https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/76959/JAVA-Easy-Version-To-Understand!!!!!!!!!!!!!!!!!)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
