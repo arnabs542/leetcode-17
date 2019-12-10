@@ -682,6 +682,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/maximum-product-of-word-lengths/discuss/76959/JAVA-Easy-Version-To-Understand!!!!!!!!!!!!!!!!!)
 
 =========================================================================================================
+(GOG)
+321. Create Maximum Number (*)
+
+- Brute Force O(n * n) (pick 5 numbers from the arrays together)
+(https://leetcode.com/problems/create-maximum-number/discuss/77285/Share-my-greedy-solution)
+(https://leetcode.com/problems/create-maximum-number/discuss/77287/C%2B%2B-16ms-FASTEST-beats-97.)
+- Greedy + Sort (Heap) + LinkedList O(n * logn) (use Greedy algorithm as we should pick first n biggest number from both list together)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
