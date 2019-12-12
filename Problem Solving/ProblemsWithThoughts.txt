@@ -691,6 +691,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Greedy + Sort (Heap) + LinkedList O(n * logn) (use Greedy algorithm as we should pick first n biggest number from both list together)
 
 =========================================================================================================
+(GOG)
+324. Wiggle Sort II (*)
+
+- Sort O(n * logn) (in sorted array, first half in odd position, the other half in even postion)
+(https://leetcode.com/problems/wiggle-sort-ii/discuss/77681/O(n)-time-O(1)-space-solution-with-detail-explanations)
+- Recursion O(n)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
