@@ -699,6 +699,17 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recursion O(n)
 
 =========================================================================================================
+(GOG)
+326. Power of Three (*)
+
+- Brute Force (while loop to mod 3, or check if power of 3 from smaller number to bigger)
+- HashMap O(1) (remember all number power of 3)
+- Math O(1)
+(https://leetcode.com/problems/power-of-three/discuss/77856/1-line-java-solution-without-loop-recursion)
+(https://leetcode.com/problems/power-of-three/discuss/77856/1-line-java-solution-without-loop-recursion/380103)
+(https://leetcode.com/problems/power-of-three/discuss/77876/**-A-summary-of-all-solutions-(new-method-included-at-15%3A30pm-Jan-8th))
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
