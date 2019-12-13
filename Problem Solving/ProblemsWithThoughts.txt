@@ -710,6 +710,20 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/power-of-three/discuss/77876/**-A-summary-of-all-solutions-(new-method-included-at-15%3A30pm-Jan-8th))
 
 =========================================================================================================
+(GOG)
+327. Count of Range Sum (*)
+
+- Brute Force O(n * n)
+- Sort + Two Point Scan O(n * logn) (get sum for each position, s(i) = sum(1, i), sort from s(1) to s(n), use two point scan to find pair i, j that s(j) - s(i) in the expected range)
+- Divide & Conquer/Merge Sort O(n * logn)
+(https://leetcode.com/problems/count-of-range-sum/discuss/77990/Share-my-solution)
+(https://leetcode.com/problems/count-of-range-sum/discuss/77991/Short-and-simple-O(n-log-n))
+- Binary Indexed Tree/Binary Search
+(https://leetcode.com/problems/count-of-range-sum/discuss/78006/Summary-of-the-Divide-and-Conquer-based-and-Binary-Indexed-Tree-based-solutions)
+- Segment Tree/Range Tree
+(https://leetcode.com/problems/count-of-range-sum/discuss/77987/Java-SegmentTree-Solution-36ms)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
