@@ -724,6 +724,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/count-of-range-sum/discuss/77987/Java-SegmentTree-Solution-36ms)
 
 =========================================================================================================
+(GOG)
+329. Longest Increasing Path in a Matrix (*)
+
+- Brute Force + DFS/BFS (use DFS/BFS to search path starting from each node)
+- DP/Memorization + DFS/BFS
+(https://leetcode.com/problems/longest-increasing-path-in-a-matrix/discuss/78308/15ms-Concise-Java-Solution)
+(https://leetcode.com/problems/longest-increasing-path-in-a-matrix/discuss/78313/Java-14ms-relative-short-and-easy-to-code-solution-with-explanation.-O(mn)-time-O(mn)-space.-DFS-%2B-DP)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
