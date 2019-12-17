@@ -733,6 +733,17 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/longest-increasing-path-in-a-matrix/discuss/78313/Java-14ms-relative-short-and-easy-to-code-solution-with-explanation.-O(mn)-time-O(mn)-space.-DFS-%2B-DP)
 
 =========================================================================================================
+(GOG)
+330. Patching Array (*)
+
+- Greedy
+(https://leetcode.com/problems/patching-array/discuss/78488/Solution-%2B-explanation)
+(https://leetcode.com/problems/patching-array/discuss/78495/Share-my-thinking-process)
+- Brute Force + Greedy (loop through each sum number needed, find the smallest element needs to be added) O(n ^ 3)
+- Recursion + Memorization (use recursion to calculate all possible sums for a given array) (use memorization for optimization)
+- BFS (use BFS to search for elements need to be added) (this is better than DFS consider pruning as we are trying to find the minimum number of elements to add)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
