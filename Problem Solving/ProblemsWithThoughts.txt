@@ -752,6 +752,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Regex (https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/discuss/78640/2-lines-Java-using-Regex)
 
 =========================================================================================================
+(GOG)
+332. Reconstruct Itinerary (*)
+
+- DG(Directed graph)/DFS
+(https://leetcode.com/problems/reconstruct-itinerary/discuss/78766/Share-my-solution)
+(https://leetcode.com/problems/reconstruct-itinerary/discuss/78768/Short-Ruby-Python-Java-C%2B%2B)
+- Tree/Graph/Linked List
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
