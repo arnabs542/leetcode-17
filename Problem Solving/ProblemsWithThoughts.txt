@@ -775,6 +775,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/palindrome-pairs/discuss/79195/O(n-*-k2)-java-solution-with-Trie-structure)
 
 =========================================================================================================
+(GOG)
+341. Flatten Nested List Iterator (*)
+
+- Recursion (use recursive iterator)
+- Stack (DFS)
+(https://leetcode.com/problems/flatten-nested-list-iterator/discuss/80147/Simple-Java-solution-using-a-stack-with-explanation)
+(https://leetcode.com/problems/flatten-nested-list-iterator/discuss/80146/Real-iterator-in-Python-Java-C%2B%2B)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
