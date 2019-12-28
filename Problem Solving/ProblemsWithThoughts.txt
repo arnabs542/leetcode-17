@@ -761,6 +761,20 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Tree/Graph/Linked List
 
 =========================================================================================================
+(GOG)
+336. Palindrome Pairs (*)
+
+- Brute Force O(n * n * m) (n: number of unique input words, m: max length of a word)
+- Recursion + Pruning O(n * n * m) (n: number of unique input words, m: max length of a word)
+- Divide & Conquer + Pruning O(n * n * m) (n: number of unique input words, m: max length of a word)
+- Space & Time Trade-off O(n * m * m) (n: number of unique input words, m: max length of a word)
+(https://leetcode.com/problems/palindrome-pairs/discuss/79210/The-Easy-to-unserstand-JAVA-Solution)
+(https://leetcode.com/problems/palindrome-pairs/discuss/79215/Easy-to-understand-AC-C%2B%2B-solution-O(n*k2)-using-map)
+(https://leetcode.com/problems/palindrome-pairs/discuss/176205/Beats-80-Trie-Java-with-Explanations)
+- Trie O(n * n * m) (n: number of unique input words, m: max length of a word)
+(https://leetcode.com/problems/palindrome-pairs/discuss/79195/O(n-*-k2)-java-solution-with-Trie-structure)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
