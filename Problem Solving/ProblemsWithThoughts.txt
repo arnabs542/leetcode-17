@@ -784,6 +784,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/flatten-nested-list-iterator/discuss/80146/Real-iterator-in-Python-Java-C%2B%2B)
 
 =========================================================================================================
+(GOG)
+345. Reverse Vowels of a String (*)
+
+- Queue + Stack O(n)
+- Array O(n)
+- Two Pointers O(n)
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
