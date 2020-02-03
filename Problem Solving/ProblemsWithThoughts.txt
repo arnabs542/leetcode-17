@@ -792,6 +792,19 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Two Pointers O(n)
 
 =========================================================================================================
+(GOG)
+354. Russian Doll Envelopes (*)
+
+- DFS/BFS (Search from each node)
+- Directed Graph - find maximum path (DFS/BFS) (we can build an edge from A -> B if A < B in terms of sizes)
+- Sorting
+(https://leetcode.com/problems/russian-doll-envelopes/discuss/82763/Java-NLogN-Solution-with-Explanation)
+(https://leetcode.com/problems/russian-doll-envelopes/discuss/82796/A-Trick-to-solve-this-problem.)
+- DP
+(https://leetcode.com/problems/russian-doll-envelopes/discuss/82778/Two-solutions-in-C%2B%2B-well-explained)
+(https://leetcode.com/problems/russian-doll-envelopes/discuss/82810/Short-and-simple-Java-solution-(15-lines))
+
+=========================================================================================================
 (AMZ)
 355. Design Twitter (*)
 
@@ -799,6 +812,21 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - OO Design + HashTable/HashMap + Heap + Linked List + HashSet/Set (https://leetcode.com/problems/design-twitter/discuss/82825/Java-OO-Design-with-most-efficient-function-getNewsFeed)
 - Map + Heap (https://leetcode.com/problems/design-twitter/discuss/82837/Java-Solutions-with-Two-Maps-and-PriorityQueue)
 - OO Design (https://leetcode.com/problems/design-twitter/discuss/82935/Java-OOD-solution-with-detailed-explanation)
+
+=========================================================================================================
+(GOG)
+357. Count Numbers with Unique Digits (*)
+
+- Brute Force O(10^n)
+- Recursion O(10^n)
+(https://leetcode.com/problems/count-numbers-with-unique-digits/discuss/83054/Backtracking-solution)
+- DP
+(https://leetcode.com/problems/count-numbers-with-unique-digits/discuss/83052/Clear-c%2B%2B-explanation-of-combinatorics-using-DP-method)
+(https://leetcode.com/problems/count-numbers-with-unique-digits/discuss/493812/Java-DP-Solution)
+- Math
+(https://leetcode.com/problems/count-numbers-with-unique-digits/discuss/83041/JAVA-DP-O(1)-solution.)
+(https://leetcode.com/problems/count-numbers-with-unique-digits/discuss/83061/Java-O(1)-with-explanation)
+(https://leetcode.com/problems/count-numbers-with-unique-digits/discuss/83094/Simple-JAVA-Solution-with-explanation.)
 
 =========================================================================================================
 (AMZ)
