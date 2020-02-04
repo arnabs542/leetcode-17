@@ -829,6 +829,20 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/count-numbers-with-unique-digits/discuss/83094/Simple-JAVA-Solution-with-explanation.)
 
 =========================================================================================================
+(GOG)
+363. Max Sum of Rectangle No Larger Than K (*)
+
+- Brute Force O(n ^ 4)
+(https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/discuss/83618/2-Accepted-Java-Solution)
+(https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/discuss/83633/Naive-but-accepted-java-solution.)
+- Backtracking
+- BFS/DFS
+- DP/Kadane's algorithm
+(https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/discuss/83599/Accepted-C%2B%2B-codes-with-explanation-and-references)
+- Binary Search
+(https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/discuss/83597/Java-Binary-Search-solution-time-complexity-min(mn)2*max(mn)*log(max(mn)))
+
+=========================================================================================================
 (AMZ)
 380. Insert Delete GetRandom O(1) (*)
 
