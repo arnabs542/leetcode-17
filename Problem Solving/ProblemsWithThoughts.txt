@@ -843,6 +843,19 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/discuss/83597/Java-Binary-Search-solution-time-complexity-min(mn)2*max(mn)*log(max(mn)))
 
 =========================================================================================================
+(GOG)
+368. Largest Divisible Subset (*)
+
+- Brute Force O(2 ^ n) (List all possible combinations)
+- Sorting + Recursion O(n * n)
+- Sorting + DP O(n * n)
+(https://leetcode.com/problems/largest-divisible-subset/discuss/83998/C%2B%2B-Solution-with-Explanations)
+- Sorting + DFS + Memorization
+(https://leetcode.com/problems/largest-divisible-subset/discuss/84013/Very-short-Java-DFS-solution-using-Memoization)
+(https://leetcode.com/problems/largest-divisible-subset/discuss/84081/Java-DFS-Solution-86-ms-with-explanation)
+- Graph
+
+=========================================================================================================
 (AMZ)
 380. Insert Delete GetRandom O(1) (*)
 

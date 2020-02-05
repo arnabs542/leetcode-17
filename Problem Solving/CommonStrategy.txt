@@ -14,7 +14,7 @@ Solve a problem by solving sub-problems (DP), f(n) = g(f(n - 1))
 - Divide & Conquer:
 Solve a big problem by solving small problems and combine the results of small problems, f(0, n) = g(f(0, m), f(m + 1, n))
 
-- Tree / Data Structure:
+- Tree / Graph / Data Structure:
 Proper data structure would be very helpful when solve some specific problems
 
 - Space & Time trade-off: (Memorization)
