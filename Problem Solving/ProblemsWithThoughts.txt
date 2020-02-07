@@ -856,6 +856,17 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Graph
 
 =========================================================================================================
+(GOG)
+373. Find K Pairs with Smallest Sums (*)
+
+- Brute Force O(n * n)
+- Brute Force + Heap O(n * n)
+- Recursion O(n * n)
+- Heap O(k * logk)
+(https://leetcode.com/problems/find-k-pairs-with-smallest-sums/discuss/84551/simple-Java-O(KlogK)-solution-with-explanation)
+(https://leetcode.com/problems/find-k-pairs-with-smallest-sums/discuss/84569/Java-9ms-heap-queue-solution-k-log(k))
+
+=========================================================================================================
 (AMZ)
 380. Insert Delete GetRandom O(1) (*)
 
