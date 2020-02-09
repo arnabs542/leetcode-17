@@ -867,6 +867,26 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/find-k-pairs-with-smallest-sums/discuss/84569/Java-9ms-heap-queue-solution-k-log(k))
 
 =========================================================================================================
+(GOG)
+374. Guess Number Higher or Lower
+
+- Brute Force O(n)
+- Binary Search O(logn)
+
+=========================================================================================================
+(GOG)
+375. Guess Number Higher or Lower II (*)
+
+- Recursion / Minimax
+(https://leetcode.com/problems/guess-number-higher-or-lower-ii/discuss/84807/Java-commented-DP-solution) - Really clear explaination!
+(https://leetcode.com/problems/guess-number-higher-or-lower-ii/discuss/84764/Simple-DP-solution-with-explanation~~)
+(https://leetcode.com/problems/guess-number-higher-or-lower-ii/discuss/84764/Simple-DP-solution-with-explanation~~/89362)
+- DP
+(https://leetcode.com/problems/guess-number-higher-or-lower-ii/discuss/84807/Java-commented-DP-solution) - Really clear explaination!
+(https://leetcode.com/problems/guess-number-higher-or-lower-ii/discuss/84764/Simple-DP-solution-with-explanation~~)
+(https://leetcode.com/problems/guess-number-higher-or-lower-ii/discuss/84769/Two-Python-solutions)
+
+=========================================================================================================
 (AMZ)
 380. Insert Delete GetRandom O(1) (*)
 
