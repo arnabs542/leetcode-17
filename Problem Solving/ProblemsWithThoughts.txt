@@ -887,6 +887,16 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/guess-number-higher-or-lower-ii/discuss/84769/Two-Python-solutions)
 
 =========================================================================================================
+(GOG)
+377. Combination Sum IV (*)
+
+- Brute Force
+- Recursion
+(https://leetcode.com/problems/combination-sum-iv/discuss/85036/1ms-Java-DP-Solution-with-Detailed-Explanation)
+- DP
+(https://leetcode.com/problems/combination-sum-iv/discuss/85036/1ms-Java-DP-Solution-with-Detailed-Explanation)
+
+=========================================================================================================
 (AMZ)
 380. Insert Delete GetRandom O(1) (*)
 
