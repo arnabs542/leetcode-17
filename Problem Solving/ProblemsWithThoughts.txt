@@ -897,6 +897,18 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/combination-sum-iv/discuss/85036/1ms-Java-DP-Solution-with-Detailed-Explanation)
 
 =========================================================================================================
+(GOG)
+378. Kth Smallest Element in a Sorted Matrix (*)
+
+- BFS/Queue O(k * k)
+- Heap/PriorityQueue O(k * logk)
+(https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/85173/Share-my-thoughts-and-Clean-Java-Code)
+(https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/301357/Java-0ms-(added-Python-and-C%2B%2B)%3A-Easy-to-understand-solutions-using-Heap-and-Binary-Search)
+- Sorting O(m * logm) (m = n * n)
+- Binary Search
+(https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/301357/Java-0ms-(added-Python-and-C%2B%2B)%3A-Easy-to-understand-solutions-using-Heap-and-Binary-Search)
+
+=========================================================================================================
 (AMZ)
 380. Insert Delete GetRandom O(1) (*)
 
