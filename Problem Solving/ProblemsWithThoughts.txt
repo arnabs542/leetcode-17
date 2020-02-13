@@ -909,7 +909,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/301357/Java-0ms-(added-Python-and-C%2B%2B)%3A-Easy-to-understand-solutions-using-Heap-and-Binary-Search)
 
 =========================================================================================================
-(GOG)
+(AMZ, GOG)
 380. Insert Delete GetRandom O(1) (*)
 
 - HashSet + HashMap
@@ -918,11 +918,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/insert-delete-getrandom-o1/discuss/85397/Simple-solution-in-Python)
 
 =========================================================================================================
-(AMZ)
-380. Insert Delete GetRandom O(1) (*)
+(GOG)
+382. Linked List Random Node (*)
 
-- HashSet, HashMap, Array
-- HashMap, List/Array (https://leetcode.com/problems/insert-delete-getrandom-o1/discuss/85401/Java-solution-using-a-HashMap-and-an-ArrayList-along-with-a-follow-up.-(131-ms))
+- Array/List O(1)
+- Pointer with random steps O(n)
+(https://leetcode.com/problems/linked-list-random-node/discuss/85662/Java-Solution-with-cases-explain)
+- Reservoir sampling O(n)
+(https://en.wikipedia.org/wiki/Reservoir_sampling)
+(https://leetcode.com/problems/linked-list-random-node/discuss/85690/using-%22Reservoir-sampling%22-O(1)-space-O(n)-time-complexityuff0cc%2B%2B)
 
 =========================================================================================================
 (AMZ)
