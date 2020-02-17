@@ -946,6 +946,22 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/longest-absolute-file-path/discuss/86719/Two-different-solutions-in-java-using-stack-and-hashmap)
 
 =========================================================================================================
+(GOG)
+389. Find the Difference (*)
+
+- Map/HashMap
+(https://leetcode.com/problems/find-the-difference/discuss/86904/3-Different-Python-Solutions-(Dictionary-Difference-XOR))
+- Array (compare difference from each position)
+- Sort
+- Bit Manipulation
+(https://leetcode.com/problems/find-the-difference/discuss/86825/Java-solution-using-bit-manipulation)
+(https://leetcode.com/problems/find-the-difference/discuss/86826/Concise-C%2B%2B-solution-using-XOR)
+(https://leetcode.com/problems/find-the-difference/discuss/86904/3-Different-Python-Solutions-(Dictionary-Difference-XOR))
+- Math
+(https://leetcode.com/problems/find-the-difference/discuss/86850/Simple-JAVA-8ms-solution-4-lines)
+(https://leetcode.com/problems/find-the-difference/discuss/86904/3-Different-Python-Solutions-(Dictionary-Difference-XOR))
+
+=========================================================================================================
 (AMZ)
 396. Rotate Function
 
