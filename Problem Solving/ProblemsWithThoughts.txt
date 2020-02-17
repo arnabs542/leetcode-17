@@ -937,6 +937,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Recursion O(n * n)
 
 =========================================================================================================
+(GOG)
+388. Longest Absolute File Path (*)
+
+- Stack (To build a Tree) + Tree (with length for each node)
+(https://leetcode.com/problems/longest-absolute-file-path/discuss/86719/Two-different-solutions-in-java-using-stack-and-hashmap)
+- HashMap
+(https://leetcode.com/problems/longest-absolute-file-path/discuss/86719/Two-different-solutions-in-java-using-stack-and-hashmap)
+
+=========================================================================================================
 (AMZ)
 396. Rotate Function
 
