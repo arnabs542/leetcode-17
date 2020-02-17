@@ -63,3 +63,4 @@ cycle in it
 - Shortest path: BFS, Bidirectional BFS
 - Selection: Quick Select (https://en.wikipedia.org/wiki/Quickselect)
 - Bucket Sort: O(n) sorting
+- Sweep Line: Rectangle, Matrix

@@ -921,7 +921,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (GOG)
 382. Linked List Random Node (*)
 
-- Array/List O(1)
+- Array / List O(1)
 - Pointer with random steps O(n)
 (https://leetcode.com/problems/linked-list-random-node/discuss/85662/Java-Solution-with-cases-explain)
 - Reservoir sampling O(n)
@@ -960,6 +960,20 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Math
 (https://leetcode.com/problems/find-the-difference/discuss/86850/Simple-JAVA-8ms-solution-4-lines)
 (https://leetcode.com/problems/find-the-difference/discuss/86904/3-Different-Python-Solutions-(Dictionary-Difference-XOR))
+
+=========================================================================================================
+(GOG)
+391. Perfect Rectangle (*)
+
+- Array / Matrix O(n * n)
+- Sweep Line + Sort O(n * logn)
+(https://leetcode.com/problems/perfect-rectangle/discuss/87188/O(n-log-n)-sweep-line-solution)
+(https://leetcode.com/problems/perfect-rectangle/discuss/87196/clean-C%2B%2B-sweep-line-solution)
+- Math O(n)
+(https://leetcode.com/problems/perfect-rectangle/discuss/87201/Might-be-the-simplest-O(n)-solution-only-count-cornersno-area-no-maxmin(with-comments))
+(https://leetcode.com/problems/perfect-rectangle/discuss/87207/Short-Java-solution-with-explanation-(updated))
+(https://leetcode.com/problems/perfect-rectangle/discuss/87206/C%2B%2B-O(nlogn)-solution-using-multiset-and-O(n)-solution-using-unordered_map)
+(https://leetcode.com/problems/perfect-rectangle/discuss/87253/Simple-Java-Solution-With-HashMap)
 
 =========================================================================================================
 (AMZ)
