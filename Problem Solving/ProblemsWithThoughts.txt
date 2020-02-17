@@ -985,6 +985,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/utf-8-validation/discuss/87485/O(n)-JAVA-solution-with-detailed-explaination)
 
 =========================================================================================================
+(GOG)
+394. Decode String (*)
+
+- Recursion
+- Stack
+- DFS
+
+=========================================================================================================
 (AMZ)
 396. Rotate Function
 
