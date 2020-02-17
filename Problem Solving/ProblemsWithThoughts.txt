@@ -976,6 +976,15 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/perfect-rectangle/discuss/87253/Simple-Java-Solution-With-HashMap)
 
 =========================================================================================================
+(GOG)
+393. UTF-8 Validation
+
+- Bit Manipulation
+(https://leetcode.com/problems/utf-8-validation/discuss/87464/Bit-Manipulation-Java-6ms)
+(https://leetcode.com/problems/utf-8-validation/discuss/87462/Concise-C%2B%2B-implementation)
+(https://leetcode.com/problems/utf-8-validation/discuss/87485/O(n)-JAVA-solution-with-detailed-explaination)
+
+=========================================================================================================
 (AMZ)
 396. Rotate Function
 
