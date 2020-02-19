@@ -1000,6 +1000,19 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Math O(n) (https://leetcode.com/problems/rotate-function/discuss/87853/Java-O(n)-solution-with-explanation)
 
 =========================================================================================================
+(GOG)
+397. Integer Replacement (*)
+
+- Recursion
+(https://leetcode.com/problems/integer-replacement/discuss/262597/Java-Easy-2ms-beats-99.34)
+- DP
+- DFS / BFS
+(https://leetcode.com/problems/integer-replacement/discuss/88047/Java-BFS-solution-tail-recursion)
+- Bit Manipulation
+(https://leetcode.com/problems/integer-replacement/discuss/87920/A-couple-of-Java-solutions-with-explanations)
+(https://leetcode.com/problems/integer-replacement/discuss/87966/JAVA-3ms-Bit-Manipulation-Solution)
+
+=========================================================================================================
 (AMZ)
 414. Third Maximum Number
 
