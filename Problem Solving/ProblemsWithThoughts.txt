@@ -1013,6 +1013,18 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/integer-replacement/discuss/87966/JAVA-3ms-Bit-Manipulation-Solution)
 
 =========================================================================================================
+(GOG)
+399. Evaluate Division (*)
+
+- Graph + DFS / BFS
+(https://leetcode.com/problems/evaluate-division/discuss/88275/Python-fast-BFS-solution-with-detailed-explantion)
+(https://leetcode.com/problems/evaluate-division/discuss/171649/1ms-DFS-with-Explanations)
+(https://leetcode.com/problems/evaluate-division/discuss/88169/Java-AC-Solution-using-graph)
+- Union Find
+(https://leetcode.com/problems/evaluate-division/discuss/88170/0ms-C%2B%2B-Union-Find-Solution-EASY-to-UNDERSTAND)
+(https://leetcode.com/problems/evaluate-division/discuss/88309/JAVA-3ms-Union-Find-Solution-with-only-One-HashMap-O(-of-Nodes)-Memory)
+
+=========================================================================================================
 (AMZ)
 414. Third Maximum Number
 
