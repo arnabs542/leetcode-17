@@ -1033,6 +1033,16 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/nth-digit/discuss/88372/Sharing-my-thinking-process)
 
 =========================================================================================================
+(GOG)
+401. Binary Watch (*)
+
+- Recursion
+(https://leetcode.com/problems/binary-watch/discuss/88609/3m-Java-recursion-solution-easy-to-understand)
+- Iterative
+- Brute Force
+(https://leetcode.com/problems/binary-watch/discuss/88458/Simple-Python%2BJava)
+
+=========================================================================================================
 (AMZ)
 414. Third Maximum Number
 
