@@ -1025,6 +1025,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/evaluate-division/discuss/88309/JAVA-3ms-Union-Find-Solution-with-only-One-HashMap-O(-of-Nodes)-Memory)
 
 =========================================================================================================
+(GOG)
+400. Nth Digit (*)
+
+- Math
+(https://leetcode.com/problems/nth-digit/discuss/88363/Java-solution)
+(https://leetcode.com/problems/nth-digit/discuss/88372/Sharing-my-thinking-process)
+
+=========================================================================================================
 (AMZ)
 414. Third Maximum Number
 
