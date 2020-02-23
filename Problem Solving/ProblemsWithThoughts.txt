@@ -1056,6 +1056,14 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/remove-k-digits/discuss/88678/Two-algorithms-with-detailed-explaination)
 
 =========================================================================================================
+(GOG)
+406. Queue Reconstruction by Height (*)
+
+- Sort + Greedy (Decide the sequence from the smallest number to the largest number)
+(As small number has more certainty then large numbers)
+(https://leetcode.com/problems/queue-reconstruction-by-height/discuss/89345/Easy-concept-with-PythonC%2B%2BJava-Solution)
+
+=========================================================================================================
 (AMZ)
 414. Third Maximum Number
 
