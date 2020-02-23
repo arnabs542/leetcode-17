@@ -1034,13 +1034,26 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 
 =========================================================================================================
 (GOG)
-401. Binary Watch (*)
+401. Binary Watch
 
 - Recursion
 (https://leetcode.com/problems/binary-watch/discuss/88609/3m-Java-recursion-solution-easy-to-understand)
 - Iterative
 - Brute Force
 (https://leetcode.com/problems/binary-watch/discuss/88458/Simple-Python%2BJava)
+
+=========================================================================================================
+(GOG)
+402. Remove K Digits (*)
+
+- Greedy (Ensure the highest position is with the smallest number as possible)
+(First determine the highest position number, then the second highest position number, etc.)
+(https://leetcode.com/problems/remove-k-digits/discuss/88678/Two-algorithms-with-detailed-explaination)
+- Recursion
+- Stack
+(https://leetcode.com/problems/remove-k-digits/discuss/88708/Straightforward-Java-Solution-Using-Stack)
+(https://leetcode.com/problems/remove-k-digits/discuss/88660/A-greedy-method-using-stack-O(n)-time-and-O(n)-space)
+(https://leetcode.com/problems/remove-k-digits/discuss/88678/Two-algorithms-with-detailed-explaination)
 
 =========================================================================================================
 (AMZ)
