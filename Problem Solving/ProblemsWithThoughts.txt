@@ -1074,6 +1074,13 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/trapping-rain-water-ii/discuss/89495/How-to-get-the-solution-to-2-D-%22Trapping-Rain-Water%22-problem-from-1-D-case)
 
 =========================================================================================================
+(GOG)
+409. Longest Palindrome
+
+- Hash Table / Math
+(https://leetcode.com/problems/longest-palindrome/discuss/89587/What-are-the-odds-(Python-and-C%2B%2B))
+
+=========================================================================================================
 (AMZ)
 414. Third Maximum Number
 
