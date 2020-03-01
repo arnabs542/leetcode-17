@@ -1089,6 +1089,13 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Fixed length array/Double Linked List O(n) (https://leetcode.com/problems/third-maximum-number/discuss/90202/Java-neat-and-easy-understand-solution-O(n)-time-O(1)-space)
 
 =========================================================================================================
+(GOG)
+415. Add Strings
+
+- String / Math
+(https://leetcode.com/problems/add-strings/discuss/90436/Straightforward-Java-8-main-lines-25ms)
+
+=========================================================================================================
 (AMZ)
 438. Find All Anagrams in a String
 
