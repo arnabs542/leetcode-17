@@ -1096,6 +1096,33 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 (https://leetcode.com/problems/add-strings/discuss/90436/Straightforward-Java-8-main-lines-25ms)
 
 =========================================================================================================
+(GOG)
+417. Pacific Atlantic Water Flow (*)
+
+- Shortest Path (Dijkstra's algorithm)
+- Recursion / DP
+- DFS / Backtracking
+(https://leetcode.com/problems/pacific-atlantic-water-flow/discuss/90733/Java-BFS-and-DFS-from-Ocean)
+- BFS
+(https://leetcode.com/problems/pacific-atlantic-water-flow/discuss/90812/Simple-commented-java-solution-with-thinking-progress-O(n))
+(
+1. Naive solution:
+Standard dfs, which means for each point, we check if it can reach both pacific and atlantic, for each point, we can possibly check all the rest of points, O(m*n * m*n)
+
+2. A little improvement:
+What about we 4 hash tables, they keep track of all the points we know so far that
+    - can reach atlantic
+    - cannot reach atlantic
+    - can reach pacific
+    - cannot reach pacific
+It's doable, still hit TLE, although I didn't hit TLE when not submitting the code, but running it using the provided testing environment
+
+3. On the other hand, we can consider the flip side:
+We can let the pacific and atlantic ocean "flow into" the matrix as much as possible, using 2 boolean arrays, one for each ocean.
+The result are the points that are true in both boolean table.
+)
+
+=========================================================================================================
 (AMZ)
 438. Find All Anagrams in a String
 
