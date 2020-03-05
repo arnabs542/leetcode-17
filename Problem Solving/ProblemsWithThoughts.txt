@@ -1142,6 +1142,17 @@ Optimization:
 - HashMap to build char-count map O(n) (Sliding Window Solution)
 
 =========================================================================================================
+(GOG)
+447. Number of Boomerangs
+
+Naive:
+- Brute Force + Map O(n * n)
+
+Optimization:
+- Pruning + Brute Force + Map O(n * n)
+- Recursion O(n * n)
+
+=========================================================================================================
 (AMZ)
 449. Serialize and Deserialize BST
 
