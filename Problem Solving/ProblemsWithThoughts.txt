@@ -1167,12 +1167,12 @@ Optimization:
 - BFS: 78, 13, 105, 5, 45, null, null (Generic: applicable to all types of trees)
 
 =========================================================================================================
-(AMZ)
-451. Sort Characters By Frequency
+(AMZ, GOG)
+451. Sort Characters By Frequency (*)
 
-- HashMap + Sort O(n)
-- Array + Sort O(n) (https://leetcode.com/problems/sort-characters-by-frequency/discuss/93521/Super-simple-O(n)-Bucket-Sort-based-Java-solution-(11-ms).-No-fancy-Data-structure-needed.-Beats-96.)
-- HashMap + Heap/Priority Queue O(n) (https://leetcode.com/problems/sort-characters-by-frequency/discuss/93420/Java-O(n)-Bucket-Sort-Solution-O(nlogm)-PriorityQueue-Solution-easy-to-understand)
+- HashMap / Array + Sort O(n * logn)
+- HashMap + Heap / Priority Queue O(n * logm) (https://leetcode.com/problems/sort-characters-by-frequency/discuss/93420/Java-O(n)-Bucket-Sort-Solution-O(nlogm)-PriorityQueue-Solution-easy-to-understand)
+- Bucket Sort O(n) (https://leetcode.com/problems/sort-characters-by-frequency/discuss/93521/Super-simple-O(n)-Bucket-Sort-based-Java-solution-(11-ms).-No-fancy-Data-structure-needed.-Beats-96.)
 
 =========================================================================================================
 (AMZ)
