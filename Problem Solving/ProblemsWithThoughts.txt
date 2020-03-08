@@ -1175,22 +1175,28 @@ Optimization:
 - Bucket Sort O(n) (https://leetcode.com/problems/sort-characters-by-frequency/discuss/93521/Super-simple-O(n)-Bucket-Sort-based-Java-solution-(11-ms).-No-fancy-Data-structure-needed.-Beats-96.)
 
 =========================================================================================================
-(AMZ)
+(AMZ, GOG)
 459. Repeated Substring Pattern (*)
 
+Naive:
 - Brute Force (iterate through all possible substrings, with pruning) O(n * n) (https://leetcode.com/problems/repeated-substring-pattern/discuss/94352/Java-Simple-Solution-with-Explanation)
-- Two cursor O(n * n)
+- Two cursor O(n)
+
+Optimization:
 - Math/Smart Solution O(n) (https://leetcode.com/problems/repeated-substring-pattern/discuss/94334/Easy-python-solution-with-explaination/241011)
 - KMP O(n) (https://leetcode.com/problems/repeated-substring-pattern/discuss/94340/Java-and-O(n)/113294)
 
 =========================================================================================================
-(AMZ)
+(AMZ, GOG)
 460. LFU Cache (*)
 
-- Heap/Priority Queue + HashMap O(logn)
+O(1) time complexity - Space and time trade-off:
 - 3 HashMap + LinkedHashSet O(1) (https://leetcode.com/problems/lfu-cache/discuss/94521/JAVA-O(1)-very-easy-solution-using-3-HashMaps-and-LinkedHashSet)
 - HashMap + DoubleLinkedList + LinkedHashSet O(1) (https://leetcode.com/problems/lfu-cache/discuss/94515/Java-O(1)-Accept-Solution-Using-HashMap-DoubleLinkedList-and-LinkedHashSet)
 (https://leetcode.com/problems/lfu-cache/discuss/94547/Java-O(1)-Solution-Using-Two-HashMap-and-One-DoubleLinkedList)
+
+Others:
+- Heap / Priority Queue + HashMap O(logn)
 - Reb-Black Tree + HashMap O(logn) (https://leetcode.com/problems/lfu-cache/discuss/94657/Java-solutions-of-three-different-ways.-PriorityQueue-%3A-O(capacity)-TreeMap-%3A-O(log(capacity))-DoubleLinkedList-%3A-O(1))
 
 =========================================================================================================
