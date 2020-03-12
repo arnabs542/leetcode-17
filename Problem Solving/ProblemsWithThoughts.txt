@@ -1239,6 +1239,19 @@ Optimization:
 (https://leetcode.com/problems/heaters/discuss/95886/Short-and-Clean-Java-Binary-Search-Solution)
 
 =========================================================================================================
+(GOG)
+480. Sliding Window Median (*)
+
+Naive:
+- Sort (sort on each window when window moves) O(n * k * logk)
+
+Optimization:
+- Bi-direction Linked List (Keep the privious order to reduce complexity) O(n * k)
+- Balanced BST (Keep the privious order to reduce complexity) (Binary Search Tree) O(n * logk)
+(https://leetcode.com/problems/sliding-window-median/discuss/96346/Java-using-two-Tree-Sets-O(n-logk))
+(https://leetcode.com/problems/sliding-window-median/discuss/96340/O(n-log-k)-C%2B%2B-using-multiset-and-updating-middle-iterator)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
