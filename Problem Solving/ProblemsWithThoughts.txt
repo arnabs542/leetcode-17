@@ -1223,6 +1223,22 @@ When we are sure there is exactly one island:
 (https://leetcode.com/problems/ones-and-zeroes/discuss/177368/Python-Clear-Explanation-from-Recursion-to-DP)
 
 =========================================================================================================
+(GOG)
+475. Heaters (*)
+
+Naive:
+- Brute Force (Try each radius to see if it works) O(n * n)
+
+Simple:
+- Recursion / DP O(n * n)
+
+Optimization:
+- Sort + Greedy + Math + Two Pointers (For each house, check the minimum distance from the heater) O(n * logn)
+(https://leetcode.com/problems/heaters/discuss/95881/Simple-Java-Solution-with-2-Pointers)
+- Binary Search O(n * logn)
+(https://leetcode.com/problems/heaters/discuss/95886/Short-and-Clean-Java-Binary-Search-Solution)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
