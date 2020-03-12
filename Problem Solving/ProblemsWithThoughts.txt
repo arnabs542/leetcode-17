@@ -1200,6 +1200,18 @@ Others:
 - Reb-Black Tree + HashMap O(logn) (https://leetcode.com/problems/lfu-cache/discuss/94657/Java-solutions-of-three-different-ways.-PriorityQueue-%3A-O(capacity)-TreeMap-%3A-O(log(capacity))-DoubleLinkedList-%3A-O(1))
 
 =========================================================================================================
+(GOG)
+463. Island Perimeter
+
+When we are not sure if there is exactly one island:
+- DFS / BFS + Math
+- Union Found + Math
+
+When we are sure there is exactly one island:
+- Math
+(https://leetcode.com/problems/island-perimeter/discuss/95001/clear-and-easy-java-solution)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
