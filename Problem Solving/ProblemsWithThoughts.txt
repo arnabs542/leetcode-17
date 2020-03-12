@@ -1212,6 +1212,17 @@ When we are sure there is exactly one island:
 (https://leetcode.com/problems/island-perimeter/discuss/95001/clear-and-easy-java-solution)
 
 =========================================================================================================
+(GOG)
+474. Ones and Zeroes (*)
+
+- Recursion
+(https://leetcode.com/problems/ones-and-zeroes/discuss/95845/Easy-to-understand-Recursive-Solutions-in-Java-with-Explanation)
+(https://leetcode.com/problems/ones-and-zeroes/discuss/177368/Python-Clear-Explanation-from-Recursion-to-DP)
+- DP
+(https://leetcode.com/problems/ones-and-zeroes/discuss/95807/0-1-knapsack-detailed-explanation.)
+(https://leetcode.com/problems/ones-and-zeroes/discuss/177368/Python-Clear-Explanation-from-Recursion-to-DP)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
