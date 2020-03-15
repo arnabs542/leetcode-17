@@ -1259,6 +1259,13 @@ Optimization:
 (https://leetcode.com/problems/magical-string/discuss/96413/Simple-Java-solution-using-one-array-and-two-pointers)
 
 =========================================================================================================
+(GOG)
+482. License Key Formatting
+
+- String O(n)
+(https://leetcode.com/problems/license-key-formatting/discuss/96512/Java-5-lines-clean-solution)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
