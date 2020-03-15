@@ -1252,6 +1252,13 @@ Optimization:
 (https://leetcode.com/problems/sliding-window-median/discuss/96340/O(n-log-k)-C%2B%2B-using-multiset-and-updating-middle-iterator)
 
 =========================================================================================================
+(GOG)
+481. Magical String
+
+- Brute Force (Array + Two Pointers / Two Arries)
+(https://leetcode.com/problems/magical-string/discuss/96413/Simple-Java-solution-using-one-array-and-two-pointers)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
