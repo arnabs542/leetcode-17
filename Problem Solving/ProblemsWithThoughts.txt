@@ -1266,6 +1266,19 @@ Optimization:
 (https://leetcode.com/problems/license-key-formatting/discuss/96512/Java-5-lines-clean-solution)
 
 =========================================================================================================
+(GOG)
+483. Smallest Good Base (*)
+
+Naive:
+- Brute Force (Iterate all numbers smaller then itself and check the representitives of the base)
+
+Optimization:
+- Brute Force + Pruning (Check all numbers smaller then square root of n and (n -1) is dividable by the number)
+- Math
+(https://leetcode.com/problems/smallest-good-base/discuss/96587/Python-solution-with-detailed-mathematical-explanation-and-derivation)
+(https://leetcode.com/problems/smallest-good-base/discuss/96591/Java-O((logn)2)-binary-search-solution)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
