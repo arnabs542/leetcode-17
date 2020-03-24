@@ -1279,6 +1279,26 @@ Optimization:
 (https://leetcode.com/problems/smallest-good-base/discuss/96591/Java-O((logn)2)-binary-search-solution)
 
 =========================================================================================================
+(GOG)
+485. Max Consecutive Ones
+
+- Array Scan O(n)
+
+=========================================================================================================
+(GOG)
+486. Predict the Winner (*)
+
+Naive:
+- Brute Force O(2 ^ n)
+
+Optimization:
+- Binary Tree + BFS + Pruning O(2 ^ n)
+- Recursion O(2 ^ n)
+(https://leetcode.com/problems/predict-the-winner/discuss/96838/Java-'1-Line'-Recursive-Solution-O(n2)-Time-and-O(n)-Space)
+- DP O(n * n)
+(https://leetcode.com/problems/predict-the-winner/discuss/96828/JAVA-9-lines-DP-solution-easy-to-understand-with-improvement-to-O(N)-space-complexity.)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
