@@ -1299,6 +1299,26 @@ Optimization:
 (https://leetcode.com/problems/predict-the-winner/discuss/96828/JAVA-9-lines-DP-solution-easy-to-understand-with-improvement-to-O(N)-space-complexity.)
 
 =========================================================================================================
+(GOG)
+493. Reverse Pairs (*)
+
+Naive:
+- Brute Force (List all possible combinations) O(n * n)
+- Recursion O(n * n)
+(https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22)
+
+Optimization:
+- Binary Search Tree + Scan (Scan the array from left to right, construct BST for each element as num[i] * 2, when scaning each element,
+search BST to record the pair that greater than preivous numbers) O(n * logn)
+(https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22)
+- Segment Tree + Scan (Similar to the idea of above but use segment tree instead of BST) O(o * logn)
+(https://leetcode.com/problems/reverse-pairs/discuss/298986/Java-segment-tree)
+- Binary Indexed Tree
+(https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22)
+- Divide & Conquer (Merge-Sort)
+(https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 

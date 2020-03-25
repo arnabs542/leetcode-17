@@ -1,18 +1,20 @@
 ================================================================================
-Common Problem-solving Strategies: (*) (https://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+Common Problem-solving Strategies: (*)
+* https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+* https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
 
 - Brute Force / Naturally Thinking: (simulate how human solve the problem)
 List all possibilities (the simplest and easiest way, when you have no idea, start with
 Brute Force, to just simulate how human solve the problem, then think of how to optimize it)
-
-- Search (find solutions):
-DFS(Stack), BFS(Queue), Backtracking
 
 - Recursion:
 Solve a problem by solving sub-problems (DP), f(n) = g(f(n - 1))
 
 - Divide & Conquer:
 Solve a big problem by solving small problems and combine the results of small problems, f(0, n) = g(f(0, m), f(m + 1, n))
+
+- Search (find solutions):
+DFS(Stack), BFS(Queue), Backtracking
 
 - Tree / Graph / Data Structure:
 Proper data structure would be very helpful when solve some specific problems
