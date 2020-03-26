@@ -10,7 +10,7 @@ Brute Force, to just simulate how human solve the problem, then think of how to 
 - Recursion:
 Solve a problem by solving sub-problems (DP), f(n) = g(f(n - 1))
 
-- Divide & Conquer:
+- Divide & Conquer: (Merge-Sort)
 Solve a big problem by solving small problems and combine the results of small problems, f(0, n) = g(f(0, m), f(m + 1, n))
 
 - Search (find solutions):

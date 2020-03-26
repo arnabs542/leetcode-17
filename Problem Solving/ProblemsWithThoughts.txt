@@ -1332,6 +1332,20 @@ Optimization:
 (https://leetcode.com/problems/target-sum/discuss/97334/Java-(15-ms)-C%2B%2B-(3-ms)-O(ns)-iterative-DP-solution-using-subset-sum-with-explanation)
 
 =========================================================================================================
+(GOG)
+498. Diagonal Traverse
+
+- Matrix / 2-D Array
+
+=========================================================================================================
+(GOG)
+501. Find Mode in Binary Search Tree
+
+- In-order traverse
+(https://leetcode.com/problems/find-mode-in-binary-search-tree/discuss/98101/Proper-O(1)-space)
+(https://leetcode.com/problems/find-mode-in-binary-search-tree/discuss/98100/Java-4ms-Beats-100-Extra-O(1)-solution-No-Map)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
