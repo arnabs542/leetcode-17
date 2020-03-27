@@ -1359,6 +1359,15 @@ Optimization:
 - Stack O(n)
 
 =========================================================================================================
+(GOG)
+506. Relative Ranks
+
+- Sort O(n * logn)
+(https://leetcode.com/problems/relative-ranks/discuss/98505/Simple-Sorting-O(n-log-n)-solution)
+- Count Sort O(max(n))
+(https://leetcode.com/problems/relative-ranks/discuss/98492/Java-6ms-solution-O(n)-without-sorting)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
