@@ -1346,6 +1346,19 @@ Optimization:
 (https://leetcode.com/problems/find-mode-in-binary-search-tree/discuss/98100/Java-4ms-Beats-100-Extra-O(1)-solution-No-Map)
 
 =========================================================================================================
+(GOG)
+503. Next Greater Element II (*)
+
+- LinkedList (for each element, scan the next greater number) O(n * n)
+- Scan + Heap / BST + (Map) (scan the whole array at most twice, from begging to the end, remember the numbers scaned,
+when reading new number, see if it is bigger than previously scaned number, if so, put the position into the number that it is greater than)
+O(n * logn) (average) O(n * n) (worst)
+- Recursion O(n * n)
+
+Optimization:
+- Stack O(n)
+
+=========================================================================================================
 (AMZ)
 508. Most Frequent Subtree Sum
 
