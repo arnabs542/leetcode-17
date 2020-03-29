@@ -1374,6 +1374,18 @@ Optimization:
 - DFS + Heap/Priority Queue O(n * logn) (https://leetcode.com/problems/most-frequent-subtree-sum/discuss/98675/JavaC%2B%2BPython-DFS-Find-Subtree-Sum)
 
 =========================================================================================================
+(GOG)
+514. Freedom Trail (*)
+
+- Brute Force (Loop through all possibilities that each target char represent which char in the dial panel)
+- Recursion / DFS / BFS + Memoization
+(https://leetcode.com/problems/freedom-trail/discuss/98897/Java-Clear-Solution-dfs%2Bmemoization)
+(https://leetcode.com/problems/freedom-trail/discuss/98918/Java-Easy-understanding-solution!-Recursion-%2B-memorization)
+(https://leetcode.com/problems/freedom-trail/discuss/400826/Java-DFS-%2B-memorization-solution-beats-99)
+- DP
+(https://leetcode.com/problems/freedom-trail/discuss/98953/JAVA-DP-with-explanation)
+
+=========================================================================================================
 (AMZ)
 515. Find Largest Value in Each Tree Row
 
