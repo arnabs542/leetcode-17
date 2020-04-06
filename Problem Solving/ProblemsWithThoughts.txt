@@ -1403,7 +1403,29 @@ Optimization:
 (AMZ)
 517. Super Washing Machines (*)
 
-- Math (https://blog.csdn.net/TstsUgeg/article/details/62427718) (https://leetcode.com/problems/super-washing-machines/discuss/99185/Super-Short-and-Easy-Java-O(n)-Solution)
+- Math
+(https://blog.csdn.net/TstsUgeg/article/details/62427718)
+(https://leetcode.com/problems/super-washing-machines/discuss/99185/Super-Short-and-Easy-Java-O(n)-Solution)
+
+=========================================================================================================
+(GOG)
+520. Detect Capital
+
+- String & Count
+
+=========================================================================================================
+(GOG)
+521. Longest Uncommon Subsequence I
+
+- String
+(https://leetcode.com/problems/longest-uncommon-subsequence-i/discuss/99409/Java-1-liner)
+
+=========================================================================================================
+(GOG)
+522. Longest Uncommon Subsequence II (*)
+
+- Sort + Set
+(https://leetcode.com/problems/longest-uncommon-subsequence-ii/discuss/99443/Java(15ms)-Sort-%2B-check-subsequence)
 
 =========================================================================================================
 (AMZ)
