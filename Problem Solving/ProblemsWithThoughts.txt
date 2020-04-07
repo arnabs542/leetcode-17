@@ -1428,6 +1428,22 @@ Optimization:
 (https://leetcode.com/problems/longest-uncommon-subsequence-ii/discuss/99443/Java(15ms)-Sort-%2B-check-subsequence)
 
 =========================================================================================================
+(GOG)
+524. Longest Word in Dictionary through Deleting (*)
+
+(n: number of string given, m: length of the string)
+
+- Brute Force (Check if each string substring of the given string) O(n * m)
+(https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/discuss/99585/10-lines-solutions-for-c%2B%2B)
+- Multiple Cursor
+(Loop the string from the first char to the end char, move each cursor of the given string as well if the char matches) O(n * m)
+- Recursion O(n * m)
+- Sort
+(https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/discuss/99588/Short-Java-Solutions-Sorting-Dictionary-and-Without-Sorting)
+- Two Pointers
+(https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/discuss/99583/Python-Simple-(Two-pointer))
+
+=========================================================================================================
 (AMZ)
 529. Minesweeper (*)
 
