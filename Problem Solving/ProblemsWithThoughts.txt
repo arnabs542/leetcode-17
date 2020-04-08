@@ -1444,6 +1444,18 @@ Optimization:
 (https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/discuss/99583/Python-Simple-(Two-pointer))
 
 =========================================================================================================
+(GOG)
+526. Beautiful Arrangement (*)
+
+- Brute Force O(n!)
+- Recursion O(n * n)
+(https://leetcode.com/problems/beautiful-arrangement/discuss/99717/Python-recursion-%2B-DP-66ms)
+- DP O(n * n)
+(https://leetcode.com/problems/beautiful-arrangement/discuss/99717/Python-recursion-%2B-DP-66ms)
+- BFS / DFS / Backtracking O(n!)
+(https://leetcode.com/problems/beautiful-arrangement/discuss/99707/Java-Solution-Backtracking)
+
+=========================================================================================================
 (AMZ)
 529. Minesweeper (*)
 
