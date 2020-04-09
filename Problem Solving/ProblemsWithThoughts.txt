@@ -1463,6 +1463,16 @@ Optimization:
 - Union-Find (Grouping) to find adjacent blank square
 
 =========================================================================================================
+(GOG)
+530. Minimum Absolute Difference in BST
+
+- Tree Traverse / DFS
+(https://leetcode.com/problems/minimum-absolute-difference-in-bst/discuss/99905/Two-Solutions-in-order-traversal-and-a-more-general-way-using-TreeSet)
+- Recursion
+(https://leetcode.com/problems/minimum-absolute-difference-in-bst/discuss/338515/Python-recursive)
+- Divide & Conquer
+
+=========================================================================================================
 (AMZ)
 532. K-diff Pairs in an Array
 
