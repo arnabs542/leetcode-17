@@ -1482,7 +1482,7 @@ Optimization:
 - Sorting + Two Pointers (n * logn) (https://leetcode.com/problems/k-diff-pairs-in-an-array/discuss/100104/Two-pointer-Approach)
 
 =========================================================================================================
-(AMZ)
+(AMZ, GOG)
 535. Encode and Decode TinyURL (*)
 
 - HashMap - Random String (https://leetcode.com/problems/encode-and-decode-tinyurl/discuss/100268/Two-solutions-and-thoughts)
@@ -1502,6 +1502,33 @@ Optimization:
 
 - DFS/Recursion/Traverse (Traverse in decreasing order, sum up accumulatively) O(n) (https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100506/Java-Recursive-O(n)-time)
 - Iterative using Stack O(n) (https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100516/Java-Three-O(n)-Methods%3A-Recursive-Iterative-and-Morris-Traversal)
+
+=========================================================================================================
+(GOG)
+541. Reverse String II
+
+- String (reverse, swap)
+(https://leetcode.com/problems/reverse-string-ii/discuss/100866/Java-Concise-Solution)
+
+=========================================================================================================
+(GOG)
+542. 01 Matrix (*)
+
+- BFS
+(https://leetcode.com/problems/01-matrix/discuss/101021/Java-Solution-BFS)
+- DFS (Not optimal)
+- Recursion
+- DP
+(https://leetcode.com/problems/01-matrix/discuss/101051/Simple-Java-solution-beat-99-(use-DP))
+
+=========================================================================================================
+(GOG)
+543. Diameter of Binary Tree (*)
+
+- Brute Force (For each node, get the distance to other nodes) O(n * n * logn)
+- Recursion / Math (For each node, max(node) = lenMax(node-left) + lenMax(node-right)) O(n)
+(https://leetcode.com/problems/diameter-of-binary-tree/discuss/101132/Java-Solution-MaxDepth)
+(https://leetcode.com/problems/diameter-of-binary-tree/discuss/101120/Java-easy-to-understand-solution)
 
 =========================================================================================================
 (AMZ)
