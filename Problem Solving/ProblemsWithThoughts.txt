@@ -1531,6 +1531,23 @@ Optimization:
 (https://leetcode.com/problems/diameter-of-binary-tree/discuss/101120/Java-easy-to-understand-solution)
 
 =========================================================================================================
+(GOG)
+551. Student Attendance Record I
+
+- String & Count O(n)
+
+=========================================================================================================
+(GOG)
+552. Student Attendance Record II (*)
+
+- Brute Force O(n * 3 ^ n)
+- Recursion O(n * 3 ^ n)
+- Math (Reverse Thinking, calculate combo that does not satisfy) O(n)
+- DP
+(https://leetcode.com/problems/student-attendance-record-ii/discuss/101643/Share-my-O(n)-C%2B%2B-DP-solution-with-thinking-process-and-explanation)
+(https://leetcode.com/problems/student-attendance-record-ii/discuss/101650/552.-Student-Attendance-Record-II-C%2B%2B_with-explanation_from-DFS-to-DP)
+
+=========================================================================================================
 (AMZ)
 553. Optimal Division
 
