@@ -3,9 +3,17 @@ Tags: AMZ, GOG
 
 =========================================================================================================
 (AMZ)
-3. Longest Substring Without Repeating Characters
+3. Longest Substring Without Repeating Characters (*)
 
-- Queue + Set O(n)
+Naive:
+- Brute Force (Check all possible substrings) O(n * n * n)
+
+Optimized:
+- Sliding Windows + HashMap O(n * n)
+
+Further Optimized:
+- Sliding Windows + HashMap O(n)
+(https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1729/11-line-simple-Java-solution-O(n)-with-explanation)
 
 =========================================================================================================
 (AMZ, GOG)
