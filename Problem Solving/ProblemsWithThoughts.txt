@@ -1564,6 +1564,23 @@ Optimization:
 - DP O(n * n * n)
 
 =========================================================================================================
+(GOG)
+560. Subarray Sum Equals K (*)
+
+- Brute Force O(n * n * n)
+  - List all possible continuous sub-array (O(n * n)) and calculate the sum (O(n))
+  - (https://leetcode.com/problems/subarray-sum-equals-k/discuss/134689/Three-Approaches-With-Explanation)
+- Two-Pointers / Sliding Windows O(n) <- This won't work for negative numbers
+  - Maintain a window with continuous sub-array, starting from left to right, when the sum of window is less
+  than target K, adding right element to the window, else popping out left ones
+  - (https://leetcode.com/problems/subarray-sum-equals-k/discuss/102114/Is-it-possible-to-solve-this-using-two-pointers/127584)
+  - (https://leetcode.com/problems/subarray-sum-equals-k/discuss/301242/General-summary-of-what-kind-of-problem-can-cannot-solved-by-Two-Pointers)
+- Pre-Sum + Hash Table O(n)
+  - sum(i,j) = sum(0,j) - sum(0,i), where sum(i,j) represents the sum of all the elements from index i to j-1.
+  We can use this property to optimize it.
+  - (https://leetcode.com/problems/subarray-sum-equals-k/discuss/134689/Three-Approaches-With-Explanation)
+
+=========================================================================================================
 (AMZ)
 606. Construct String from Binary Tree
 
