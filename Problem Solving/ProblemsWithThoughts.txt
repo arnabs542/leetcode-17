@@ -1581,6 +1581,16 @@ Optimization:
   - (https://leetcode.com/problems/subarray-sum-equals-k/discuss/134689/Three-Approaches-With-Explanation)
 
 =========================================================================================================
+(GOG)
+572. Subtree of Another Tree (*)
+
+- Recursion
+  - Check if the tree starting from current node the same of target tree, and check left/right child recursively
+  - Recursive formula can be: isIdentical(s,t)= s.val==t.val AND isIdentical(s.left,t.left) AND isIdentical(s.right,t.right)
+- BFS/DFS/tree traversal
+  - https://leetcode.com/problems/subtree-of-another-tree/discuss/102724/Java-Solution-tree-traversal
+
+=========================================================================================================
 (AMZ)
 606. Construct String from Binary Tree
 
