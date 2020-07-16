@@ -1591,6 +1591,18 @@ Optimization:
   - https://leetcode.com/problems/subtree-of-another-tree/discuss/102724/Java-Solution-tree-traversal
 
 =========================================================================================================
+(GOG)
+581. Shortest Unsorted Continuous Subarray (*)
+
+- Brute Force O(n * n * n)
+  - Find all sub-array, O(n * n) check if it satisfies the requirement O(n)
+- Sort O(n * logn)
+- Scan + Binary Search O(n * logn)
+- Scan O(n)
+  - https://leetcode.com/problems/shortest-unsorted-continuous-subarray/discuss/103057/Java-O(n)-Time-O(1)-Space
+  - https://leetcode.com/problems/shortest-unsorted-continuous-subarray/discuss/103057/Java-O(n)-Time-O(1)-Space/106306
+
+=========================================================================================================
 (AMZ)
 606. Construct String from Binary Tree
 
