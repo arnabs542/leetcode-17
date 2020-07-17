@@ -1603,6 +1603,16 @@ Optimization:
   - https://leetcode.com/problems/shortest-unsorted-continuous-subarray/discuss/103057/Java-O(n)-Time-O(1)-Space/106306
 
 =========================================================================================================
+(GOG)
+583. Delete Operation for Two Strings (*)
+
+- Brute Force O(m * m * n * n)
+  - Try each combination of char deletion for each string
+- Recursion
+- DP O(m * n)
+  - https://leetcode.com/problems/delete-operation-for-two-strings/discuss/103214/Java-DP-Solution-(Longest-Common-Subsequence)
+
+=========================================================================================================
 (AMZ)
 606. Construct String from Binary Tree
 
