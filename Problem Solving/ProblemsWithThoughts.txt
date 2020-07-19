@@ -1613,6 +1613,23 @@ Optimization:
   - https://leetcode.com/problems/delete-operation-for-two-strings/discuss/103214/Java-DP-Solution-(Longest-Common-Subsequence)
 
 =========================================================================================================
+(GOG)
+587. Erect the Fence (*)
+
+- Brute Force O(n * n)
+  - Find all trees at the min/max x/y axis, check all other tress to see if they are in the boundry,
+  if not add them to the edge tree list.
+- Recursion O(n * n)
+  - Add trees one by one to incrementally build the boundry.
+- Convex hull O(n * logn)
+  - https://en.wikipedia.org/wiki/Convex_hull
+  - https://en.wikipedia.org/wiki/Convex_hull_algorithms
+  - https://en.wikipedia.org/wiki/Graham_scan
+  - https://en.wikipedia.org/wiki/Gift_wrapping_algorithm
+  - https://en.wikipedia.org/wiki/Quickhull
+  - https://en.wikibooks.org/wiki/Algorithm_Implementation/Geometry/Convex_hull/Monotone_chain
+
+=========================================================================================================
 (AMZ)
 606. Construct String from Binary Tree
 
