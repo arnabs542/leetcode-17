@@ -1664,6 +1664,12 @@ Optimization:
 (https://leetcode.com/problems/solve-the-equation/discuss/306157/Java-solution-with-some-tricky-technique-for-tokenizing)
 
 =========================================================================================================
+(GOG)
+643. Maximum Average Subarray I
+
+- Sliding Window O(n)
+
+=========================================================================================================
 (AMZ)
 645. Set Mismatch
 
