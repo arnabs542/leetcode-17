@@ -1644,6 +1644,19 @@ Optimization:
 - DFS/BFS O(n) (https://leetcode.com/problems/merge-two-binary-trees/discuss/104331/Java-One-Recursive-Solution-and-Two-Iterative-Solutions-(DFS-and-BFS)-with-Explanations)
 
 =========================================================================================================
+(GOG)
+638. Shopping Offers (*)
+
+- Brute Force
+  - List all possible combinations of normal offers and special offers to compare the final price to find
+  the cheapest one
+- Recursion (DFS)
+  - Try add each special offer one by one (can be optimized by DP)
+  - https://leetcode.com/problems/shopping-offers/discuss/105194/Simple-Java-recursive-solution
+  - https://leetcode.com/problems/shopping-offers/discuss/146711/Easy-Java-Beat-100
+- DP (Recursion with memorization)
+
+=========================================================================================================
 (AMZ)
 640. Solve the Equation
 
