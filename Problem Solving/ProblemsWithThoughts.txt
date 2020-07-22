@@ -1707,6 +1707,18 @@ Optimization:
   - https://leetcode.com/problems/find-duplicate-subtrees/discuss/128612/Java-Self-explanatory-Serialization-Hashing-Code
 
 =========================================================================================================
+(GOG)
+657. Robot Return to Origin
+
+- Stack O(n)
+  - Use 2 stacks for x and y axis, push U and R to stack, and each time we see D, we pull out U and we see
+  L, we pull out R
+- Count O(n)
+  - Count the number of the 4 letters
+- Position Calculation O(n)
+  - Each time we move, we calculate the current position as (x, y), check if we finally get (0, 0)
+
+=========================================================================================================
 (AMZ)
 661. Image Smoother
 
