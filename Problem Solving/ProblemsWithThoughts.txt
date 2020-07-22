@@ -1688,6 +1688,25 @@ Optimization:
 (https://leetcode.com/problems/maximum-length-of-pair-chain/discuss/225801/Proof-of-the-greedy-solution)
 
 =========================================================================================================
+(GOG)
+652. Find Duplicate Subtrees (*)
+
+- DFS + HashSet/HashMap
+  - Use DFS to find all root nodes and records all possible subtrees by tree height and use HashSet/Hash
+  to check if it has duplicate subtrees
+  - https://leetcode.com/problems/find-duplicate-subtrees/discuss/106011/Java-Concise-Postorder-Traversal-Solution
+  - https://leetcode.com/problems/find-duplicate-subtrees/discuss/417511/Java-Simple-DFS
+- Tree Traverse + HashSet/HashMap
+  - Record all possible subtrees and put in HashSet/HashMap to see if it has duplicate subtrees
+  - https://leetcode.com/problems/find-duplicate-subtrees/discuss/106011/Java-Concise-Postorder-Traversal-Solution
+  - https://leetcode.com/problems/find-duplicate-subtrees/discuss/106021/Verbose-Java-solution-tree-traversal
+- Tree to String (Serialization)
+  - Convert a Tree to a String, find duplicate substrees by finding duplicate string pattern
+  - e.g. 1L2L4RnullR3L2L4RnullR4, 2L4Rnull and 4
+  - https://leetcode.com/problems/find-duplicate-subtrees/discuss/106011/Java-Concise-Postorder-Traversal-Solution
+  - https://leetcode.com/problems/find-duplicate-subtrees/discuss/128612/Java-Self-explanatory-Serialization-Hashing-Code
+
+=========================================================================================================
 (AMZ)
 661. Image Smoother
 
