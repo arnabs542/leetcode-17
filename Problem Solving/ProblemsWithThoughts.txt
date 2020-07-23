@@ -1719,6 +1719,13 @@ Optimization:
   - Each time we move, we calculate the current position as (x, y), check if we finally get (0, 0)
 
 =========================================================================================================
+(GOG)
+658. Find K Closest Elements (*)
+
+- BST (Binary Search Tree) O(logn + k)
+  - Use Binary Search to find the element in the array and create a window to collect the closest k elements
+
+=========================================================================================================
 (AMZ)
 661. Image Smoother
 
