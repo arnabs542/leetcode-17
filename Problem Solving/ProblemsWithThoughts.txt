@@ -1757,6 +1757,17 @@ Optimization:
 - Greedy / Scan O(n)
 
 =========================================================================================================
+(GOG)
+667. Beautiful Arrangement II (*)
+
+- Brute Force O(n ^ (n + 1))
+  - List all possible combinations and pick the right one
+- Recursion / DFS / Backtracking
+- Math O(n)
+  - https://leetcode.com/problems/beautiful-arrangement-ii/discuss/106948/C%2B%2B-Java-Clean-Code-4-liner
+  - https://leetcode.com/problems/beautiful-arrangement-ii/discuss/413583/Simple-Java-solution-O(n)-with-explanation
+
+=========================================================================================================
 (AMZ)
 675. Cut Off Trees for Golf Event (*)
 
