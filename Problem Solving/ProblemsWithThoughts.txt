@@ -1768,6 +1768,18 @@ Optimization:
   - https://leetcode.com/problems/beautiful-arrangement-ii/discuss/413583/Simple-Java-solution-O(n)-with-explanation
 
 =========================================================================================================
+(GOG)
+668. Kth Smallest Number in Multiplication Table (*)
+
+- Brute Force + Sorting O(m * n * log(m * n))
+  - Calculate all result and find the k-th biggest
+- BFS O(m * n * log(m * n))
+  - a[i][j] is always less than a[i + 1][j] and a[i][j + 1]
+- Binary Serach O((m + n) * log(m * n))
+  - https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/discuss/106984/Python-Straightforward-with-Explanation
+  - https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/discuss/106977/Java-solution-binary-search
+
+=========================================================================================================
 (AMZ)
 675. Cut Off Trees for Golf Event (*)
 

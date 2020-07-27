@@ -3,24 +3,34 @@ Common Problem-solving Strategies: (*)
 * https://www.geeksforgeeks.org/fundamentals-of-algorithms/
 * https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
 
-- Brute Force / Naturally Thinking: (simulate how human solve the problem)
-List all possibilities (the simplest and easiest way, when you have no idea, start with
-Brute Force, to just simulate how human solve the problem, then think of how to optimize it)
+- Brute Force:
+  - List all possibilities
+  - The simplest and easiest way, when you have no idea, start with Brute Force, then think of how to optimize it
+
+- Simulation (Intuitively Thinking):
+  - Simulate how human solve the problem
 
 - Recursion:
-Solve a problem by solving sub-problems (DP), f(n) = g(f(n - 1))
+  - Solve a problem by solving sub-problems
+  - f(n) = g(f(n - 1))
+  - Using DP for optimization
 
 - Divide & Conquer: (Merge-Sort)
-Solve a big problem by solving small problems and combine the results of small problems, f(0, n) = g(f(0, m), f(m + 1, n))
+  - Solve a big problem by solving small sub-problems and combine the results of small sub-problems
+  - f(0, n) = g(f(0, m), f(m + 1, n))
 
 - Search (find solutions):
-DFS(Stack), BFS(Queue), Backtracking
+  - DFS(Stack)
+  - BFS(Queue)
+  - Backtracking
+  - Binary Search (BS)
 
 - Tree / Graph / Data Structure:
-Proper data structure would be very helpful when solve some specific problems
+  - Proper data structure would be very helpful when solve some specific problems
 
 - Space & Time trade-off: (Memorization)
-We can use more space to record result from duplicate computation to fasten the solution (HashTable, DP, Change tree node)
+  - We can use more space to record result from duplicate computation to fasten the solution
+  - e.g. HashTable, DP, Change tree node
 
 ================================================================================
 Common Optimization Strategies: (*)
