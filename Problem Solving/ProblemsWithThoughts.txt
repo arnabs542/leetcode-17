@@ -1751,6 +1751,12 @@ Optimization:
 - Array (https://leetcode.com/problems/maximum-width-of-binary-tree/discuss/106654/JavaC%2B%2B-Very-simple-dfs-solution)
 
 =========================================================================================================
+(GOG)
+665. Non-decreasing Array
+
+- Greedy / Scan O(n)
+
+=========================================================================================================
 (AMZ)
 675. Cut Off Trees for Golf Event (*)
 
