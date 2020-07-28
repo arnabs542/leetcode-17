@@ -1789,6 +1789,21 @@ Optimization:
 (https://leetcode.com/problems/cut-off-trees-for-golf-event/discuss/107404/Java-solution-PriorityQueue-%2B-BFS)
 
 =========================================================================================================
+(GOG)
+676. Implement Magic Dictionary (*)
+
+- HashMap + Trie (String Search)
+  - Build a HashMap with <word length, list of word>
+  - Use Trie for string search
+  - https://leetcode.com/problems/implement-magic-dictionary/discuss/107453/Easiest-JAVA-with-Trie-no-need-to-count-the-number-of-changes
+- HashMap
+  - Build a HashMap with <word length, list of word>
+  - Build another HashMap with <characters in the string, occurrence of the character> for string search
+- HashMap
+  - Build string variables using HashMap
+  - https://leetcode.com/problems/implement-magic-dictionary/discuss/107446/Easy-14-lines-Java-solution-HashMap
+
+=========================================================================================================
 (AMZ)
 682. Baseball Game (*)
 
