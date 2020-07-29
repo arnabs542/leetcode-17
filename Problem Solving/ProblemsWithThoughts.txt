@@ -1804,6 +1804,17 @@ Optimization:
   - https://leetcode.com/problems/implement-magic-dictionary/discuss/107446/Easy-14-lines-Java-solution-HashMap
 
 =========================================================================================================
+(GOG)
+679. 24 Game (*)
+
+- Brute Force O(4! * 4 ^ 3 * P) (P is the possibilities to set parentheses)
+  - List all possible result and check which results in 24
+- Recursion / DFS
+  - https://leetcode.com/problems/24-game/discuss/107695/java-recursive-solution
+- Backtracking
+  - https://leetcode.com/problems/24-game/discuss/179363/Thinking-Process-Backtracking
+
+=========================================================================================================
 (AMZ)
 682. Baseball Game (*)
 
