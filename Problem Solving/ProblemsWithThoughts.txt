@@ -1823,6 +1823,18 @@ Optimization:
 - Doubly Linked List O(n)
 
 =========================================================================================================
+(GOG)
+684. Redundant Connection (*)
+
+- DFS / BFS
+  - Use DFS/BFS to find cycled edges.
+  - https://leetcode.com/problems/redundant-connection/discuss/277026/DFS-Java-Solution-With-Explanation
+  - https://leetcode.com/problems/redundant-connection/discuss/112562/My-DFS-and-BSF-solutions
+- Union Find
+  - Disjoint Sets
+  - https://leetcode.com/problems/redundant-connection/discuss/123819/Union-Find-with-Explanations-(Java-Python)
+
+=========================================================================================================
 (AMZ)
 692. Top K Frequent Words (*)
 
