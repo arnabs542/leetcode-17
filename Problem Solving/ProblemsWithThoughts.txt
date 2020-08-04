@@ -1835,6 +1835,22 @@ Optimization:
   - https://leetcode.com/problems/redundant-connection/discuss/123819/Union-Find-with-Explanations-(Java-Python)
 
 =========================================================================================================
+(GOG)
+685. Redundant Connection II (*)
+
+- Graph + BFS/DFS
+  - Thinking Process: There is only 1 root node in the tree, which means there is only 1 node that can connect
+  to all other nodes. Thus, it should not be that hard to find the root node first. Then we can use the root node
+  to check connectvity for each node, if there is one node with multiple connections from the root node, then
+  we can remove the additional edges. We can use a double array to record the connectivity between nodes. We can
+  use BFS/DFS to expand the connectivity in the double array.
+  - https://leetcode.com/problems/redundant-connection-ii/discuss/277221/Java-Simple-Code-short-and-no-union
+  - https://leetcode.com/problems/redundant-connection-ii/discuss/649991/Bruteforce-DFS-solution-easy-to-understand
+- Union Find
+  - https://leetcode.com/problems/redundant-connection-ii/discuss/278105/topic
+  - https://leetcode.com/problems/redundant-connection-ii/discuss/112569/Easiest-understanding-Java-Solution-using-Union-Find-O(n).
+
+=========================================================================================================
 (AMZ)
 692. Top K Frequent Words (*)
 
