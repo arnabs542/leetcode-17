@@ -1870,6 +1870,23 @@ Optimization:
   - https://leetcode.com/problems/longest-univalue-path/discuss/108146/Concise-DFS-solution-with-no-global-variables
 
 =========================================================================================================
+(GOG)
+689. Maximum Sum of 3 Non-Overlapping Subarrays (*)
+
+- Brute Force
+  - List all possible results with start positions
+  - https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/discuss/108231/C%2B%2BJava-DP-with-explanation-O(n)
+  - https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/discuss/108230/Clean-Java-DP-O(n)-Solution.-Easy-extend-to-Sum-of-K-Non-Overlapping-SubArrays.
+  - https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/discuss/108239/Java-DP-Generic-Solution-for-M-subarrays
+- Recursion
+- DP
+  - https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/discuss/108231/C%2B%2BJava-DP-with-explanation-O(n)
+  - https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/discuss/108230/Clean-Java-DP-O(n)-Solution.-Easy-extend-to-Sum-of-K-Non-Overlapping-SubArrays.
+  - https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/discuss/108239/Java-DP-Generic-Solution-for-M-subarrays
+- Greedy + Sliding Windows
+  - https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/discuss/108238/Python-o(n)-time-o(1)-space.-Greedy-solution.
+
+=========================================================================================================
 (AMZ)
 692. Top K Frequent Words (*)
 
