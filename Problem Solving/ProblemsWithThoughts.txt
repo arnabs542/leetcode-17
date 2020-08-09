@@ -1851,6 +1851,15 @@ Optimization:
   - https://leetcode.com/problems/redundant-connection-ii/discuss/112569/Easiest-understanding-Java-Solution-using-Union-Find-O(n).
 
 =========================================================================================================
+(GOG)
+686. Repeated String Match
+
+- Math / Brute Force
+  - Calculate possible times with lower and upper boundary
+  - https://leetcode.com/problems/repeated-string-match/discuss/108090/Intuitive-Python-2-liner
+  - https://leetcode.com/problems/repeated-string-match/discuss/108086/Java-Solution-Just-keep-building-(OJ-Missing-Test-Cases)
+
+=========================================================================================================
 (AMZ)
 692. Top K Frequent Words (*)
 
