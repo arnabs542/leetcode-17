@@ -1860,6 +1860,16 @@ Optimization:
   - https://leetcode.com/problems/repeated-string-match/discuss/108086/Java-Solution-Just-keep-building-(OJ-Missing-Test-Cases)
 
 =========================================================================================================
+(GOG)
+687. Longest Univalue Path
+
+- Recursion
+- DFS
+  - https://leetcode.com/problems/longest-univalue-path/discuss/108175/java-solution-with-global-variable
+  - https://leetcode.com/problems/longest-univalue-path/discuss/130315/Java-Solution-With-Explanation
+  - https://leetcode.com/problems/longest-univalue-path/discuss/108146/Concise-DFS-solution-with-no-global-variables
+
+=========================================================================================================
 (AMZ)
 692. Top K Frequent Words (*)
 
