@@ -1897,6 +1897,30 @@ Optimization:
 (https://leetcode.com/problems/top-k-frequent-words/discuss/176865/13ms-Prefix-Tree-(Trie)-and-Bucket-Sort-Java-with-Explanation)
 
 =========================================================================================================
+(GOG)
+719. Find K-th Smallest Pair Distance (**)
+
+- Brute Force O(n * n * log(n * n))
+  - List all possible pairs O(n * n), sort by distance O(n * n * log(n * n))
+- Recursion O(n * n * log(n * n))
+- DP O(n * n * log(n * n))
+  - Conver the array of numbers to array of difference between numbers, so that the problem now is to get
+  the k-th smallest sum of sub-array
+- Sort/Heap + BFS + Greedy O(k * n * logn)
+  - First sort the whole array in ascending order, in the first iteration of search, we calculate difference
+  between adjacent number as it is the smallest difference for each node, we sort the difference from first
+  iteration, find the smallest one, and in the second iteration, we pull in the second smallest difference
+  for the number selected, we sort the all difference again until we find the k-th smallest one
+  - The rule is that after the number is sorted, the difference between most adjacent number is the smallest
+  difference that number can have, then we can have the second smallest difference for that number and pull
+  into the pool we calculate until we find the k-th smallest one.
+- Binary Serach O(log(max - min) * n * n)
+  - We know the number difference range in [0, max - min], so the search space is limited, we can use
+  binary search to speed up the search efficiency
+  - https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm
+  - https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109075/Java-solution-Binary-Search
+
+=========================================================================================================
 (AMZ)
 725. Split Linked List in Parts
 
