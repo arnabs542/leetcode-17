@@ -1925,3 +1925,12 @@ Optimization:
 725. Split Linked List in Parts
 
 - Math & LinkedList
+
+=========================================================================================================
+(GOG)
+726. Number of Atoms (*)
+
+- Stack + Map (Recursion)
+  - Calculate Formulas recursively by parentheses using stack
+  - https://leetcode.com/problems/number-of-atoms/discuss/109345/Java-Solution-using-Stack-and-Map
+  - https://leetcode.com/problems/number-of-atoms/discuss/109346/Java-solution-Map-%2B-Recursion
