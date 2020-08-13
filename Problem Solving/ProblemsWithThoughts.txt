@@ -1934,3 +1934,13 @@ Optimization:
   - Calculate Formulas recursively by parentheses using stack
   - https://leetcode.com/problems/number-of-atoms/discuss/109345/Java-Solution-using-Stack-and-Map
   - https://leetcode.com/problems/number-of-atoms/discuss/109346/Java-solution-Map-%2B-Recursion
+
+=========================================================================================================
+(GOG)
+729. My Calendar I (*)
+
+- Binary Search + Greedy
+  - We can maintain 2 BST of start and end points, use Binary Search and Greedy algorithm to determin if
+  the event has overlap with other events
+  - https://leetcode.com/problems/my-calendar-i/discuss/109475/JavaC%2B%2B-Clean-Code-with-Explanation
+  - https://leetcode.com/problems/my-calendar-i/discuss/139110/Java-Binary-Search-Tree-Solution
