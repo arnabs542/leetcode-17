@@ -1944,3 +1944,16 @@ Optimization:
   the event has overlap with other events
   - https://leetcode.com/problems/my-calendar-i/discuss/109475/JavaC%2B%2B-Clean-Code-with-Explanation
   - https://leetcode.com/problems/my-calendar-i/discuss/139110/Java-Binary-Search-Tree-Solution
+
+=========================================================================================================
+(GOG)
+731. My Calendar II (*)
+
+- Segment Tree
+  - https://leetcode.com/problems/my-calendar-ii/discuss/232261/Simple-and-Optimal-Segment-Tree-Solution
+- Sorted Map
+  - https://leetcode.com/problems/my-calendar-ii/discuss/109550/Simple-AC-by-TreeMap
+- Priority Queue
+  - https://leetcode.com/problems/my-calendar-ii/discuss/109550/Simple-AC-by-TreeMap
+- Array
+  - https://leetcode.com/problems/my-calendar-ii/discuss/109519/JavaC%2B%2B-Clean-Code-with-Explanation
