@@ -1,11 +1,9 @@
 ================================================================================
-Common Problem-solving Strategies: (*)
-* https://www.geeksforgeeks.org/fundamentals-of-algorithms/
-* https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
+Common Problem-Solving Strategies: (*)
 
 - Brute Force:
-  - List all possibilities
-  - The simplest and easiest way, when you have no idea, start with Brute Force, then think of how to optimize it
+  - List all possibilities to find the solution
+  - The most straightforward way, when you have no idea, start with Brute Force, then think of how to optimize it
 
 - Simulation (Intuitively Thinking):
   - Simulate how human solve the problem
@@ -19,18 +17,22 @@ Common Problem-solving Strategies: (*)
   - Solve a big problem by solving small sub-problems and combine the results of small sub-problems
   - f(0, n) = g(f(0, m), f(m + 1, n))
 
-- Search (find solutions):
+- Search (Find solutions):
   - DFS(Stack)
   - BFS(Queue)
   - Backtracking
   - Binary Search (BS)
 
 - Tree / Graph / Data Structure:
-  - Proper data structure would be very helpful when solve some specific problems
+  - Proper data structure would be very helpful when solving some specific problems
 
 - Space & Time trade-off: (Memorization)
-  - We can use more space to record result from duplicate computation to fasten the solution
+  - We can use more space to store results from redundant computation to fasten the solution
   - e.g. HashTable, DP, Change tree node
+
+Reference:
+* https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+* https://leetcode.com/problems/reverse-pairs/discuss/97268/General-principles-behind-problems-similar-to-%22Reverse-Pairs%22
 
 ================================================================================
 Common Optimization Strategies: (*)
