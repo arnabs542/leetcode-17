@@ -78,3 +78,4 @@ cycle in it
 - Selection: Quick Select (https://en.wikipedia.org/wiki/Quickselect)
 - Bucket Sort: O(n) sorting
 - Sweep Line: Rectangle, Matrix
+- GCD (Greatest Common Divisor): https://leetcode.com/discuss/interview-question/684355/ (https://en.wikipedia.org/wiki/Euclidean_algorithm)
