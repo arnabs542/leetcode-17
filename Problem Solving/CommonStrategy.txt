@@ -71,6 +71,7 @@ Common Optimization Strategies using Data Structure: (https://www.geeksforgeeks.
 ================================================================================
 Specific Problem-solving Strategies:
 
+- Two Sum: HashMap
 - Two Pointers: find min/max value when sequence matters, find if linked list has
 cycle in it
 - Search: DFS, BFS, Backtracking (https://en.wikipedia.org/wiki/Backtracking)
