@@ -18,9 +18,9 @@ Common Problem-Solving Strategies: (*)
   - f(0, n) = g(f(0, m), f(m + 1, n))
 
 - Search (Find solutions):
-  - DFS(Stack)
-  - BFS(Queue)
-  - Backtracking
+  - DFS (Stack)
+  - BFS (Queue)
+  - Backtracking / Pruning
   - Binary Search (BS)
 
 - Tree / Graph / Data Structure:
