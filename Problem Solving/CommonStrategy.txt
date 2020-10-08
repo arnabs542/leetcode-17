@@ -18,13 +18,14 @@ Common Problem-Solving Strategies: (*)
   - f(0, n) = g(f(0, m), f(m + 1, n))
 
 - Search (Find solutions):
-  - DFS (Stack)
+  - DFS (Recursion / Stack)
   - BFS (Queue)
   - Backtracking / Pruning
   - Binary Search (BS)
 
 - Tree / Graph / Data Structure:
   - Proper data structure would be very helpful when solving some specific problems
+  - Tree, Map, Stack, Queue, Heap, LinkedList, Set
 
 - Space & Time trade-off: (Memorization)
   - We can use more space to store results from redundant computation to fasten the solution
