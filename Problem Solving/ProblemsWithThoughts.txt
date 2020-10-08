@@ -1,5 +1,5 @@
 =========================================================================================================
-Tags: AMZ, GOG
+Tags: AMZ, GOG, MS
 
 =========================================================================================================
 (AMZ)
@@ -1957,3 +1957,19 @@ Optimization:
   - https://leetcode.com/problems/my-calendar-ii/discuss/109550/Simple-AC-by-TreeMap
 - Array
   - https://leetcode.com/problems/my-calendar-ii/discuss/109519/JavaC%2B%2B-Clean-Code-with-Explanation
+
+=========================================================================================================
+(MS)
+769. Max Chunks To Make Sorted
+
+- Brute Force
+ - List all possible Chunks using Recursion
+- Recursion
+ - Recursively get actual max Chunks
+ - https://github.com/dejunhuang/leetcode/blob/master/769%20Max%20Chunks%20To%20Make%20Sorted/Solution.java
+- Segment Tree
+ - Use Segment Tree to present and merge number range based on number order
+- Sorting
+ - https://leetcode.com/problems/max-chunks-to-make-sorted/discuss/113528/Simple-Java-O(n)-Solution-with-detailed-explanation
+- Array Scan
+ - https://leetcode.com/problems/max-chunks-to-make-sorted/discuss/113528/Simple-Java-O(n)-Solution-with-detailed-explanation
