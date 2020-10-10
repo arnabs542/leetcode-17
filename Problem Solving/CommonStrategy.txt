@@ -81,3 +81,4 @@ cycle in it
 - Bucket Sort: O(n) sorting
 - Sweep Line: Rectangle, Matrix
 - GCD (Greatest Common Divisor): https://leetcode.com/discuss/interview-question/684355/ (https://en.wikipedia.org/wiki/Euclidean_algorithm)
+- Sliding Window: Continuous Sub-Array/Sub-String
