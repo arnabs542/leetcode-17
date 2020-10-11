@@ -68,6 +68,7 @@ Common Optimization Strategies using Data Structure: (https://www.geeksforgeeks.
 - Range: Segment Tree
 - Range Sum: Binary Indexed Tree (Fenwick Tree) (https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/)
 - Self-Balanced Tree: Red-black Tree, AVL Tree
+- Sorted Set/Map: TreeSet, TreeMap
 
 ================================================================================
 Specific Problem-solving Strategies:
