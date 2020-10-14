@@ -16,7 +16,7 @@ Further Optimized:
 (https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/1729/11-line-simple-Java-solution-O(n)-with-explanation)
 
 =========================================================================================================
-(AMZ, GOG)
+(AMZ, GOG, MS)
 4. Median of Two Sorted Arrays (*)
 
 - Binary Search O(log(m + n)) (https://leetcode.com/problems/median-of-two-sorted-arrays/discuss/2481/Share-my-O(log(min(mn)))-solution-with-explanation)
@@ -345,7 +345,7 @@ We traverse all bars from left to right, maintain a stack of bars. Every bar is 
 - Divide & Conquer (https://leetcode.com/problems/binary-tree-right-side-view/discuss/56062/Java-Solution-using-Divide-and-Conquer)
 
 =========================================================================================================
-(AMZ, GOG)
+(AMZ, GOG, MS)
 200. Number of Islands (*)
 
 - DFS O(n * m) (https://leetcode.com/problems/number-of-islands/discuss/56359/Very-concise-Java-AC-solution)
